@@ -1,0 +1,369 @@
+# Chapter 18Program Design and Technique for Plyometric Training
+
+David H. Potach, PT, and Donald A. Chu, PhD, PT
+
+After completing this chapter, you will be able to
+
+  * explain the physiology of plyometric exercise,
+  * identify the phases of the stretch–shortening cycle,
+  * identify the components of a plyometric training program,
+  * design a safe and effective plyometric training program,
+  * recommend proper equipment for use during plyometric exercise, and
+  * teach correct execution of lower and upper body plyometric exercises.
+
+_Plyometric exercise_ refers to those activities that enable a muscle to reach maximal force in the shortest possible time. _Plyometric_ is a combination of Greek words that literally means to increase measurement (_plio_ = more; _metric_ = measure) ([56](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref56>)). Practically defined, plyometric exercise is a quick, powerful movement using a prestretch, or countermovement, that involves the stretch–shortening cycle (SSC) ([53](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref53>)). The purpose of plyometric exercise is to increase the power of subsequent movements by using both the natural elastic components of muscle and tendon and the stretch reflex. To effectively use plyometrics as part of a training program, it is important to understand ([1](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref1>)) the mechanics and physiology of plyometric exercise, ([2](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref2>)) principles of plyometric training program design, and ([3](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref3>)) methods of safely and effectively performing specific plyometric exercises.
+
+## Plyometric Mechanics and Physiology
+
+Functional movements and athletic success depend on both the proper function of all active muscles and the speed at which these muscular forces are used. The term used to define this force–speed relationship is [power](<E6372ch18_d95_split_003.xhtml#iglo13>). When used correctly, plyometric training has consistently been shown to improve the production of muscle force and power ([30](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref30>), [50](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref50>)). This increased production of power is best explained by two proposed models: mechanical and neurophysiological ([53](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref53>)).
+
+### Mechanical Model of Plyometric Exercise
+
+In the _mechanical model_ , elastic energy in the musculotendinous components is increased with a rapid stretch and then stored ([3](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref3>), [14](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref14>), [31](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref31>)). When this movement is immediately followed by a concentric muscle action, the stored elastic energy is released, increasing the total force production ([3](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref3>), [14](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref14>), [31](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref31>)). Hill ([31](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref31>)) provides an excellent description (illustrated in [figure 18.1](<E6372ch18_d95_split_000.xhtml#f18.1>)) that helps with understanding the behavior of skeletal muscle. Of the mechanical model’s many elements, it is the [series elastic component (SEC)](<E6372ch18_d95_split_003.xhtml#iglo15>) that is the workhorse of plyometric exercise. While the SEC includes some muscular components, it is the tendons that constitute the majority of the SEC. When the musculotendinous unit is stretched, as in an eccentric muscle action, the SEC acts as a spring and is lengthened; as it lengthens, elastic energy is stored. If the muscle begins a concentric action immediately after the eccentric action, the stored energy is released, allowing the SEC to contribute to the total force production by naturally returning the muscles and tendons to their unstretched configuration. If a concentric muscle action does not occur immediately following the eccentric action, or if the [eccentric phase](<E6372ch18_d95_split_003.xhtml#iglo8>) is too long or requires too great a motion about the given joint, the stored energy dissipates and is lost as heat.
+
+**Figure 18.1** Mechanical model of skeletal muscle function. The series elastic component (SEC), when stretched, stores elastic energy that increases the force produced. The contractile component (CC) (i.e., actin, myosin, and crossbridges) is the primary source of muscle force during concentric muscle action. The parallel elastic component (PEC) (i.e., epimysium, perimysium, endomysium, and sarcolemma) exerts a passive force with unstimulated muscle stretch.
+
+![An illustration of a circuit with P E C, S E C, and C C in a series connection. Force acts to the right.](images/E6372_508258_ebook.jpg)
+
+Based on Albert, 1995 ([1](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref1>)).
+
+### Neurophysiological Model of Plyometric Exercise
+
+The _neurophysiological model_ involves the [potentiation](<E6372ch18_d95_split_003.xhtml#iglo12>) (change in the force–velocity characteristics of the muscle’s contractile components caused by stretch [21]) of the concentric muscle action by use of the stretch reflex ([figure 18.2](<E6372ch18_d95_split_000.xhtml#f18.2>)) (8-11). The [stretch reflex](<E6372ch18_d95_split_003.xhtml#iglo17>) is the body’s involuntary response to an external stimulus that stretches the muscles ([27](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref27>), [42](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref42>)). This reflexive component of plyometric exercise is primarily composed of muscle spindle activity. [Muscle spindles](<E6372ch18_d95_split_003.xhtml#iglo11>) are proprioceptive organs that are sensitive to the rate and magnitude of a stretch; when a quick stretch is detected, muscular activity reflexively increases ([27](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref27>), [42](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref42>)). During plyometric exercises, the muscle spindles are stimulated by a rapid stretch, causing a reflexive muscle action. This reflexive response potentiates, or increases, the activity in the agonist muscle, thereby increasing the force the muscle produces (8-11, 35). As in the mechanical model, if a concentric muscle action does not immediately follow a stretch (i.e., if there is too long a time between stretch and concentric action or movement over too large a range), the potentiating ability of the stretch reflex is negated.
+
+**Figure 18.2** Illustration of the stretch reflex. When muscle spindles are stimulated, the stretch reflex is stimulated, sending input to the spinal cord via Type Ia nerve fibers. After synapsing with the alpha motor neurons in the spinal cord, impulses travel to the agonist extrafusal fibers, causing a reflexive muscle action.
+
+![An illustration of the stretch reflex in a muscle fiber.](images/E6372_508259_ebook.jpg)
+
+[Follow for extended description](<Ext_desc_E6372_508259_ebook.xhtml#l_E6372_508259_ebook>)
+
+Based on Albert 1995 ([1](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref1>)).
+
+While it is likely that both the mechanical and neurophysiological models contribute to the increased production of force seen during plyometric exercise ([3](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref3>), [8](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref8>)-[11](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref11>), [14](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref14>), [31](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref31>), [35](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref35>)), the degree to which each model contributes remains uncertain. Further research is needed to improve our understanding of both models and their respective roles in plyometric exercise.
+
+### Stretch–Shortening Cycle
+
+The [stretch–shortening cycle (SSC)](<E6372ch18_d95_split_003.xhtml#iglo18>) employs the energy storage capabilities of the SEC and stimulation of the stretch reflex to facilitate a maximal increase in muscle recruitment over a minimal amount of time. The SSC involves three distinct phases as shown in [table 18.1](<E6372ch18_d95_split_000.xhtml#t18.1>). While the table delineates the SSC’s individual mechanical and neurophysiological events during each phase, it is important to remember that all of the events listed do not necessarily occur within the given phase. That is, some of the events may last longer or may require less time than allowed in the given phase. Phase I is the eccentric phase, which involves preloading the agonist muscle group(s). During this phase, the SEC stores elastic energy, and the muscle spindles are stimulated. As the muscle spindles are stretched, they send a signal to the ventral root of the spinal cord via the Type Ia afferent nerve fibers (see [figure 18.2](<E6372ch18_d95_split_000.xhtml#f18.2>)). To visualize the eccentric phase, consider the long jump. The time from touchdown of the foot to the bottom of the movement is the eccentric phase ([figure 18.3 _a_](<E6372ch18_d95_split_000.xhtml#f18.3>)).
+
+TABLE 18.1 Stretch-Shortening Cycle Phase | Action | Physiological event  
+---|---|---  
+I—Eccentric | Stretch of the agonist muscle | Elastic energy is stored in the series elastic component. Muscle spindles are stimulated.  
+II—Amortization | Pause between phases I and III | Type Ia afferent nerves synapse with alpha motor neurons. Alpha motor neurons transmit signals to agonist muscle group.  
+III—Concentric | Shortening of agonist muscle fibers | Elastic energy is released from the series elastic component. Alpha motor neurons stimulate the agonist muscle group.  
+  
+**Figure 18.3** The long jump and stretch–shortening cycle. _(a)_ The eccentric phase begins at touchdown and continues until the movement ends. _(b)_ The amortization phase is the transition from eccentric to concentric phases; it is quick and without movement. _(c)_ The concentric phase follows the amortization phase and comprises the entire push-off time, until the athlete’s foot leaves the surface.
+
+![An illustration of the kind of steps that occur during long-jump. The stages are eccentric, amortization, and concentric.](images/E6372_508261_ebook.jpg)
+
+Phase II is the time between the eccentric and [concentric phases](<E6372ch18_d95_split_003.xhtml#iglo6>) and is termed the [amortization](<E6372ch18_d95_split_003.xhtml#iglo1>) (or transition) phase. This is the time from the end of the eccentric phase to the initiation of the concentric muscle action. There is a delay between the eccentric and concentric muscle actions during which Type Ia afferent nerves synapse with the alpha motor neurons in the ventral root of the spinal cord (see [figure 18.2](<E6372ch18_d95_split_000.xhtml#f18.2>)). The alpha motor neurons then transmit signals to the agonist muscle group. This phase of the SSC is perhaps the most crucial in allowing greater power production; its duration must be kept short. If the amortization phase lasts too long, the energy stored during the eccentric phase dissipates as heat, and the stretch reflex will not increase muscle activity during the concentric phase ([12](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref12>)). Consider the long jumper mentioned earlier. Once the jumper has touched down and movement has stopped, the amortization phase has begun. As soon as movement begins again, the amortization phase has ended ([figure 18.3 _b_](<E6372ch18_d95_split_000.xhtml#f18.3>)).
+
+The concentric phase, phase III, is the body’s response to the eccentric and amortization phases. In this phase, the energy stored in the SEC during the eccentric phase either is used to increase the force of the subsequent movement or is dissipated as heat. This stored elastic energy increases the force produced during the concentric phase movement beyond that of an isolated concentric muscle action ([13](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref13>), [50](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref50>)). In addition, the alpha motor neurons stimulate the agonist muscle group, resulting in a reflexive concentric muscle action (i.e., the stretch reflex). The efficiency of these subsystems is essential to the proper performance of plyometric exercises. Again, visualize the long jumper. As soon as movement begins in an upward direction, the amortization phase has ended and the concentric phase of the SSC has begun ([figure 18.3 _c_](<E6372ch18_d95_split_000.xhtml#f18.3>)). In this example, one of the agonist muscles is the gastrocnemius. Upon touchdown, the gastrocnemius undergoes a rapid stretch (eccentric phase); there is a delay in movement (amortization phase), and then the muscle concentrically plantar flexes the ankle, allowing the athlete to push off the ground (concentric phase).
+
+The rate of musculotendinous stretch is vital to plyometric exercise ([35](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref35>)). A high stretch rate results in greater muscle recruitment and activity during the SSC concentric phase. The importance of the stretch rate may be illustrated by three different vertical jump tests: a static squat jump, a countermovement jump, and an approach jump with several steps. As the rate of stretch increases, an athlete’s absolute performance in these tests improves; the static squat jump results in the lowest jump height, and the approach jump results in the highest. The static squat jump requires the athlete to get into a squatting position (i.e., 90° hip flexion and 90° knee flexion) followed by a jump up. This jump does not use stored elastic energy and is too slow to allow potentiation from the stretch reflex because there is essentially no eccentric phase. The countermovement jump uses a rapid eccentric element (i.e., partial squat) followed immediately by rapid concentric muscle activity (i.e., jump up). The rapid eccentric phase allows the athlete to store (and use) elastic energy in the stretched musculotendinous unit and stimulates the stretch reflex, thereby potentiating muscle activity ([6](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref6>), [29](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref29>)). The approach jump uses an even quicker, more forceful eccentric phase than the countermovement jump; the increased rate of stretch during the eccentric phase allows a further increase in vertical jump height ([4](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref4>), [5](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref5>), [7](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref7>), [25](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref25>)).
+
+The stretch–shortening cycle combines mechanical and neurophysiological mechanisms and is the basis of plyometric exercise. A rapid eccentric muscle action stimulates the stretch reflex and storage of elastic energy, which increase the force produced during the subsequent concentric action.
+
+## Program Design
+
+Plyometric exercise prescription is similar to resistance and aerobic exercise prescriptions—mode, intensity, frequency, duration, recovery, progression, and a warm-up period must all be included in the design of a sound plyometric training program. Unfortunately, there is little research demarcating optimal program variables for the design of plyometric exercise programs. Therefore, when prescribing plyometric exercise, practitioners must rely on the available research, practical experience, and the methodology used for designing resistance and aerobic training programs. The guidelines that follow are largely based on Chu’s work ([16](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref16>), [18](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref18>)) and the National Strength and Conditioning Association’s position statement ([44](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref44>)).
+
+### Needs Analysis
+
+To properly design a plyometric training program, the strength and conditioning professional must analyze the needs of the athlete by evaluating his or her sport, sport position, and training status. Each sport and position has its own unique requirements; some requirements are unique because of the movements involved while others have distinctive injury profiles and risks. Further, each athlete possesses a unique training status. Some may be new to training and have never performed plyometric exercises; others may have been injured. Each of these populations of athlete requires a different approach to plyometric training. By understanding each sport’s individual requirements, the positions within the sport, and of the needs of each athlete, the strength and conditioning professional is better able to design a safe, effective plyometric training program.
+
+### Mode
+
+The mode of plyometric training is determined by the body region performing the given exercise. For example, a single-leg hop is a lower body plyometric exercise, while a two-hand medicine ball [throw](<E6372ch18_d95_split_003.xhtml#iglo19>) is an upper body exercise. Modes of plyometric exercise are discussed in the paragraphs that follow.
+
+#### Lower Body Plyometrics
+
+Lower body plyometrics are appropriate for virtually any athlete and any sport, including track and field throwing and sprinting, soccer, volleyball, basketball, American football, baseball, and even endurance sports such as distance running and triathlons. Many of these sports require athletes to produce a maximal amount of muscular force in a short amount of time. American football, baseball, and sprinting generally require horizontal or lateral movement during competition, while volleyball involves primarily horizontal and vertical movements. Soccer and basketball players must make quick, powerful movements and changes of direction in all planes to compete successfully. A basketball center is an example of an athlete who would benefit greatly from a plyometric training program, as the center is required to jump repeatedly for rebounds. To be successful, the center must be able to out-jump the opposing center in order to rebound more loose balls. Lower body plyometric training gives the player the ability to produce more force in a shorter amount of time, thereby allowing a higher jump. Further, participation in a plyometric training program improves running and cycling performance for endurance athletes by allowing muscles to produce more force with less energy.
+
+The various lower body plyometric drills have differing intensity levels and directional movements. Types of lower body plyometric drills include [jumps in place](<E6372ch18_d95_split_003.xhtml#iglo9>), [standing jumps](<E6372ch18_d95_split_003.xhtml#iglo16>), [multiple hops and jumps](<E6372ch18_d95_split_003.xhtml#iglo10>), [bounds](<E6372ch18_d95_split_003.xhtml#iglo3>), [box drills](<E6372ch18_d95_split_003.xhtml#iglo4>), and [depth jumps](<E6372ch18_d95_split_003.xhtml#iglo7>). See [table 18.2](<E6372ch18_d95_split_000.xhtml#t18.2>) for descriptions of these drills.
+
+TABLE 18.2 Lower Body Plyometric Drills Type of drill | Rationale  
+---|---  
+Jumps in place | These drills involve jumping and landing in the same spot. Jumps in place emphasize the vertical component of jumping and are performed repeatedly, without rest between jumps; the time between jumps is the stretch-shortening cycle‘s amortization phase. Examples of jumps in place include the squat jump and tuck jump.  
+Standing jumps | These emphasize either horizontal or vertical components. Standing jumps are maximal efforts with recovery between repetitions. The vertical jump and jumps over barriers are examples of standing jumps.  
+Multiple hops and jumps | Multiple hops and jumps involve repeated movement and may be viewed as a combination of jumps in place and standing jumps. One example of a multiple jump is the zigzag hop.  
+Bounds | Bounding drills involve exaggerated movements with greater horizontal speed than other drills. Volume for bounding is typically measured by distance but may be measured by the number of repetitions performed. Bounding drills normally cover distances greater than 98 feet (30 m) and may include single- and double-leg bounds in addition to the alternate-leg bounds illustrated in this chapter.  
+Box drills | These drills increase the intensity of multiple hops and jumps by using a box. The box may be used to jump on or off. The height of the box depends on the size of the athlete, the landing surface, and the goals of the program. Box drills may involve one, both, or alternating legs.  
+Depth jumps | Depth jumps use gravity and the athlete‘s weight to increase exercise intensity. The athlete assumes a position on a box, steps off, lands, and immediately jumps vertically, horizontally, or to another box. The height of the box depends on the size of the athlete, the landing surface, and the goals of the program. Depth jumps may involve one or both legs.  
+  
+#### Upper Body Plyometrics
+
+Rapid, powerful upper body movements are requisites for several sports and activities, including baseball, softball, tennis, golf, and throws in track and field (i.e., the shot put, discus, and javelin). As an example, an elite baseball pitcher routinely throws a baseball at 80 to 100 miles per hour (129-161 km/h). To reach velocities of this magnitude, the pitcher’s shoulder joint must move at more than 6,000°/s ([19](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref19>), [22](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref22>), [23](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref23>), [46](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref46>)). Plyometric training of the shoulder joint would not only increase pitching velocity; it may also prevent injury to the shoulder and elbow joints, although further research is needed to substantiate the role of plyometrics in injury prevention.
+
+Plyometric drills for the upper body are not used as often as those for the lower body and have been studied less extensively, but they are nonetheless essential to athletes who require upper body power ([45](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref45>)). Plyometrics for the upper body include medicine ball throws, catches, and several types of [push-ups](<E6372ch18_d95_split_003.xhtml#iglo14>).
+
+#### Trunk Plyometrics
+
+In general, it is difficult to perform true plyometric drills that directly target trunk musculature, because all the requisite plyometric elements may not be present. Plyometric exercise uses stored elastic energy (mechanical model) and potentiates muscle activity through stimulation of the stretch reflex (neurophysiological model). Following the eccentric phase of the SSC, there is likely some storage of elastic energy during “plyometric” trunk drills. However, research supports the notion that the stretch reflex is not sufficiently involved during many trunk exercises to potentiate muscle activity. Stretch reflex latencies (time from reflex stimulation to the beginning of agonist muscle activity) largely depend on nerve conduction velocities and therefore increase with greater distances from the spinal cord (i.e., longer nerves) ([34](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref34>), [36](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref36>), [38](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref38>), [47](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref47>)). Quadriceps and gastrocnemius stretch reflexes typically range from 20 to 30 ms and from 30 to 45 ms, respectively ([34](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref34>), [47](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref47>)). Although no research has addressed abdominal stretch reflexes, it may be assumed that the latencies are shorter, as the muscles are closer to the spinal cord.
+
+Exercises for the trunk may be performed “plyometrically,” provided that movement modifications are made. Specifically, the exercise movements must be shorter and quicker to allow stimulation and use of the stretch reflex. The relatively large range of motion and the time needed to complete the movement do not permit reflexive potentiation of the abdominal muscles. The exercise can be modified to decrease both the range of motion and time, thereby allowing the agonist muscles to be potentiated and making the exercise more like a plyometric exercise.
+
+### Intensity
+
+Plyometric intensity is the amount of stress placed on involved muscles, connective tissues, and joints and is controlled primarily by the type of drill performed. The intensity of plyometric drills covers a large range; skipping is relatively low in intensity, while depth jumps place high stress on the muscles and joints. In addition to the type of drill, several other factors also affect plyometric intensity ([table 18.3](<E6372ch18_d95_split_000.xhtml#t18.3>)). Generally, as intensity increases, volume should decrease ([49](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref49>)). Because the intensity of plyometric exercise can vary significantly, careful consideration must be given to choosing proper drills during a specific training cycle.
+
+TABLE 18.3 Factors Affecting the Intensity of Lower Body Plyometric Drills Factor | Effect  
+---|---  
+Points of contact | The ground reaction force during single-leg lower body plyometric drills places more stress on an extremity‘s muscles, connective tissues, and joints than during double-leg plyometric drills.  
+Speed | Greater speed increases the intensity of the drill.  
+Height of the drill | The higher the body‘s center of gravity, the greater the force on landing.  
+Body weight | The greater the athlete‘s body weight, the more stress is placed on muscles, connective tissues, and joints. External weight (in the form of weight vests, ankle weights, and wrist weights) can be added to the body to increase a drill‘s intensity.  
+  
+### Frequency
+
+Frequency is the number of plyometric training sessions per week and typically ranges from one to three, depending on the sport, the athlete’s experience with plyometric training, and the time of year. As with other program variables, research is limited on the optimal frequency for training plyometrically. Because the literature is sparse, strength and conditioning professionals often rely on practical experience when determining the frequency with which athletes train using plyometric exercise. Rather than concentrating on the frequency, many authors suggest relying more on the recovery time between plyometric training sessions ([16](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref16>)). Forty-eight to 72 hours between plyometric sessions is a typical recovery time guideline for prescribing plyometrics ([16](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref16>)); using these typical recovery times, athletes commonly perform two to three plyometric sessions per week. But the time of year, sport, and experience are more commonly used determinants of the frequency of plyometric training.
+
+As previously mentioned, plyometric frequency may vary depending on the demands of the given sport, intensity and volume of daily workouts (e.g., practice, resistance training, running, and plyometrics), athlete experience with plyometric training, and time of the training cycle. For example, during the season, one session per week is appropriate for American football players, while two or three sessions per week are common for track and field athletes ([2](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref2>)). During the off-season, plyometric training frequency may increase to two or three sessions per week for American football players and to three or four sessions per week for track and field athletes ([2](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref2>)). Because research thus far is unfortunately insufficient to provide appropriate guidelines for plyometric training frequency, the use of proper recovery times between sessions and practical experience may be the best determinants of frequency.
+
+### Recovery
+
+Because plyometric drills involve maximal efforts to improve anaerobic power, complete and adequate recovery (the time between repetitions, sets, and workouts) is required ([44](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref44>)). Recovery for depth jumps may consist of 5 to 10 seconds of rest between repetitions and 2 to 3 minutes between sets. The time between sets is determined by a proper work-to-rest ratio (i.e., 1:5 to 1:10) and is specific to the volume and type of drill being performed. Drills should not be thought of as cardiorespiratory conditioning exercises but as power training. As with resistance training, recovery between workouts must be adequate to prevent overtraining (two to four days of recovery, depending on the sport and time of year). Furthermore, drills for a given body area should not be performed two days in succession ([44](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref44>)). Although new research tangentially addresses recovery and training frequency ([47](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref47>)), manipulation of recovery time between repetitions, exercises, and workouts has yet to be adequately explored in plyometric research; further work must be done in this area to provide more concrete times for recovery.
+
+### Volume
+
+Plyometric volume is typically expressed as the number of repetitions and sets performed during a given training session. Lower body plyometric volume is normally given as the number of foot contacts (each time a foot, or the feet together, contact the surface) per workout ([2](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref2>), [16](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref16>)) but may also be expressed as distance, as with plyometric bounding. For example, an athlete beginning a plyometric training program may start with a double-leg bound for 98 feet (30 m) per repetition but may progress to 328 feet (100 m) per repetition for the same drill. Recommended lower body plyometric volumes vary for athletes of different levels of experience; suggested volumes are provided in [table 18.4](<E6372ch18_d95_split_000.xhtml#t18.4>). Upper body plyometric volume is typically expressed as the number of throws or catches per workout.
+
+TABLE 18.4 Appropriate Plyometric Volumes Plyometric experience | Beginning volume[*](<E6372ch18_d95_split_000.xhtml#ifn1>)  
+---|---  
+Beginner (no experience) | 80 to 100  
+Intermediate (some experience) | 100 to 120  
+Advanced (considerable experience) | 120 to 140  
+  
+[*](<E6372ch18_d95_split_000.xhtml#fn1>)Volume is given in contacts per session.
+
+### Program Length
+
+Research has yet to determine an optimal plyometric training program length. Currently, most programs range from 6 to 10 weeks ([2](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref2>), [30](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref30>)); however, vertical jump height improves as quickly as four weeks after the start of a plyometric training program ([47](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref47>)). In general, plyometric training should be prescribed similarly to both resistance and aerobic training. For those sports requiring quick, powerful movements, it is beneficial to perform plyometric exercise throughout the training cycle (macrocycle). The intensity and volume of the chosen drills should vary with the sport and the season (i.e., off-season, preseason, or in-season).
+
+### Progression
+
+Plyometrics is a form of resistance training and thus must follow the principles of progressive overload. _Progressive overload_ is the systematic increase in training frequency, volume, and intensity in various combinations. Typically, as intensity increases, volume decreases. The sport, training phase, and design of the strength and conditioning program (resistance training, running, plyometrics, and time of year) determine the training schedule and method of progressive overload. An off-season plyometric program for American football, for example, may be performed twice a week. The program should progress from low to moderate volumes of low-intensity plyometrics, to low to moderate volumes of moderate intensity, to low to moderate volumes of moderate to high intensity.
+
+### Warm-Up
+
+As in any training program, the plyometric exercise session must begin with a general warm-up, stretching, and a specific warm-up (refer to [chapter 14](<E6372ch14_d91.xhtml>) for a discussion of warming up). The specific warm-up for plyometric training should consist of low-intensity, dynamic movements. Refer to [table 18.5](<E6372ch18_d95_split_000.xhtml#t18.5>) for a list and explanation of types of specific warm-up drills.
+
+TABLE 18.5 Plyometric Warm-Up Drills Drill | Explanation  
+---|---  
+Marching | Mimics running movements Emphasizes posture and movement technique Enhances proper lower body movements for running  
+Jogging | Prepares for impact and high-intensity plyometric drills
+
+  * Toe jogging—not allowing heel to touch the ground (emphasizes quick reaction)
+  * Straight-leg jogging—not allowing or minimizing leg flexion in preparation for impact of plyo- metric drills
+  * “Butt-kickers”—flexing knee to allow heel to touch the buttocks
+
+  
+Skipping | Exaggerated form of reciprocal upper and lower extremity movements Emphasis on quick takeoff and landing, mimics plyometric activities  
+Footwork | Drills that target changes of direction Preparation for changes of direction during plyometric drills Examples: shuttle, shuffle, pattern, and stride drills  
+Lunging | Based on the forward step lunge exercise May be multidirectional (e.g., forward, side, backward)  
+  
+Effective plyometric programs include the same variables that are essential to any training program design: mode, intensity, frequency, recovery, volume, program length, progression, and warm-up.
+
+#### Steps for Implementing a Plyometric Training Program
+
+  1. Evaluate the athlete, including the athlete’s sport and training history.
+  2. Establish sport-, position-, and athlete-specific goals.
+  3. Assign proper plyometric training program design variables, addressing intensity, frequency, recovery, volume, and program length.
+  4. Teach the athlete proper jumping, landing, and throwing technique.
+  5. Properly progress the plyometric training program.
+
+## Age Considerations
+
+It is becoming more common for younger and older individuals to want to augment the training programs for their sport with plyometric exercise. When these exercises are applied appropriately, these populations can experience the same positive outcomes as other age groups, with minimal risk of injury.
+
+### Adolescents
+
+Although plyometrics have commonly been viewed as appropriate only for conditioning elite adult athletes, prepubescent and adolescent children may also benefit from training with plyometric and plyometric-like exercises. Besides providing the well-documented muscular power and bone strength adaptations, regular participation in an appropriately designed plyometric training program can better prepare young athletes for the demands of sport practice and competition ([17](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref17>)) by enhancing neuromuscular control and performance. Research has yet to determine a universal age at which people are physically able to begin participating in a plyometric training program. An analysis of the body’s development provides some insight into the issue. Because the epiphyseal plates of the bones of prepubescent children have yet to close ([33](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref33>), [40](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref40>)), depth jumps and other high-intensity lower body drills are contraindicated ([2](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref2>), [32](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref32>), [39](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref39>)). While the growth plates are open, highly intense activity and injury may cause them to close prematurely, resulting in limb length discrepancies ([32](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref32>)). Further, and as with all forms of exercise, boys and girls should have the emotional maturity to accept and follow directions and should be able to appreciate the benefits and concerns associated with this method of training. Empirically, 7- and 8-year-olds have been trained in progressive plyometric programs, and they continue to lead active lives as teenagers and adults ([17](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref17>)).
+
+Plyometric exercise programs for children should be used to develop the neuromuscular control and the anaerobic skills that will carry over to safer participation in sport and athletics, both during childhood and as they advance to higher levels of competition. As an example, several research studies cite the benefits of using proper landing technique as a method of reducing an athlete’s risk of lower extremity injury ([figure 18.4](<E6372ch18_d95_split_000.xhtml#f18.4>)). Excessive inward (valgus) movement of the knees dramatically increases an athlete’s risk of knee injury (see [chapter 22](<E6372ch22_d99.xhtml>) for a more detailed discussion on this topic).
+
+It is extremely important that plyometric exercise programs for children gradually progress from relatively simple to more complex drills. It is important to focus on the quality of the movements (e.g., proper body alignment and speed of movement) to develop techniques that will be essential for more advanced exercises.
+
+**Figure 18.4** Proper plyometric landing position. _(a)_ When viewed from the side, the shoulders are in line with the knees, which helps to place the center of gravity over the body’s base of support. _(b)_ When viewing from the front, note that the athlete’s knees are over her toes; excessive inward (valgus) movement increases the athlete’s risk of lower extremity injury.
+
+![The side view of an athlete in a proper plyometric landing position. They lean their body forward such that the knees are in line with the shoulders.](images/E6372_0757P_4054_ebook.jpg)
+
+![The front view of an athlete in a proper plyometric landing position. They lean their body forward such that the knees are in line with the toes.](images/E6372_0757P_4061_ebook.jpg)
+
+As with adults, recovery between workouts must be adequate to prevent overtraining. While the optimal amount of recovery needed between plyometric workouts is unknown, it should vary based on the intensity of the training program and the athlete’s skills, abilities, and tolerances as well as on the time of year (i.e., off-season, preseason, or in-season). Therefore, a minimum of two or three days between plyometric workouts should be considered essential to optimize adaptations to the training program and minimize the athlete’s risk of injury ([17](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref17>)).
+
+Under proper supervision and with an appropriate program, prepubescent and adolescent children may perform plyometric exercises. Special attention to valgus positioning must be given to reduce an athlete’s risk of lower extremity injury. Depth jumps and high-intensity lower body plyometrics are contraindicated for this population.
+
+### Masters
+
+Masters athletes find that they can maintain their physical capabilities late into life and are looking for additional training insights. When designing a plyometric training program for a masters athlete, the strength and conditioning professional needs to be specific in deciding on the goal or goals of the program. Some primary issues to consider are any preexisting orthopedic conditions (such as osteoarthritis or any sort of surgical joint intervention) or joint degeneration. These call for even greater caution and a more careful use of plyometric exercise. For example, a healthy masters athlete without surgical history who wants to improve his or her running performance should use depth jumps and single-leg exercises cautiously, so alternate-leg bounding and the double-leg hopping would be better choices. Similarly, a masters runner with a history of knee surgery such as partial meniscus removal, or with significant joint degeneration, should regard depth jumps and single-leg plyometric exercises as contraindicated and use other forms of plyometrics cautiously.
+
+After consideration of the predispositions related to the masters athlete’s physical condition, a plyometric program should be designed according to the same guidelines as outlined for adult athletes, with the following changes. The plyometric program should include no more than five low- to moderate-intensity exercises; the volume should be lower, that is, should include fewer total foot contacts than a standard plyometric training program; and the recovery time between plyometric workouts should be three or four days. With these guidelines in place—and as with all athletes—it is important to note how the masters athlete feels after training and recovery. Soreness may occur, but the program should be modified if chronic or excessive pain or discomfort is present.
+
+## Plyometrics and Other Forms of Exercise
+
+Plyometric exercise is only one part of an athlete’s overall training program. Many sports and activities use multiple energy systems or require other forms of exercise to properly prepare athletes for competition. Each energy system and sport-specific need must be included in a well-designed training program.
+
+### Plyometric Exercise and Resistance Training
+
+A combination of plyometrics and resistance training during a training cycle should be structured to allow maximal efficiency and physical improvement. The following list and [table 18.6](<E6372ch18_d95_split_000.xhtml#t18.6>) provide guidelines for developing a combined program.
+
+  * Combine lower body resistance training with upper body plyometrics, and upper body resistance training with lower body plyometrics.
+  * Performing heavy resistance training and plyometrics on the same day is not usually recommended ([15](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref15>), [20](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref20>)). However, some athletes may benefit from [complex training](<E6372ch18_d95_split_003.xhtml#iglo5>), a combination of high-intensity resistance training followed by plyometrics. If athletes perform this type of training, adequate recovery is needed between plyometrics and other high-intensity training.
+  * Traditional resistance training exercises may be combined with plyometric movements to further enhance gains in muscular power ([54](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref54>), [55](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref55>)). For example, performing a squat jump with approximately 30% of one’s squat 1-repetition maximum (1RM) as an external resistance further increases performance ([54](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref54>), [55](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref55>)). This is an advanced form of complex training that is appropriate only for athletes who have previously participated in high-intensity plyometric training programs.
+
+TABLE 18.6 Sample Schedule for Integrating Resistance Training and Plyometrics Day | Resistance training | Plyometrics  
+---|---|---  
+Monday | High-intensity upper body | Low-intensity lower body  
+Tuesday | Low-intensity lower body | High-intensity upper body  
+Thursday | Low-intensity upper body | High-intensity lower body  
+Friday | High-intensity lower body | Low-intensity upper body  
+  
+### Plyometric and Aerobic Exercise
+
+Many sports—such as basketball and soccer—have both an anaerobic (i.e., power) and an aerobic component. Therefore, multiple types of training must be combined to best prepare athletes for these types of sports. Because aerobic exercise may have a negative effect on power production ([15](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref15>)), it is advisable to perform plyometric exercise before aerobic endurance training. The design variables do not change and should complement each other to most effectively train these athletes for competition.
+
+## Safety Considerations
+
+Plyometric exercise is not inherently dangerous; however, as with all modes of exercise, the risk of injury exists. Injuries can occur simply due to an accident, but they more typically occur when proper training procedures are violated and may be the result of an insufficient strength and conditioning base, inadequate warm-up, improper progression of lead-up drills, inappropriate volume or intensity for the phase of training, poor shoes or surface, or a simple lack of skill. The following sections identify and address these and other risk factors. Knowledge of risk factors can improve the safety of athletes performing plyometric exercise.
+
+### Pretraining Evaluation of the Athlete
+
+To reduce the risk of injury and facilitate the performance of plyometric exercises, the athlete must understand proper plyometric technique and possess a sufficient base of strength, speed, and balance. In addition, the athlete must be sufficiently mature, both physically and psychologically, to participate in a plyometric training program. The following evaluative items can help determine whether an athlete meets these conditions.
+
+#### Technique
+
+Before adding any drill to an athlete’s plyometric program, the strength and conditioning professional must demonstrate proper technique to the athlete in order to maximize the drill’s effectiveness and minimize the risk of injury. For lower body plyometrics, proper landing technique is essential, particularly for depth jumps. If the center of gravity is offset from the base of support, performance is hindered and injury may occur. The shoulders should be over the knees and the knees over the toes during the landing, which the jumper accomplishes through flexion of the ankles, knees, and hips. In addition, when one views the frontal plane motion of the athlete performing lower body plyometrics, it is essential that the knees be positioned over the toes ([figure 18.4](<E6372ch18_d95_split_000.xhtml#f18.4>)). Inward movement of the knees—also termed _dynamic valgus_ —is a significant risk factor for knee injuries of all types, including patellofemoral pain and tears or ruptures of the anterior cruciate ligament (ACL).
+
+#### Strength
+
+Consideration of the athlete’s level of strength is necessary before he or she performs plyometrics. For lower body plyometrics, previous recommendations held that the athlete’s 1RM squat should be at least 1.5 times his or her body weight ([15](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref15>), [20](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref20>), [32](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref32>), [44](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref44>), [52](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref52>)). However, we would suggest that a more important consideration is technique. Many plyometric activities can be safely taught to young athletes. It is our recommendation that plyometrics be included for all athletes whose sports require running, landing, jumping, or cutting. Teaching proper alignment and movement mechanics through the use of plyometric exercise has not been shown to cause injuries; instead, this type of training has been repeatedly shown to decrease the athlete’s risk of injury during practices and games ([43](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref43>)).
+
+#### Balance
+
+A less obvious lower body plyometric requirement is balance. [Balance](<E6372ch18_d95_split_003.xhtml#iglo2>) is the maintenance of a position without movement for a given period of time. Many lower body plyometric drills require the athlete to move in nontraditional patterns (e.g., double-leg zigzag hop and backward skip) or on a single leg (e.g., single-leg tuck jump and single-leg hop). These types of drills necessitate a solid, stable base of support upon which the athlete can safely and correctly perform the exercises. Three balance tests are provided in [table 18.7](<E6372ch18_d95_split_000.xhtml#t18.7>), listed in order of difficulty; each test position must be held for 30 seconds ([51](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref51>)). For example, an athlete beginning plyometric training for the first time would be required to stand on one leg for 30 seconds without falling. An experienced athlete beginning an advanced plyometric training program must maintain a single-leg half squat for 30 seconds without falling. The surface on which the balance testing is performed must be the same as that used in the plyometric drills.
+
+TABLE 18.7 Balance Tests Test | Variations  
+---|---  
+Standing | Double leg  
+Single leg  
+Quarter squat | Double leg  
+Single leg  
+Half squat | Double leg  
+Single leg  
+  
+#### Physical Characteristics
+
+Athletes who weigh more than 220 pounds (100 kg) may be at an increased risk for injury when performing plyometric exercises ([44](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref44>), [52](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref52>)). Greater weight increases the compressive force on joints during the exercises, thereby predisposing these joints to injury. Therefore, athletes weighing over 220 pounds (100 kg) should avoid high-volume, high-intensity plyometric exercises and depth jumps from heights greater than 18 inches (46 cm) ([44](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref44>), [52](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref52>)). As with other forms of exercise, an athlete’s joint structure and previous injuries must also be examined before he or she begins a plyometric training program. Previous injuries or abnormalities of the spine, lower extremities, or upper extremities may increase an athlete’s risk of injury during plyometric exercise. Specifically, athletes with a history of muscle strains, pathological joint laxity, or spinal dysfunction—including vertebral disk dysfunction or compression—should use caution when beginning a plyometric training program ([24](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref24>), [25](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref25>), [32](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref32>), [48](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref48>)).
+
+### Equipment and Facilities
+
+In addition to participants’ fitness and health, the area and equipment used for plyometric drills may significantly affect their safety.
+
+#### Landing Surface
+
+To prevent injuries, the landing surface used for lower body plyometrics must possess adequate shock-absorbing properties. A grass field, suspended floor, or rubber mat is a good surface choice ([32](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref32>)). Surfaces such as concrete, tile, and hardwood are not recommended because they lack effective shock-absorbing properties ([32](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref32>)). Excessively thick exercise mats (6 inches [15 cm] or thicker) may extend the amortization phase and thus not allow efficient use of the stretch reflex. Mini-trampolines are commonly used for beginning plyometric and balance training in rehabilitation ([28](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref28>)). While these devices may provide a necessary introduction to plyometrics, especially for those recovering from musculoskeletal injury, mini-trampolines, like thick exercise mats, are not effective for plyometric training of uninjured athletes because the amortization phase is extended while the athlete is in contact with the elastic surface.
+
+#### Training Area
+
+The amount of space needed depends on the drill. Most bounding and running drills require at least 30 m (33 yards) of straightaway, though some drills may require a straightaway of 100 m (109 yards). For most standing, box, and depth jumps, only a minimal surface area is needed, but the ceiling height must be 3 to 4 m (9.8-13.1 feet) in order to be adequate.
+
+#### Equipment
+
+Boxes used for box jumps and depth jumps must be sturdy and should have a nonslip top. Boxes should range in height from 6 to 42 inches (15 to 107 cm) and should have landing surfaces of at least 18 by 24 inches (46 by 61 cm) ([16](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref16>)). The box should be constructed of sturdy wood (e.g., 3/4-inch [1.9 cm] plywood) or heavy-gauge metal. To further reduce injury risk, there are several ways of making the landing surface nonslip: adding nonslip treads, mixing sand into the paint used to cover the box, or affixing rubberized flooring to the top ([16](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref16>)).
+
+#### Proper Footwear
+
+Participants must use footwear with good ankle and foot support, good lateral stability, and a wide, nonslip sole ([44](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref44>)). Shoes with a narrow sole and poor upper support (e.g., running shoes) may invite ankle problems, especially with lateral movements. Shoes with insufficient foot support may lead to arch or lower leg injuries or both, while footwear without enough cushioning might lead to damage of more proximal joints (e.g., knee and hip joints).
+
+#### Supervision
+
+In addition to the safety considerations already outlined, close monitoring of athletes is necessary to ensure proper technique. Plyometric exercise is not intrinsically dangerous when performed correctly; but as with other forms of training, poor technique may unnecessarily predispose an athlete to injury.
+
+#### Depth Jumping
+
+There is a limit to the maximal height at which a depth jump can be effectively and safely performed. A height of 48 inches (1.2 m) would provide a significant overload on the muscles, but the resistance may be too great for many athletes to overcome while maintaining correct technique ([40](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref40>)). Jumping from such a height increases the possibility of injury; furthermore, the amount of force to be overcome is so great that the amortization phase is extended and thus the purpose of the exercise defeated. The recommended height for depth jumps ranges from 16 to 42 inches (41 to 107 cm), with 30 to 32 inches (76 to 81 cm) being the norm ([4](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref4>), [18](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref18>), [26](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref26>), [37](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref37>), [38](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref38>), [41](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref41>)). Depth jump box height for athletes who weigh over 220 pounds (100 kg) should be 18 inches (46 cm) or less.
+
+## Conclusion
+
+The major goal of plyometric training is to rapidly apply force to provide an overload to the agonist muscles. Although it has been repeatedly shown that plyometric exercise increases muscular power for participants in a formal training program ([30](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref30>), [47](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref47>), [54](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref54>), [55](<E6372RM_Refs_d104_split_018.xhtml#chapter18-ref55>)), research has yet to determine whether mechanical or neurophysiological adaptations account for the improvement. Plyometrics should be considered not an end in itself, but part of an overall program that includes strength, speed, aerobic, and flexibility training, and proper nutrition. After the athlete has begun a proper strength and conditioning program, plyometric training may be used to further develop power.
+
+Plyometric Drills
+
+Lower Body Plyometric Drills
+
+Jumps in Place
+
+  * [18.1 Two-Foot Ankle Hop](<E6372ch18_d95_split_001.xhtml#d0>)
+  * [18.2 Single-Leg Ankle Hop](<E6372ch18_d95_split_001.xhtml#d1>)
+  * [18.3 Squat Jump](<E6372ch18_d95_split_001.xhtml#d2>)
+  * [18.4 Jump and Reach](<E6372ch18_d95_split_001.xhtml#d3>)
+  * [18.5 Double-Leg Tuck Jump](<E6372ch18_d95_split_001.xhtml#d4>)
+  * [18.6 Split Squat Jump](<E6372ch18_d95_split_001.xhtml#d5>)
+  * [18.7 Cycled Split Squat Jump](<E6372ch18_d95_split_001.xhtml#d6>)
+  * [18.8 Single-Leg Tuck Jump](<E6372ch18_d95_split_001.xhtml#d7>)
+  * [18.9 Pike Jump](<E6372ch18_d95_split_001.xhtml#d8>)
+
+Standing Jumps
+
+  * [18.10 Double-Leg Vertical Jump](<E6372ch18_d95_split_001.xhtml#d9>)
+  * [18.11 Single-Leg Vertical Jump](<E6372ch18_d95_split_001.xhtml#d10>)
+  * [18.12 Jump Over Barrier](<E6372ch18_d95_split_001.xhtml#d11>)
+  * [18.13 Standing Long Jump](<E6372ch18_d95_split_001.xhtml#d12>)
+
+Multiple Hops and Jumps
+
+  * [18.14 Double-Leg Hop](<E6372ch18_d95_split_001.xhtml#d13>)
+  * [18.15 Double-Leg Zigzag Hop](<E6372ch18_d95_split_001.xhtml#d14>)
+  * [18.16 Single-Leg Hop](<E6372ch18_d95_split_001.xhtml#d15>)
+  * [18.17 Front Barrier Hop](<E6372ch18_d95_split_001.xhtml#d16>)
+  * [18.18 Lateral Barrier Hop](<E6372ch18_d95_split_001.xhtml#d17>)
+  * [18.19 4-Hurdle Drill](<E6372ch18_d95_split_001.xhtml#d18>)
+
+Bounds
+
+  * [18.20 Skip](<E6372ch18_d95_split_001.xhtml#d19>)
+  * [18.21 Power Skip](<E6372ch18_d95_split_001.xhtml#d20>)
+  * [18.22 Backward Skip](<E6372ch18_d95_split_001.xhtml#d21>)
+  * [18.23 Side Skip](<E6372ch18_d95_split_001.xhtml#d22>)
+  * [18.24 Single-Arm Alternate-Leg Bound](<E6372ch18_d95_split_001.xhtml#d23>)
+  * [18.25 Double-Arm Alternate-Leg Bound](<E6372ch18_d95_split_001.xhtml#d24>)
+
+Box Drills
+
+  * [18.26 Single-Leg Push-Off](<E6372ch18_d95_split_001.xhtml#d25>)
+  * [18.27 Alternate-Leg Push-Off](<E6372ch18_d95_split_001.xhtml#d26>)
+  * [18.28 Lateral Push-Off](<E6372ch18_d95_split_001.xhtml#d27>)
+  * [18.29 Side-to-Side Push-Off](<E6372ch18_d95_split_001.xhtml#d28>)
+  * [18.30 Double-Leg Jump to Box](<E6372ch18_d95_split_001.xhtml#d29>)
+  * [18.31 Single-Leg Jump to Box](<E6372ch18_d95_split_001.xhtml#d30>)
+  * [18.32 Squat Box Jump](<E6372ch18_d95_split_001.xhtml#d31>)
+  * [18.33 Lateral Box Jump](<E6372ch18_d95_split_001.xhtml#d32>)
+  * [18.34 Drop Freeze](<E6372ch18_d95_split_001.xhtml#d33>)
+
+Depth Jumps
+
+  * [18.35 Depth Jump](<E6372ch18_d95_split_001.xhtml#d34>)
+  * [18.36 Depth Jump to Second Box](<E6372ch18_d95_split_001.xhtml#d35>)
+  * 1[8.37 Squat Depth Jump](<E6372ch18_d95_split_001.xhtml#d36>)
+  * [18.38 Depth Jump With Lateral Movement](<E6372ch18_d95_split_001.xhtml#d37>)
+  * [18.39 Depth Jump With Standing Long Jump](<E6372ch18_d95_split_001.xhtml#d38>)
+  * [18.40 Depth Jump to 180° Turn](<E6372ch18_d95_split_001.xhtml#d39>)
+  * [18.41 Single-Leg Depth Jump](<E6372ch18_d95_split_001.xhtml#d40>)
+
+Upper Body Plyometric Drills
+
+Throws
+
+  * 18.42 Chest Pass
+  * 18.43 Two-Hand Overhead Throw
+  * 18.44 Two-Hand Side-to-Side Throw
+  * 18.45 Single-Arm Throw
+  * 18.46 Power Drop
+
+Plyometric Push-Ups
+
+  * 18.47 Depth Push-Up
+
+Trunk Plyometrics
+
+  * 18.48 45° Sit-Up

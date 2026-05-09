@@ -1,0 +1,488 @@
+# Chapter 24Facility Policies, Procedures, and Legal Issues
+
+Traci Statler, PhD, and Victor Brown, MS
+
+The authors would like to acknowledge the significant contributions of Boyd Epley, John Taylor, Michael Greenwood, and Lori Greenwood to this chapter.
+
+After completing this chapter, you will be able to
+
+  * develop or clarify the goals and objectives of a strength and conditioning program,
+  * understand the daily operational practices of a strength and conditioning program and facility that help to achieve the goals and objectives,
+  * establish a standard of practice that leads to a safe and effective strength and conditioning program,
+  * identify common areas of potential liability exposure and implement appropriate risk management strategies,
+  * create a policies and procedures manual for a strength and conditioning program and facility, and
+  * properly schedule the strength and conditioning facility, along with formulating guidelines on seasonal planning and staff-to-athlete ratios.
+
+The strength and conditioning profession continues to evolve. Typically, a practitioner’s knowledge and skill development involves competencies in exercise science, administration, management, teaching, and coaching ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)). With student-athlete safety and welfare at the forefront, developing a policies and procedures manual provides a blueprint for implementing safe and effective programs and services.
+
+Policies are essentially a facility’s rules and regulations; they reflect the goals and objectives of the program. Procedures describe how policies are met or carried out. It is necessary to examine program goals and objectives, because they are the basis on which policies and procedures are created. Additionally, specific policies and procedures should include elements that protect the program and its employees from a risk of litigation; issues such as guidelines for supervision and instruction, facility administration, and emergency action planning and response should be included. The goal of this chapter is to identify areas of risk exposure and means of increasing safety, as well as to guide the strength and conditioning professional in providing and enhancing the quality of services and programs.
+
+## Mission Statement and Program Goals
+
+A mission statement is an organization’s statement of purpose ([2](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref2>)). Creating a mission statement requires forward thinking with the end result in mind. A good mission statement provides the strength and conditioning program with focus and direction and is the foundation of effective administration. According to the Drucker Foundation ([22](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref22>)), the following are suggested criteria for an effective mission statement:
+
+  * It should be short and sharply focused.
+  * It should be clear and easy to understand.
+  * It defines why the organization exists.
+  * It does not prescribe means.
+  * It is broad in scope.
+  * It provides direction for upholding code of ethics.
+  * It addresses and matches the organization’s scope of practice.
+  * It inspires commitment.
+
+The mission statement addresses three important components: target clientele (key market), what service is being provided (contribution), and what makes the service unique (distinction) ([2](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref2>)).
+
+The following is an example of a mission statement of a strength and conditioning program:
+
+> To provide to athletes the means by which they can train consistently, sensibly, and systematically over designated periods of time in a safe, clean, and professional environment to help prevent injury and improve athletic performance.
+
+Program goals are the desired end products of a strength and conditioning program, stated in a broad, general manner. An effective strength and conditioning program should be based on scientific principles to enhance performance and increase injury resistance with intended outcomes specific to the sport and the athlete’s position within the sport ([7](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref7>)).
+
+Developing a standard of care is a collaborative responsibility. Therefore, developing a mission statement and a list of program objectives should involve not only the strength and conditioning department, but also the institution, including but not limited to athletic administration and the sports medicine department. The more people participating the better, so that all involved groups and individuals take ownership and commit to achieving the strength and conditioning program’s mission, goals, and objectives.
+
+A mission statement is an organization’s statement of purpose, providing the strength and conditioning program with focus and direction.
+
+## Program Objectives
+
+Program objectives are specific means of attaining program goals. If program goals are stated but the ways in which these goals might be attained are not specified, the result may be that athletes never achieve them. Program objectives should encompass all areas of the program to ensure that the goals are attained. Following is a sample list of objectives that can lead to reaching program goals and prepare a strength and conditioning professional to handle the job requirements.
+
+  * Design and administer strength, flexibility, aerobic, plyometric, and other training programs that reduce the likelihood of injuries and improve athletic performance. More precisely, design training programs that create the desired results in body composition, hypertrophy, strength, muscular endurance, cardiovascular endurance, speed, agility, coordination, balance, and power.
+  * Develop training programs to account for biomechanical and physiological differences between individual athletes, taking into consideration their ages, sex, training status, physical limitations, and injury status.
+  * Recognize acute and chronic physiological responses and adaptations to training and their implications for the design of sport-specific training programs. 
+  * Educate athletes on the importance of good nutrition as well as sleep and its role in health and performance.
+  * Educate athletes about the effects of performance-enhancing substances and their abuse, relevant school policy, and legislation.
+
+The performance team concept—that is, the use of individuals with specific areas of expertise as resources—can be applied in the creation of a strength and conditioning program that works toward meeting the preceding objectives. For example, when an athlete requires rehabilitation and reconditioning, the sports medicine staff should be consulted. The director of strength and conditioning needs to establish written policies and procedures for determining appropriate utilization of staff in the delivery of safe, effective, and efficient service. Additionally, an annual orientation meeting should be held at the beginning of the school year or sport season to familiarize staff, sport coaches, and participants with the established goals, objectives, policies, and procedures. Periodically reevaluate and review goals and objectives.
+
+## Strength and Conditioning Performance Team
+
+The responsibilities of the strength and conditioning professional are continually changing as the field grows and becomes better recognized ([14](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref14>)). The strength and conditioning staff can be aligned through the hiring of practitioners with formal education and specialization in specific scientific foundations (e.g., anatomy, exercise physiology, biomechanics). An assembled team allows for cooperative expertise by practitioners with complementary skills and provides an educational opportunity for staff members to gain knowledge outside of their specialization. [Table 24.1](<E6372ch24_d101.xhtml#t24.1>) provides a practical example of a strength and conditioning performance team. The director of strength and conditioning is responsible for delineating the appropriate duties and responsibilities to the strength and conditioning staff for program design, exercise technique, organization and administration, and testing and evaluation. 
+
+TABLE 24.1 Sample Strength and Conditioning Performance Team Scientific foundations Education and expertise | Practical and applied activities and responsibilities | Liaison assignment(s)  
+---|---|---  
+Exercise and sport anatomy; biomechanics | Exercise techniques; testing and evaluation; rehabilitation and reconditioning | Exercise and sport science faculty; team coaches; sports medicine team  
+Exercise and sport physiology | Program design; testing and evaluation | Exercise and sport science faculty; team coaches  
+Exercise and sports nutrition | Nutritionist | Exercise and sport science faculty  
+Exercise and sport pedagogy | Program design; exercise technique; organization and administration | Exercise and sport science faculty; athletic administration  
+Exercise and sport psychology; motor learning | Exercise technique; rehabilitation and reconditioning | Exercise and sport science faculty; sports medicine team  
+Training methodology | Program design; organization and administration | Exercise and sport science faculty; athletic administration  
+Kinesiology; physiotherapy; sports medicine | Rehabilitation and reconditioning | Sports medicine team  
+  
+Adapted, by permission, from NSCA, 2009 ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)).
+
+Although job responsibilities vary according to institution, it would be prudent to consult _Strength and Conditioning Professionals Standards and Guidelines_ ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)) when one is developing the strength and conditioning performance team. Guideline 2.3 of this document states the following:
+
+> The productivity of a Strength and Conditioning staff, as well as learning and skill development of individual members, should be enhanced by aligning a performance team comprised of qualified practitioners with interdependent expertise and shared leadership roles. Once the team is assembled, respective activities and responsibilities from the “Practical/Applied” domain identified in the Certified Strength and Conditioning Specialist Examination Content Description, as well as the appropriate liaison assignments, should be delegated according to each member’s particular “Scientific Foundations” expertise.
+
+### Director of Strength and Conditioning (Head Strength and Conditioning Coach)
+
+The director of strength and conditioning (referred to hereafter as _director_)—also commonly referred to as the head strength and conditioning coach—is both a practitioner and an administrator. This person is responsible for the overall strength and conditioning program, facility, equipment, staff, and such administrative tasks as preparing a budget, purchasing equipment, preparing proposals, and working with administration and media. [Figure 24.1](<E6372ch24_d101.xhtml#f24.1>) shows a sample job listing for such a position. [Figure 24.2](<E6372ch24_d101.xhtml#f24.2>) provides a general job description for the director of strength and conditioning.
+
+**Figure 24.1** A job announcement similar to this can be used to attract quality applicants.
+
+Director of Strength and Conditioning Job Listing  
+---  
+Responsibilities and duties as assigned by the director of athletics include developing and monitoring performance training programs for athletic teams, implementing safe and effective program design based on scientific principles, instructing proper resistance training exercise techniques, speed and agility development, and testing and evaluation. The head strength and conditioning professional will oversee policies and procedures, facility organization, and risk management for the strength and conditioning performance team in collaboration with the institution. The strength and conditioning professional should work cooperatively with the medical staff in the interest of student-athlete development, health, and well-being. A bachelor‘s degree is required, with a master‘s degree preferred (with emphasis in the exercise sciences). The strength and conditioning professional must possess certification from an independent accreditation agency (e.g., Certified Strength and Conditioning Specialist by the National Strength and Conditioning Association) and maintain continuing education requirements. First aid, cardiopulmonary resuscitation, and automated external defibrillator certifications required. Two years’ experience is required in progressively responsible positions involving development and management of sport-specific individual and group performance training programs. Excellent management, supervisory, and management skills are required. Salary is commensurate with background and experience.  
+  
+Based on Casa et al. 2012 ([6](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref6>)).
+
+**Figure 24.2** A sample job description for a strength and conditioning director.
+
+Responsibilities of the Strength and Conditioning Director  
+---  
+  
+  * Direct all facets of staff, program, and facility operations.
+  * Design (or have final review of) all training programs.
+  * Oversee the athletic performance operation to ensure compliance with institutional, conference, and governing bodies’ rules and regulations.
+  * Develop and submit the annual budget and ensure budgetary compliance through efficient financial management.
+  * Generate income and budget available funds for maintenance and improvement of the facility.
+  * Oversee the selection, installation, and maintenance of performance equipment, including cleaning and repair.
+  * Conduct orientation meetings for student-athletes on such issues as facility rules, the value of proper training and nutrition, and the dangers of banned substances.
+  * Develop staff work and supervision schedules, assign duties, and evaluate performance.
+  * Coordinate time schedules for use of the facility by each sport team and individual student-athletes.
+  * Assist with on-campus recruiting activities for prospective student-athletes.
+  * Serve on various departmental, institutional, conference, governing body, and professional committees and task forces.
+  * Work and communicate with coaches in the athletic department.
+  * Travel with sport teams (if applicable) and provide remote-site performance training programs, including pregame warm-up.
+  * Maintain a performance training library for professional development.
+  * Achieve and maintain professional certification(s) with continuing education requirements and a code of ethics, such as the CSCS credential offered through the NSCA. Depending on the professional‘s scope of activities, responsibilities, and knowledge requirements, relevant certifications offered by other governing bodies may also be appropriate ([5](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref5>)).
+  * Perform other duties and special projects as requested by supervisor.
+  * Perform the duties of the assistant strength and conditioning professional and facility supervisor as needed.
+
+  
+  
+Adapted from Earle 1993 ([7](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref7>)); Epley 1998 ([8](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref8>)).
+
+The director is also responsible for developing, presenting, and enforcing the written policies and procedures of the staff and participants in the program. It is the responsibility of the director to ensure that staff are properly trained and prepared. He or she achieves this by having staff and student-athlete orientation meetings and by periodically evaluating the staff’s professional performance as well as determining and evaluating the attainment of professional goals. A sample form for the evaluation of student staff members is provided in [figure 24.3](<E6372ch24_d101.xhtml#f24.3>). This form could be used to evaluate student interns and adapted to apply more specifically and effectively to members of the strength and conditioning performance team.
+
+**Figure 24.3** This sample student staff evaluation form can be used to assess staff competencies.
+
+Student Staff Evaluation  
+---  
+Evaluation of staff member: _______________________________________________ For period: ___________________________ to ___________________________ The evaluation process is a method of assessing individual performance. It is an opportunity to bring to light any outstanding contributions or deficiencies among student staff members, improve individual job performance, determine appropriate personnel actions, and stimulate individual development. | **Communication**  
+---  
+Has the respect of the athletes while maintaining discipline | 1 | 2 | 3 | 4 | 5 | N/A  
+Teaches proper resistance training exercise technique | 1 | 2 | 3 | 4 | 5 | N/A  
+Has the ability to motivate athletes and elicit team unity | 1 | 2 | 3 | 4 | 5 | N/A  
+Enforces the weight room rules | 1 | 2 | 3 | 4 | 5 | N/A  
+Exhibits courtesy to athletes of both sexes | 1 | 2 | 3 | 4 | 5 | N/A  
+Does not subject athletes to verbal or physical abuse | 1 | 2 | 3 | 4 | 5 | N/A  
+**Assumes responsibility and Leadership**  
+Follows instructions | 1 | 2 | 3 | 4 | 5 | N/A  
+Is adaptable to new ideas | 1 | 2 | 3 | 4 | 5 | N/A  
+Is always trying to learn | 1 | 2 | 3 | 4 | 5 | N/A  
+Does not delegate authority without permission | 1 | 2 | 3 | 4 | 5 | N/A  
+Demonstrates a high level of integrity | 1 | 2 | 3 | 4 | 5 | N/A  
+Adjusts training activity to fit skill or age level of the athlete | 1 | 2 | 3 | 4 | 5 | N/A  
+Demonstrates good judgment | 1 | 2 | 3 | 4 | 5 | N/A  
+Demonstrates consistent attendance and promptness | 1 | 2 | 3 | 4 | 5 | N/A  
+Submits paperwork on time as requested | 1 | 2 | 3 | 4 | 5 | N/A  
+Possesses the ability to get the project done, large or small | 1 | 2 | 3 | 4 | 5 | N/A  
+Submits high-quality work | 1 | 2 | 3 | 4 | 5 | N/A  
+Possesses an appropriate appearance | 1 | 2 | 3 | 4 | 5 | N/A  
+**Attitude**  
+Functions compatibly with all staff, athletes, and other departments | 1 | 2 | 3 | 4 | 5 | N/A  
+Is trustworthy with sensitive information | 1 | 2 | 3 | 4 | 5 | N/A  
+Does not gossip about coaches, athletic trainers, or athletes | 1 | 2 | 3 | 4 | 5 | N/A  
+Strives for objectives as stated in department‘s role and mission statement | 1 | 2 | 3 | 4 | 5 | N/A  
+**Key**  
+1 = Significantly below performance expectations 2 = Minimally acceptable performance 3 = Meets performance expectations 4 = Exceeds performance expectations 5 = Clearly exceptional performance  
+  
+From NSCA, 2016, _Essentials of strength training and conditioning,_ 4th ed., edited by G. Haff and T. Triplett (Champaign, IL: Human Kinetics). Reprinted, by permission, from R.W. Earle, 1993, _Staff and facility policies and procedures manual_ (Omaha, NE: Creighton University).
+
+### Strength and Conditioning Staff (Personal Qualifications)
+
+The possession of a certification from an independently accredited organization, such as the Certified Strength and Conditioning Specialist certification, establishes a standard of care. On August 1, 2015, National Collegiate Athletic Association (NCAA) Division I adopted legislation “To specify that a strength and conditioning coach shall be certified and maintain current certification through a nationally accredited strength and conditioning certification program” (p. 1) ([16](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref16>)). Continuing education is a necessary part of maintaining a professional certification and reducing liability exposure, especially in the area of supervision and instruction ([1](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref1>)). Litigation issues in this area often involve questions of “professional instructor qualifications,” which include continuing education ([19](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref19>)). Thus, assistant strength and conditioning professionals should also achieve and maintain a professional certification including standard first aid, cardiopulmonary resuscitation (CPR), and automated external defibrillation (AED). (See [figure 24.4](<E6372ch24_d101.xhtml#f24.4>) for points of preparedness required of each staff member.)
+
+**Figure 24.4** Points of preparedness required of each staff member.
+
+Staff Preparedness  
+---  
+  
+  1. Maintenance of professional certification
+  2. Maintenance of certification in standard first aid, CPR, and AED
+  3. Review of emergency response procedures 
+     1. Rudimentary first aid procedures annually
+     2. Common training facility injuries and their prevention
+     3. Building evacuation plan
+  4. Knowledge and understanding of program policies and procedures 
+     1. Review of room capacity and safe supervision ratios
+     2. Review of preparticipation screening and clearance procedure
+     3. Review of personal and professional liability, negligence, and insurance coverage issues
+  5. Knowledge and understanding of governing body rules and regulations 
+     1. Review of general knowledge of regulations
+     2. Review of rules specific to administering the strength and conditioning program
+  6. Knowledge and understanding of cleaning and maintenance issues and needs
+  7. Knowledge and understanding of program philosophy and instruction methods 
+     1. Technique and drill instruction
+     2. Body composition guidelines and nutritional consultation
+     3. Motivational issues 
+        * Pushing athletes beyond physical limits
+        * Athletes who overtrain
+        * Athletes who refuse to follow program recommendations
+
+  
+  
+Adapted from Taylor, 2006 ([23](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref23>)).
+
+Additionally, each staff member needs to understand the strength and conditioning program’s goals and objectives, cooperatively work with others’ responsibilities and schedules (such as the other members of the sports medicine team), and maintain a professional code of conduct.
+
+Appendix A of _Strength and Conditioning Professional Standards and Guidelines_ defines the strength and conditioning professional:
+
+> Certified Strength and Conditioning Specialists are professionals who practically apply foundational knowledge to assess, motivate, educate, and train athletes for the primary goal of improving sports performance. They conduct sport-specific testing sessions, design and implement safe and effective strength training and conditioning programs, and provide guidance for athletes in nutrition and injury prevention. Recognizing their area of expertise is separate and distinct from the medical, dietetic, athletic training, and sport coaching fields, Certified Strength and Conditioning Specialists consult with and refer athletes to these professionals when appropriate. (p. 13)
+
+## Legal and Ethical Issues
+
+Everyone involved in athletic activities, including the strength and conditioning professional, must be cognizant of legal liability. The risk of injury cannot be totally eliminated, but it can be effectively managed by the strength and conditioning professional. Risk management is the employment of strategies to decrease and control the risk of injury from athletic participation and therefore the risk of liability exposure. The first steps in risk management are to understand integral key terms and identify the areas of potential liability exposure that could cause injuries and lead to litigation. Although each facility is unique, recognizable areas of potential liability are present in all strength and conditioning facilities. The following sections discuss these risk areas and the need for an emergency care plan, reliable record keeping, and liability insurance.
+
+### Common Legal Terminology
+
+To understand the potential legal ramifications of running a strength and conditioning facility, the strength and conditioning professional must first understand the following common legal terms.
+
+  * Informed consent—The process by which a procedure or activity is described to a participant, with an explanation of the inherent risks and benefits involved, allowing the individual to determine if he or she desires to participate.
+  * Liability—A legal responsibility, duty, or obligation. Strength and conditioning professionals have a duty to the athletes they serve by virtue of their employment not only to act when an injury occurs but also to prevent injury ([5](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref5>)).
+  * Standard of care—What a reasonable and prudent person would do under similar circumstances. A strength and conditioning professional is expected to act according to his or her education, level of training, and certification status (e.g., Certified Strength and Conditioning Specialist [CSCS], National Strength and Conditioning Association Certified Personal Trainer [NSCA-CPT], Emergency Medical Technician [EMT], CPR, AED, first aid).
+  * Negligence—Failure to act as a reasonable and prudent person would under similar circumstances. Four elements must exist in order for a strength and conditioning professional to be found negligent: duty, breach of duty, proximate cause, and damages ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)). The strength and conditioning professional must be found to have had a duty to act and to have failed to act (a breach) with the appropriate standard of care, resulting in damages (physical or economic injury) to another person because of the natural and continuous sequence of reasonably foreseeable events (proximate cause). For example, a strength and conditioning professional sees that a cable is excessively worn on a resistance training machine and notes it, but does not post an “Out of Order” sign. An athlete uses the machine and incurs an injury. In this case, the strength and conditioning professional could be found negligent: His or her duty was to fix the cable or post a sign, but he or she failed to act, and an athlete sustained an injury because of the potentially injurious situation of a cable that was ready to break.
+  * Assumption of risk—Knowing that an inherent risk exists with participation in an activity and voluntarily deciding to participate anyway ([11](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref11>)). All athletic activities, including strength and conditioning, involve a certain level of risk; athletes must be thoroughly informed of the risk and should sign a statement to that effect.
+
+### Preparticipation Screening and Medical Clearance
+
+Before an athlete is allowed access to the strength and conditioning facility, preparticipation screening and clearance in accordance with relevant governing bodies (e.g., NCAA, institution sports medicine staff, and high school athletic associations) are required. This requirement is established under Section 1 of _Strength and Conditioning Professional Standards and Guidelines_ ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)). Standard 1.1 “requires participants to undergo health care provider screening and clearance before participation.” The strength and conditioning professional does not need an actual copy of the physical examination but should require a signed statement to show proof of medical clearance to participate. Athletes who are returning from an injury or illness or who have special needs (e.g., have diabetes, asthma, epilepsy, hypertension) should also be required to show proof of medical clearance before beginning or returning to a strength and conditioning program.
+
+Procedures should therefore be in place to ensure that documentation confirming that each athlete was screened and cleared to participate by the sports medicine staff is on record in the main office of the strength and conditioning program before athletes are allowed to participate. Note, however, that it is the responsibility of the sports medicine staff (e.g., the team or program’s certified athletic trainer, physician, or physical therapist) to allow an athlete to begin formal involvement in the strength and conditioning program. In the case of a school location, this applies to both athletes who are new to the school or program and athletes who are just recovering from an injury or illness. This stipulation is important because it is not in the strength and conditioning professional’s scope of practice (i.e., proper legal parameters and professional duties) to diagnose or evaluate an individual’s medical or health condition. Therefore, only the sports medicine staff can provide medical clearance (and proof thereof) and answer any questions about participation.
+
+### Eligibility Criteria
+
+To focus the attention and efforts of the strength and conditioning staff on a target training population, certain eligibility requirements should be established. The following is a list of typical individuals or groups who are allowed to use the strength and conditioning facility at an institution:
+
+  * Full- or part-time student-athletes participating in an athletic department-sponsored sport
+  * Newly incoming and just-transferred student-athletes who have registered for school and have confirmation of team status as designated by the head sport coach
+  * Students in physical education classes
+  * All athletic department coaching and administrative staff
+  * All sports medicine department staff
+  * Alumni athletes who participated in an athletic department–sponsored sport and completed their eligibility
+  * Individuals and groups approved by the athletic director or director of strength and conditioning
+
+Other individuals or groups may request access to the strength and conditioning facility. These persons or groups must receive prior approval by the athletic director or director of strength and conditioning and should have a prearranged schedule that specifies when they will use the facility so proper supervision can be provided. To be consistent and objective, it is advantageous to have a policy in place to refer to rather than having to decide on this on a case-by-case basis. This policy is especially important as it relates to the facility fee, if any. The following are examples of common criteria by which to determine whether outside organizations can use a strength and conditioning facility:
+
+  * Use must be preapproved by the athletic director.
+  * Use must be preapproved by the strength and conditioning director.
+  * The program or session must be supervised by strength and conditioning department staff.
+  * The program or session must be scheduled during off-hours when athletes are not present.
+  * The individual or organization must supply written proof of additional liability insurance.
+  * All participants must sign a release agreement form. [Figure 24.5](<E6372ch24_d101.xhtml#f24.5>) shows a sample release of liability form. Check any such form for compliance with current local and national laws before using it.
+  * All participants must follow the rules and regulations of the strength and conditioning facility.
+  * The athletic director and the strength and conditioning director have the right to limit an individual’s or group’s access, if warranted.
+
+**Figure 24.5** All participants must sign a liability waiver, which should be modified as needed to comply with local and national laws. Reducing liability for on-premise injuries during use of the facility is critical in any risk management strategy.
+
+![](images/E6372_508343_ebook.jpg)
+
+Adapted from Earle 1993 ([7](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref7>)); Epley 1998 ([8](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref8>)).
+
+### Record Keeping
+
+Documentation is fundamental to the effective management of a strength and conditioning facility. Secure records should be kept on file of cleaning and maintenance, safety procedures, manufacturer’s warranties and guidelines, assumption-of-risk or other informed consent forms, medical waivers and clearance forms, personnel credentials, professional guidelines and recommendations (e.g., use of weight belts, resistance training techniques), and injury report forms ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)). Injury report forms should be maintained as long as possible in case an injury suit is filed. The time during which individuals can file a lawsuit (i.e., the statute of limitations) varies (from state to state in the United States as well as throughout the world), so it is a good practice to maintain files indefinitely or to check with a legal authority ([12](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref12>)). 
+
+### Liability Insurance
+
+Because of the potential for injury in athletic participation, it is essential for strength and conditioning staff members to purchase professional liability insurance, especially if they are not covered under the facility policy. Liability insurance is a contractual promise by which the insurer promises to defend and indemnify the insured, up to the defined limits of liability, from certain defined liability risks at the insurer’s cost in exchange for payment of a premium. Strength and conditioning professionals should consult their human resource manager, legal consultant, or professional organization (e.g., NSCA) for further information.
+
+Insurance is a contractual promise by which the insurer promises to defend and indemnify the insured, up to the defined limits of liability, from certain defined liability risks at the insurer’s cost in exchange for payment of a premium.
+
+### Product Liability
+
+Product liability refers to the legal responsibilities of those who manufacture or sell products if a person sustains injury or damage as a result of using the product ([1](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref1>)). Although strength and conditioning professionals may not manufacture or sell a product, they can be named as codefendants in product liability suits. Therefore, it is important for strength and conditioning professionals to understand the concept of product liability and actions that could place them at risk for litigation. Although product liability applies only to those who are in the business of manufacturing or selling products, there are behaviors that can void liability of the manufacturer or seller and place responsibility in the hands of the strength and conditioning professional. Two key considerations that determine whether the manufacturer or seller is liable are whether the product has been changed from the condition in which it was originally sold and whether the product is used as intended by the manufacturer ([5](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref5>)). To avoid injury to athletes caused by strength and conditioning equipment, the following steps should be taken:
+
+  * Use equipment only for the purpose intended by the manufacturer. Refer to the manufacturer’s instructional materials that accompany the equipment, including user age and size specifications.
+  * Be certain that equipment meets existing professional standards and guidelines. Do not purchase and use equipment that has been deemed unsafe or ineffective by professional organizations and experts. Be aware of equipment recalls, and return such equipment to the manufacturer immediately.
+  * Buy only from reputable manufacturers. Strength and conditioning professionals must do their homework to check on the safety record of a manufacturer or seller and any claims that may have been filed against that manufacturer or seller. Organizations such as the Better Business Bureau in the United States, other strength and conditioning colleagues, and professional organizations are good resources for this information.
+  * Do not modify equipment unless such adaptations are clearly designated and instructions for doing so are included in the product information. Some equipment is designed to be modified for specific needs, such as fitting, but directions for modifying the product must be followed exactly.
+  * Apply all warning labels that accompany a new equipment purchase. If such labels are not placed on the machine in plain view and an individual is injured (and the injury relates to what the warning label addresses), the strength and conditioning professional can be held liable.
+  * Continually inspect equipment for damage and wear that may place an athlete at risk for injury. To recognize potential problems, the strength and conditioning professional must understand the purpose, capabilities, and limitations of equipment and how equipment can cause injury. Always inspect newly purchased equipment before use. If new equipment arrives damaged, immediately notify the manufacturer or seller and have it replaced. If currently owned equipment becomes damaged, remove it for repair or replacement. If equipment is too large to remove or no storage space exists, affix a sign to the equipment stating that it should not be used.
+  * Do not allow unsupervised athletes to use equipment. Constant supervision of the athletes by the strength and conditioning professional ensures that equipment is used for its intended purpose and with proper technique ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)).
+
+### Discipline
+
+To ensure that athletes adhere to the facility rules, the strength and conditioning director may want to require them to sign and date a copy of the facility rules and guidelines to acknowledge that they understand and will adhere to all rules before facility use. This process will reduce the possibility of claims that they did not know the repercussions of aberrant behavior. The facility rules need to be enforced, with possible disciplinary actions posted, documented, and levied in proportion to the offense. The use of exercise and conditioning activities as punishment is discouraged. According to The Inter-Association Task Force for Preventing Sudden Death in Collegiate Conditioning Sessions best practice recommendations, “no additional physical burden that would increase the physical risk of injury or sudden death should be placed on the athlete under any circumstance” (p. 478). Following is an example of a tiered penalty system applied to a repeated violation ([7](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref7>)). (Note that this type of policy must be established with full support and involvement of the athletic director and all sport coaches. Typically, the strength and conditioning staff does not have to pursue disciplinary actions past the first or second offense, because most sport coaches want to handle such a situation.)
+
+  * _First offense_ : A verbal warning by a staff member, an explanation of the nature and importance of the rule or guideline that was broken, and a reminder of the disciplinary action that will result from a second offense.
+  * _Second offense_ : Dismissal from the facility for one day, documentation of the offense by the staff member, correspondence with the athlete’s sport coach, and a reminder of the disciplinary action that will result from a third offense.
+  * _Third offense_ : Dismissal from the facility for one week, documentation of the offense by the staff member, correspondence with the athlete’s sport coach, and a reminder of the disciplinary action that will result from a fourth offense.
+  * _Fourth offense_ : Dismissal from the facility for the remainder of the year, documentation of the offense by the staff member, correspondence with the athlete’s sport coach and the athletic director, and a reminder of the disciplinary action that will result from a fifth offense.
+  * _Fifth offense_ : Permanent dismissal from the facility, documentation of the offense by the staff member, and correspondence with the athlete’s sport coach and the athletic director.
+
+### Supplements, Ergogenic Aids, and Banned Substances
+
+Strength and conditioning professionals are commonly approached for nutrition and supplement advice. The strength and conditioning professional is expected to uphold the NSCA Code of Ethics. Standard 9.1 in _Strength and Conditioning Professional Standards and Guidelines_ states:
+
+> Strength and Conditioning professionals must not prescribe, recommend or provide drugs, controlled substances or supplements that are illegal, prohibited or harmful to participants for any purpose including enhancing athletic performance, conditioning or physique. Only those substances that are lawful and have been scientifically proven to be beneficial, or at least not harmful, may be recommended or provided to participants by Strength and Conditioning professionals, and only to individuals age 18 or above.
+
+Rules and regulations may differ between various sport governing bodies (e.g., NCAA, United States Olympic Committee, Major League Baseball, National Basketball Association, National Football League, National Hockey League). It is the responsibility of the strength and conditioning professional to stay up to date and seek out the related rules and regulations, as well as the scientific evidence that supports or refutes the efficacy of nutritional supplements. It is recommended that strength and conditioning professionals consult with a sports nutritionist or dietitian on matters regarding nutritional supplements.
+
+## Staff Policies and Activities
+
+Discussed here are various policies typically established and activities typically observed in a strength and conditioning facility. This information is provided for reference only; each strength and conditioning facility is unique and may have certain characteristics that dictate the specific application of these policies and activities.
+
+### Orientation Meeting
+
+Typically, at the beginning of the school year or sport season, an orientation meeting is held for the athletes and sport coaches before their first use of the strength and conditioning facility. At this meeting the director provides the phone numbers of the facility and staff and explains the services of the staff (goals, objectives, and mission of the program), hours of operation including team training schedule, facility rules and regulations including disciplinary actions, and emergency procedures. Preparticipation and eligibility requirements should be explained. A strength training orientation should cover proper equipment use including spotting techniques when appropriate, correct exercise execution, and common risks associated with incorrect or inattentive exercise technique or spotting.
+
+### Reporting and Documentation
+
+As discussed earlier, proper documentation and record keeping are essential to the management and monitoring of the strength and conditioning programs and facilities. In cases of emergency or incidents of injury, it is important to establish a chain of command for risk management. This may include coaches, the director of strength and conditioning, sports medicine personnel, and the athletics director. Significant efforts should be made to protect the privacy and confidentiality of participants. In compliance with federal regulatory laws such as the Health Insurance Portability and Accountability Act (HIPAA), a participant’s health care information may not be released without written authorization; this includes injury reports provided by the sports medicine staff. An incident–injury report form should be completed and kept on file when an injury has occurred ([19](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref19>)).
+
+Additional records that should be developed and maintained and that are crucial to the operation of the strength and conditioning programs and facilities include the following ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)):
+
+  * Personnel credentials
+  * Professional standards and guidelines
+  * Policies and procedures for operation and safety (written emergency plan)
+  * Equipment user manuals provided by the manufacturer (warranties, operating guidelines, installation, setup)
+  * Equipment and facility maintenance (inspection, maintenance, cleaning, and repair)
+  * Preparticipation medical clearance
+  * Return-to-participation clearance
+  * Protective legal documents such as informed consent, waiver of claim, personal contract
+  * Training logs, evaluation entries, instruction notes
+
+Participants should complete and sign such legal documents at the annual orientation meeting.
+
+### Code of Ethics and Professionalism
+
+A code of ethics comprises the standards and principles for which the professional will be held accountable. Most professional organizations have codes of ethics or codes of conduct that members must agree to adhere to and apply in their professional practices ([17](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref17>)). These codes are intended to establish professionalism and high standards of ethical behavior while protecting the rights and dignity of individuals. Strength and conditioning professionals should become familiar with the NSCA Code of Ethics as well as their institution’s code of ethics and student-athlete code of conduct if applicable. Athlete welfare is generally the primary focus. Bullying, hazing, and social media guidelines may also be addressed. Additionally, consider designating specific policies for appearance or dress code, telephone use, personal workouts, and personal use of company equipment, as well as standards for the coach–athlete, coach–intern, and coach–sport coach relationships and athlete conduct in the weight room ([4](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref4>), [18](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref18>)). These written principles are intended to enhance the strength and conditioning program’s effectiveness while promoting high standards of integrity.
+
+### Instruction and Supervision
+
+A qualified strength and conditioning professional must properly instruct athletes in safe and effective strength and conditioning techniques. Instruction involves teaching an athlete a skill in a safe manner and correcting the athlete if necessary. Emphasizing safety and proper technique for resistance training rather than the amount of weight lifted helps reduce the incidence of injury and therefore liability exposure. Instructional methods, procedures, and progressions that are consistent with professional guidelines and standards should be used ([5](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref5>)).
+
+Furthermore, direct supervision is required to achieve maximum performance, safety, and instruction. Staff members should have the ability to clearly communicate and view both the athlete and the zone being supervised (if not the entire facility). Spotting, in conjunction with the use of appropriate safety equipment, is critical ([19](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref19>)). Staff should effectively communicate with the athlete to ensure safe, proper, and effective spotting when athletes are performing exercises in which free weights are sustained on the trunk or moved over the face and head. Principles of supervision include the following ([5](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref5>)):
+
+  * Always be there.
+  * Be active and hands on.
+  * Be prudent, careful, and prepared.
+  * Be qualified.
+  * Be vigilant.
+  * Inform participants of safety and emergency procedures.
+  * Know participants’ health status.
+  * Monitor and enforce rules and regulations.
+  * Monitor and scrutinize the environment.
+
+Guideline 3.1 in _Strength and Conditioning Professional Standards and Guidelines_ states the following:
+
+> Strength and Conditioning activities should be planned, and the requisite number of qualified staff should be available such that recommended guidelines for minimum average floor space allowed per participant (100 ft2), professional-to-participant ratios (1:10 junior high school, 1:15 high school, 1:20 college), and number of participants per barbell or training station are achieved during peak usage times. (p. 10)
+
+Supervision was cited in an estimated 80% of court cases in which athletic injuries occurred ([5](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref5>)). Inadequate instruction or supervision is often a main cause. All athletes should be constantly supervised, which requires the physical presence of a qualified strength and conditioning professional for overseeing all activities ([12](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref12>), [13](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref13>), [15](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref15>)). To provide proper supervision, supervisor stations need to be located where a clear view of the facility and athletes is possible ([19](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref19>)). Suggested staff-to-athlete ratios should be also be adhered to, but these can vary depending on the type of training. For instance, if a group of athletes is performing a machine circuit training workout, they do not need as much supervision as athletes who are lifting with free weights. Also, athletes with a low training age need more supervision than athletes who are experienced in the weight room.
+
+Regarding the influence of supervision on performance, strength gains are greater in subjects training under lower supervision ratios ([10](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref10>)). Employers and practitioners must understand the importance of staffing for safety and performance gains and, in instances in which optimal ratios are not possible for various reasons, continually work toward a goal of meeting appropriate ratios as soon as is practical.
+
+Strength and conditioning professionals are commonly approached to attend team practices and competitions as well as to travel with the sport teams. They should be encouraged to attend as long as this does not adversely affect the facility’s coach-to-athlete ratio.
+
+The risk of injury cannot be totally eliminated but can be effectively managed by the strength and conditioning professional.
+
+### Program Design
+
+An effective strength and conditioning program should be based on scientific principles to enhance performance and increase injury resistance with intended outcomes specific to the sport ([6](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref6>)). Program intensities should be within NSCA standards and guidelines. Please refer to [chapters 14](<E6372ch14_d91.xhtml>) to [21](<E6372ch21_d98.xhtml>) and the NSCA’s various position papers as resources for strength and conditioning training plan development. The director of strength and conditioning should oversee and monitor all performance training programs, including reconditioning. A copy of all programs designed by staff (i.e., the list of exercises to be performed) should be reviewed and on file in the director’s office before a team begins their program ([18](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref18>)).
+
+### Workout Sheet (Workout Card)
+
+The process of generating a workout sheet is different for each strength and conditioning program. Strength and conditioning activities should be prearranged, and therefore athletes must have an approved workout sheet when training. Additional workouts should be approved by the overseeing strength and conditioning coach to ensure proper intensity and volume-load monitoring. Strength and conditioning staff members must be familiar with every exercise on each athlete’s workout sheet and should not advise an athlete to perform exercises that are not listed on the workout sheet unless this has been suggested by the director or the sports medicine staff, which should be committed to writing as soon as possible after the session. For each exercise that is included on the sport teams’ workout sheets, including plyometric, agility, and speed development drills, the director needs to inform the staff regarding how the exercise technique should be taught to athletes and also provide demonstrations and instruction. For additional supervision, practitioners may consider requiring the athletes’ last set of foundational exercises to be seen by a staff member and checked off for proper execution. Establishing consistent verbiage across performance training programs is recommended.
+
+## Facility Administration
+
+Strength and conditioning facility rules and guidelines are important for providing participants with guidance on conduct and behavior, keeping order, and keeping the program on course toward the goal of providing a safe, clean, and professional training environment. Refer to [figure 24.6](<E6372ch24_d101.xhtml#f24.6>) for a list of common facility rules and guidelines. These should be posted in the training area where they can be easily seen.
+
+**Figure 24.6** A list of rules and policies should be posted in the training area where it can be easily seen.
+
+Facility Rules and Guidelines  
+---  
+  
+  * Prior to participation, athletes must go through a preparticipation screening and clearance procedure ([5](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref5>)).
+  * Prior to participation, all athletes must attend an orientation on common risks involved in resistance training, the proper execution of various exercises, and the possible consequences if proper technique is not used.
+  * Athletes must have a workout sheet, follow it, and record workout contents.
+  * If an athlete has an injury that inhibits a portion of the workout, the athlete must receive a modified program from the athletic medicine department that describes which exercises should be avoided and which ones may be substituted.
+  * Athletes are required to use locks on the ends of all barbells.
+  * No one should squat outside the squat or power rack.
+  * Bumper plates are required on the platforms for all power exercises.
+  * Athletes must not wear weight belts when the belts could contact equipment upholstery.
+  * Athletes should move weights from the racks to the bar only. They should never set plates on the floor or lean them against equipment or walls. Athletes should return dumbbells to the rack in the proper order. Athletes should not drop or throw weights or dumbbells.
+  * Athletes should show respect for equipment and facilities at all times; spitting in or defacing the facility is not tolerated and will result in immediate expulsion.
+  * The weight room requires concentration. Horseplay, loud or offensive language, or temper tantrums are not permitted.
+  * The staff offices and telephones are off limits to athletes unless permission to use them is given.
+  * Athletes should wear proper training attire, particularly shirts and athletic shoes, at all times.
+  * Athletes should use spotters for exercises that place the bar on the back or front shoulders and exercises that involve a bar or dumbbells moving over the face or above the head. Power exercises are not spotted.
+  * Athletes should immediately report any facility-related injury or facility or equipment irregularity to the supervisor on duty.
+  * Tobacco, food, chewing gum, glass bottles, cans, alcohol, drugs, and banned substances are not allowed in the strength and conditioning facility; plastic water bottles are acceptable.
+  * Supervisors are not responsible for users’ personal belongings or lost or stolen items.
+  * Jewelry such as loose necklaces, bracelets, hanging earrings, and watches should not be worn.
+  * Athletes should keep feet off the walls.
+  * Athletes should minimize chalk and powder on the floor.
+  * All guests and visitors must report to the office for signing of the waiver form.
+  * Former athletes must have their programs preapproved by a staff supervisor and must sign a waiver form.
+  * Athletic department personnel can use these facilities for personal workouts if they do not interfere with the needs of the athletes.
+  * Non-athletic department personnel are allowed to use the facilities with permission of the athletic director after signing a waiver form. Recognized users may include athletes, students, guests, staff, faculty with permission, former athletes, family members, and visiting teams.
+  * Equipment leaving the weight room shall be checked out by the supervisor and recorded at the supervisor‘s desk.
+  * The on-duty supervisors have authority over all weight room conduct and use of equipment and may expel an athlete from the facility for failure to follow instructions.
+
+  
+  
+Adapted from Earle 1993 ([7](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref7>)); Epley, _Flight manual_ , 1998 ([8](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref8>)); Epley, _Make the play_ , 1998 ([9](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref9>)).
+
+Understand that the strength and conditioning facility is unique and that it may have certain characteristics that dictate the specific application of policies and activities. Equipment available and size of the facility or team can present the coach with a logistical challenge for scheduling and developing hours of operation. One should consider what workout format will affect the greatest number of athletes when making scheduling decisions. Particularly for small colleges or high schools, the goal is to organize the strength and conditioning program so as to allow the practitioner to work with the maximum number of athletes based on the equipment and time available while under a proper supervision ratio. In any case, the priority of a team’s training time is dependent on the season they are in. In-season teams typically have priority over off-season teams, because often the training schedule revolves around the practice and game schedule. Off-season teams may have to compromise and train early in the morning if the facility cannot accommodate multiple teams at a time.
+
+One potential solution is adopting a Monday-Wednesday-Friday format for off-season teams, which opens the facility to be used by in-season teams on Tuesday and Thursday. If Friday competitions interfere with this organization, a second scenario is scheduling some of the off-season teams on Monday-Tuesday-Thursday and some on Tuesday-Thursday-Friday. This will allow the facility to be used by in-season teams on Monday and Wednesday. Consider scheduling off-season teams during typical afternoon practice times. In-season teams can be scheduled early or late to reduce overcrowding in the facility ([3](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref3>)).
+
+For opening and closing procedures, policies are typically based on the daily operations, inspection, and cleaning of the strength and conditioning facility. Additionally, consider designating specific operating procedures for holidays or for the institution’s academic calendar, stereo or music use, office hours, storage, and staff locker room activities. Again, these written principles are intended to enhance facility efficiency while promoting program effectiveness ([19](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref19>)).
+
+## Emergency Planning and Response
+
+Providing a standard of care is a shared responsibility including, but not limited to, medical personnel, sport coaches, strength and conditioning professionals, administrators, and the institution. Life safety is always the first priority when an emergency occurs. Keep in mind that an emergency, including athletic injuries, can occur anytime and anywhere during activity. Having a written response plan for environmental situations as well as life-threatening and non–life-threatening situations provides a guideline for proper procedures to be followed and practiced in case of an emergency. This emergency action plan is a written document that details the proper procedures for caring for injuries. All personnel in the strength and conditioning facility must know the emergency action plan and the proper procedures for dealing with emergencies.
+
+### Components of an Emergency Action Plan
+
+The following are the typical items included or described in an emergency plan:
+
+  * EMS (emergency medical services) activation procedures
+  * Names and telephone numbers of primary, secondary, and tertiary individuals to contact
+  * Specific address of the strength and conditioning facility (to give directions to EMS)
+  * Locations of the telephones
+  * Locations of nearest exits
+  * Designated personnel qualified to care for injuries (i.e., sports medicine staff)
+  * Ambulance access
+  * Location of emergency supplies and first aid kit
+  * Plan of action in case of fire, tornado, life-threatening injury, crime, terrorism, and so forth
+
+In addition to posting the emergency care plan in a clearly visible location, it is critical that all strength and conditioning professionals maintain current first aid and CPR certification and practice the emergency action plan at least quarterly.
+
+### Emergency Personnel
+
+Working collaboratively, establish a plan that allows for and determines the need for appropriate medical coverage to be in place. The emergency plan should include immediate access to or planned access to a physician for assessment of the circumstance in a timely manner. As a potential first responder, the strength and conditioning professional and any personnel associated with practices, skill instruction, and strength and conditioning should acquire and maintain a professional certification including standard first aid, CPR, and AED ([6](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref6>), [20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)).
+
+### Emergency Communication
+
+Establish a direct line of communication and formulate a backup plan. Immediate communication is crucial to quick delivery of emergency care. Access to a telephone (land line or cellular) is a viable option if medical personnel are not on site. Ensure that participants in the strength and conditioning program and the overseeing supervisors know the location of the closest workable telephone, whether it is inside or outside ([6](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref6>), [20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)).
+
+### Emergency Equipment
+
+Emergency equipment should be readily available in an emergency situation. Maintaining professional certifications for standard first aid, CPR, and AED means that personnel have been trained in advance on proper use. First responders should periodically rehearse. Additionally, emergency information for participants should be readily available for access by medical personnel ([20](<E6372RM_Refs_d104_split_024.xhtml#chapter24-ref20>)).
+
+### Roles Within the Emergency Team
+
+It is recommended that professionals develop an emergency plan specific to their own setting. [Table 24.2](<E6372ch24_d101.xhtml#t24.2>) shows an example of an emergency procedures plan. An emergency plan should list strategies for handling emergency situations and provide names, titles, and telephone numbers of important individuals to contact as part of the emergency team. Each individual may have a different role, but understanding the roles allows the emergency team to function effectively.
+
+![A table depicts the emergency procedures in three scenarios including life-threatening situations, environmental emergencies, and non-life-threatening situations.](images/E6372_508994_ebook.jpg)
+
+Within the emergency team, four principal roles exist. The first is to provide immediate care of the athletes, as time is the most critical factor in emergency situations. The second involves emergency equipment retrieval, as users of the facility should be made aware of the types and locations of emergency equipment before participation. Next is the activation of the emergency medical system (EMS). Again, establish a method for a direct line of communication in cases in which emergency transportation is not already on site. Finally, the individual making the call should have been familiarized with the facility location during the orientation meeting. This will make it easier to direct EMS to the scene. Establish a cleared route and a direct line for transportation for quick entering and exiting of the facility.
+
+## Conclusion
+
+Program goals give a strength and conditioning program direction and purpose, and program objectives help keep the program on task by providing steps toward these goals. Based on these goals and objectives, policies and procedures are developed to guide participant and staff conduct and to ensure a safe training environment. If appropriate documentation regarding the strength and conditioning facility is not properly collected and its equipment is not properly maintained, legal liability for injuries can occur. Claims of negligence may be made if injuries occur and appropriate precautions were not taken. Strength and conditioning professionals have a variety of responsibilities in the day-to-day operation of a strength and conditioning facility, including an awareness of the proper function and repair of all equipment to reduce the possibility of product liability. To provide direction to athletes and the strength and conditioning staff and to minimize the likelihood of litigation, each facility should have its own unique policies and procedures manual, with guidelines included for each topic covered in this chapter.
+
+### Key Terms
+
+  * assumption of risk
+  * breach of duty
+  * damages
+  * duty
+  * emergency action plan
+  * informed consent
+  * liability
+  * litigation
+  * mission statement
+  * negligence
+  * policies
+  * procedures
+  * product liability
+  * program goals
+  * program objectives
+  * proximate cause
+  * risk management
+  * scope of practice
+  * standard of care
+  * statute of limitations
+
+### Study Questions
+
+  1. What is the recommended coach-to-participant ratio during peak weight room usage time in a collegiate setting? 
+     1. 1:10
+     2. 1:15
+     3. 1:20
+     4. 1:25
+  2. Which of the following individuals is responsible for allowing an athlete to begin formal involvement in a strength and conditioning program? 
+     1. athletic director
+     2. athlete’s parent or guardian
+     3. team’s certified athletic trainer 
+     4. strength and conditioning professional
+  3. Proper documentation is essential to the strength and conditioning facility. Which of the following is NOT part of the records that should be kept on file in the strength and conditioning facility? 
+     1. manufacturer’s user’s manual
+     2. participant training logs
+     3. written emergency plan
+     4. medical health history
+  4. The strength and conditioning professional’s knowledge and skill development includes competencies in all of the following EXCEPT 
+     1. exercise and sport science
+     2. administration and management
+     3. finance and appraisal
+     4. teaching and coaching
+  5. Which of the following is NOT a component of an emergency plan? 
+     1. emergency medicine
+     2. emergency communication
+     3. emergency equipment
+     4. emergency personnel
