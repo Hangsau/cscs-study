@@ -7,95 +7,110 @@ last_updated: 2026-06-25
 
 # TG Talos SOP
 
+> **核心概念**：**Talos 主動讀 NSCA 書 + 寫個人摘要 + 出題 + 標記狀態 + commit + push**。**User 不需要自己讀書**。你只要跟 Talos 講「我要開始 chXX」，剩下的 Talos 做。
+>
 > **前提**：`claude-tg-bot`（`~/projects/claude-tg-bot/`）24/7 跑著，bot 是 `@HangTalos_Bot`。手機打開 TG 傳訊息，Claude Code 會在 VM 上跑並回應。
 >
-> **CSCS 複習對 Claude 來說 = 讀 `~/cscs-study/` 下的書 + 寫/更新 yaml + 寫筆記 + commit + push。** 直接用自然語言說要做什麼就行。
+> **書本使用範圍**：
+> - ✅ Talos 讀 `~/cscs-study/by_book/`（合法電子書，個人學習使用）
+> - ✅ Talos 寫個人摘要 / 出題 / 標記（衍生作品，不算侵權）
+> - ❌ 不 push `by_book/` 上 GitHub（書本原文不上 public）
+> - ❌ 不在網站顯示書本原文（content/notes/ 是 Talos 衍生的個人筆記）
 
 ---
 
-## 🚀 自動化工作流（建議主流程）
-
-每次跟 Talos 對話複習一個章節，建議走這個流程 — **Talos 會自己判斷「會 / 不會」並更新狀態**：
+## 🚀 自動化工作流（Talos 主動版）
 
 ```
-步驟 0（user 讀書前）⭐ 新增
-  先讀 ~/cscs-study/by_book/doc_*_chXX_*.md 一個 section
-  → **讀完立刻 free recall**（不用 TG，自己 30 秒用自己的話講）
-  → 卡住的地方記下來 → 之後跟 Talos 重點問
-
 步驟 1（user 開頭）
-  你：「我要開始練 ch07，剛才讀完一個 section 但 X 跟 Y 我卡住」
+  你：「我要開始 ch07」
 
-步驟 2（Talos 出選擇題）
-  Talos：「好，給你 5 題選擇題考 ch07 重點（重點放在你卡的 X 跟 Y）...」
+步驟 2（Talos 自動讀書 + 摘要）
+  Talos 自動：
+  - 讀 ~/cscs-study/by_book/doc_*_ch07_*.md 整章
+  - 寫個人摘要到 content/notes/YYYY-MM-DD-ch07-summary.md
+    （用自己的話講重點，不抄原文 — 這是「理解」的關鍵）
+  - 標 ch07 status: learning
+  - 跑 cscs-mark.py ch07 learning
 
-步驟 3（user 答題）
+步驟 3（Talos 出選擇題）
+  Talos：「我寫完摘要了（連結）。現在出 5 題選擇題考你 ch07 重點...」
+
+步驟 4（user 答題）
   你：「1A 2C 3B 4D 5A」
 
-步驟 4（Talos 自動判斷 + 自我更新）
-  Talos 內部自動做：
+步驟 5（Talos 自動判斷 + 自我更新）
+  Talos 內部自動：
   - 判斷對錯（假設你答對 4/5）
-  - 問你：「ch07 我覺得你可以標記為 mastered（或保持 learning），要標嗎？」
-  - 你說「標 mastered」→ Talos 跑：
-    python3 /home/hangsau/cscs-study/scripts/cscs-mark.py ch07 mastered
-  - 寫一則 notes/YYYY-MM-DD-ch07-first-read.md（個人筆記 + 弱點）
+  - 問你：「ch07 我覺得你可以標記為 mastered，要標嗎？」
+  - 你說「好」→ Talos 跑：
+    python3 scripts/cscs-mark.py ch07 mastered
+  - 寫一則 content/notes/YYYY-MM-DD-ch07-quiz-result.md（你錯的題）
 
-步驟 5（自動 commit + push）
-  Talos 自動問：「要 commit + push 嗎？（站會自動 rebuild）」
+步驟 6（自動 commit + push）
+  Talos 自動問：「要 commit + push 嗎？」
   你說「好」→ Talos 跑：
-    cd /home/hangsau/cscs-study
+    cd ~/cscs-study
     git add data/topics.yaml content/notes/
-    git commit -m "ch07 mastered + 筆記"
+    git commit -m "ch07 mastered + 摘要 + quiz"
     git push origin master   # → https://hangsau.github.io/cscs-study/ ~60s 更新
 
-步驟 6（你下一個對話週期）
-  1 天後 user 再回來跟 Talos 說「我要 review ch07」（spaced repetition 1/3/7/14/30 天節奏）
-  → 這次建議用 **teach back**（講 3 分鐘給 Talos 聽）確認真會
+步驟 7（間隔重複 — 1 天後）
+  Talos 在 daily review 提醒你：「ch07 next_review 到了」
+  → 7 天後建議用 teach back（講 3 分鐘給 Talos 聽）確認真會
 ```
 
-**為什麼 SOP 開頭加 free recall？**
+**為什麼 Talos 主動讀書有效？**
 
-書原文（A Mind for Numbers P4 第 12 章）強調**先 Recite 再 Test**：
-
-> Recite 是「讀完後立刻用自己的話講一遍」— 卡住的地方 = 真正沒懂
-> 書裡說這是**最關鍵**的學習活動（比 practice test 更基礎）
-
-我之前 SOP 只放 practice test 是**簡化**（TG 對話好自動化）。補回 free recall 是**回到書原文推薦順序**。
+- 你不需要自己先讀，**節省時間**
+- Talos 寫的摘要是**自己消化過的**（不是 highlight），所以有用
+- 你讀 Talos 的摘要 → free recall（30 秒用自己的話講）→ 比直接讀書效果好（書第 4 章「能力的錯覺」）
+- 出題是**讓你主動回想**（不是被動讀），最強學習
 
 **Talos 自己判斷「會 / 不會」的依據**：
-- 4-5 題對 → 建議標 `mastered`（user 確認）
-- 2-3 題對 → 標 `learning`（繼續練習）
-- 0-1 題對 → 留 `todo` 或 `learning`，寫錯題 notes
+- 4-5 題對 → 標 `mastered`
+- 2-3 題對 → 標 `learning`
+- 0-1 題對 → 留 `todo` 或 `learning` + 寫錯題 notes
 
 ---
 
 ## 📋 快速指令模板（copy-paste 用）
 
-### 1. 讀 + 寫筆記（開始新 topic）
+### 0. 開始新章節（Talos 自動讀書）⭐ 主推
 
 ```
-我要開始讀 NSCA ch07（年齡性別差異）。
+我要開始 ch07（年齡性別差異與阻力訓練意涵）。
 
 請幫我：
-1. 讀 ~/cscs-study/by_book/doc_df238de65892_ch07_*.md
-2. 用我的話寫一篇個人學習筆記存到 ~/cscs-study/content/notes/2026-MM-DD-ch07-first-read.md
-3. 更新 ~/cscs-study/data/topics.yaml 把 ch07 的 mastery_status 改成 learning
-4. 跑 scripts/cscs-mark.py ch07 learning 確認狀態
+1. 讀 ~/cscs-study/by_book/doc_df238de65892_ch07_*.md 整章
+2. 寫個人摘要到 content/notes/YYYY-MM-DD-ch07-summary.md
+   （用自己的話，不要抄原文）
+3. 標 ch07 status: learning（跑 cscs-mark.py ch07 learning）
+4. 出 5 題選擇題考 ch07 重點
+5. 寫完摘要後給我看連結
 ```
 
-### 2. 讓 Talos 出選擇題
+### 1. 只寫摘要（不跳到練習）
 
 ```
-我要練習 ch03（Bioenergetics）。
+幫我讀 ~/cscs-study/by_book/doc_df238de65892_ch07_*.md
+寫摘要到 content/notes/YYYY-MM-DD-ch07-summary.md
+（用自己的話，3 段以內）
+```
 
-請出 10 題選擇題（4 選 1），考 ATP-PC / 糖酵解 / 有氧三大能量系統時間表。
-每題先給題幹，等我答完再給答案跟詳解。
+### 2. 只出選擇題
+
+```
+我剛讀完 ch03 的摘要（~/cscs-study/content/notes/YYYY-MM-DD-ch03-summary.md）。
+
+請出 10 題選擇題（4 選 1）考 ATP-PC / 糖酵解 / 有氧三大能量系統時間表。
+每題先給題幹，等我答完再給答案 + 詳解。
 ```
 
 ### 3. 標記 topic 為 mastered
 
 ```
-我覺得 ch03 我已經熟了。
+我答完 ch03 的題目了，4/5 對。
 
 請跑：
   python3 /home/hangsau/cscs-study/scripts/cscs-mark.py ch03 mastered
@@ -107,13 +122,13 @@ last_updated: 2026-06-25
 ```
 請跑：
   grep -E "next_review: $(date +%Y-%m-%d)" ~/cscs-study/data/topics.yaml
-列出所有今天到期的 topic，每個給我 3 題關鍵問題測試我自己。
+列出今天到期的 topic，每個給我 3 題關鍵問題。
 ```
 
-### 5. teach back（給 Talos 聽你講解）
+### 5. teach back（7 天後用）
 
 ```
-我要用 teach back 練習 ch17。
+我要用 teach back 練習 ch17（我上次 mastery 是 7 天前）。
 
 我會用 3 分鐘講阻力訓練計畫設計的 SET 原則。
 講完你告訴我哪裡講錯、哪裡缺漏。
@@ -128,11 +143,10 @@ last_updated: 2026-06-25
 我答：[我的答案]
 正解：[正解]
 
-請把這個錯題寫到 ~/cscs-study/content/notes/2026-MM-DD-mistake-ch11.md，
-包含：題目、我的答案、正解、為什麼錯、你幫我分析、這個 topic 我還沒掌握的概念。
+請寫到 content/notes/YYYY-MM-DD-mistake-ch11.md。
 ```
 
-### 7. 跨章節應用題
+### 7. 跨章節應用題（14 天後用）
 
 ```
 請出 3 題變式應用題，套用：
@@ -149,40 +163,22 @@ last_updated: 2026-06-25
 幫我做考前快速回顧：
 1. 跑 cscs-mark.py --dry-run 看哪些不是 mastered
 2. 對每個不是 mastered 的 topic，給我 1 句最關鍵的核心概念要記住
-3. 列成口訣格式方便考前最後掃一眼
+3. 列成口訣格式
 ```
 
 ---
 
 ## 🛠️ helper script：`scripts/cscs-mark.py`
 
-`cscs-mark.py` 是 stdlib only 的 helper，Talos 在對話中跑一行就能更新狀態：
-
 ```bash
-# 標記為 mastered（自動 +review_count + 計算 next_review）
-python3 scripts/cscs-mark.py ch03 mastered
-
-# 標記為 learning
-python3 scripts/cscs-mark.py ch07 learning
-
-# 只 +review_count 不改 status（單純複習過）
-python3 scripts/cscs-mark.py ch15 review
-
-# 預覽不寫檔
-python3 scripts/cscs-mark.py --dry-run ch03 mastered
-
-# 標錯了想重來
-python3 scripts/cscs-mark.py ch03 todo
+python3 scripts/cscs-mark.py ch03 mastered   # 標 mastered
+python3 scripts/cscs-mark.py ch07 learning  # 標 learning
+python3 scripts/cscs-mark.py ch15 review    # 只 +review_count
+python3 scripts/cscs-mark.py --dry-run ch03 mastered  # 預覽
+python3 scripts/cscs-mark.py ch03 todo      # 改回 todo
 ```
 
-**spaced repetition 節奏**：
-| review_count | next_review |
-|--------------|-------------|
-| 1 | +1 天 |
-| 2 | +3 天 |
-| 3 | +7 天 |
-| 4 | +14 天 |
-| 5+ | +30 天 |
+**spaced repetition 節奏**：review 1→+1天 / 2→+3天 / 3→+7天 / 4→+14天 / 5+→+30天
 
 ---
 
@@ -190,28 +186,28 @@ python3 scripts/cscs-mark.py ch03 todo
 
 | 時段 | 動作 | 用哪個 prompt |
 |------|------|--------------|
-| 早上 | 開新 topic | (1) |
-| 下午 | 練習提取 | (2) 或 (7) |
-| 晚上 | 標記進度 + 寫錯題 | (3) + (6) + commit + push |
-| 週末 | 跨章節 + 講解 | (5) + (4) |
-| 考前 | 快速回顧 | (8) |
+| 早上 | 開新 topic（Talos 讀書 + 摘要 + 練習）| (0) |
+| 下午 | 出題練習 | (2) |
+| 晚上 | 標記進度 + commit + push | (3) |
+| 7 天後 | teach back | (5) |
+| 14 天後 | 跨章節應用 | (7) |
+| 30 天後 | 模擬考 | (8) |
 
 ---
 
 ## 注意事項
 
-1. **claude-tg-bot 不會自動 commit / push**（除非你明確說要）— 預設保守行為
-2. **claude-tg-bot 走 bypassPermissions**：可以直接寫檔（小心 token / secrets）
-3. **每次對話建議明確指定檔案路徑**：避免 Claude 寫到別處
+1. **Talos 預設不會自動 commit / push**（除非你明確說要）— 保守行為
+2. **Talos 走 bypassPermissions**：可以直接寫檔（小心 token / secrets）
+3. **每次對話建議明確指定檔案路徑**：避免 Talos 寫到別處
 4. **站 deploy 是 GitHub Actions**：push 後約 60 秒 https://hangsau.github.io/cscs-study/ 自動更新
-5. **書本內容不上 GitHub**：`by_book/` 在 `.gitignore` 排除，data/topics.yaml 的 `source_file` 路徑是本地參考用
+5. **書本內容不上 GitHub**：`by_book/` 在 `.gitignore` 排除，Talos 讀書後只寫「個人摘要」不抄原文
+6. **你不用自己讀書**：Talos 主動讀 + 摘要，你只需要讀摘要 + 答題
 
 ---
 
 ## 未來可加（不急）
 
-- **Slash command 整合**：`/cscs quiz`、`/cscs done`、`/cscs push` — 在 `~/projects/claude-tg-bot/` 加 command handler
-- **背景 watcher**：TG 訊息後 1hr 沒新訊息就自動 commit + push 當天進度
-- **自動錯誤偵測**：Talos 出選擇題時 user 答錯就自動寫錯題 notes（不用 user 指示）
-
-等真的每天用、發現重複輸入的 prompt 多再寫。
+- **Slash command 整合**：`/cscs quiz`、`/cscs done`、`/cscs push`
+- **背景 watcher**：TG 訊息後 1hr 沒新訊息就自動 commit + push
+- **Talos 主動 daily review 提醒**：每天早上 TG 通知「今天該複習什麼」
