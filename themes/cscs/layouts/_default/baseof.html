@@ -10,10 +10,10 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="site-title" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+      <a class="site-title" href="{{ "/" | absURL }}">{{ .Site.Title }}</a>
       <nav class="site-nav">
         {{ range .Site.Menus.main }}
-          <a href="{{ .PageRef | relURL }}" {{ if eq $.RelPermalink (printf "%s/" .PageRef) }}class="active"{{ end }}>{{ .Name }}</a>
+          <a href="{{ .PageRef | absURL }}" {{ if eq $.RelPermalink (printf "%s/" .PageRef) }}class="active"{{ end }}>{{ .Name }}</a>
         {{ end }}
       </nav>
     </div>

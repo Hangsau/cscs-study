@@ -1,6 +1,7 @@
 {{- $cssPath := "css/character.css" | absURL -}}
 {{- $jsPath  := "js/character.js"  | absURL -}}
 <link rel="stylesheet" href="{{ $cssPath }}">
+<script>window.CHAR_BASE = {{ .Site.BaseURL }};</script>
 <div class="character-playground">
   <div class="stage">
     <div class="hills" aria-hidden="true">

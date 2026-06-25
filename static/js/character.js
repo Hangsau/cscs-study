@@ -23,6 +23,10 @@
     smug:      "得意",
   };
 
+  // Base URL injected by the Hugo shortcode (so paths work under any baseURL,
+  // e.g. GitHub Pages subpath /cscs-study/). Falls back to root.
+  const BASE = (typeof window.CHAR_BASE === "string" && window.CHAR_BASE) || "/";
+
   // Which sprite to use for which state
   const IDLE_SPRITE   = "neutral";
   const WALK_SPRITES  = ["neutral", "smug", "neutral", "scared"]; // 2-frame pseudo walk
@@ -65,7 +69,7 @@
   function setSprite(name) {
     if (state.currentExpression === name) return;
     state.currentExpression = name;
-    SPRITE.src = `/img/character/expr_${name}.png`;
+    SPRITE.src = `${BASE}img/character/expr_${name}.png`;
     if (STATUS.expr) STATUS.expr.textContent = LABELS[name] || name;
   }
 
@@ -88,7 +92,7 @@
     const btn = document.createElement("button");
     btn.dataset.expr = name;
     btn.innerHTML = `
-      <img src="/img/character/expr_${name}.png" alt="${name}" loading="lazy">
+      <img src="${BASE}img/character/expr_${name}.png" alt="${name}" loading="lazy">
       <span>${LABELS[name] || name}</span>
     `;
     btn.addEventListener("click", () => setExpression(name));
