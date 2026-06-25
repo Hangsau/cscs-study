@@ -29,7 +29,7 @@
       </thead>
       <tbody>
         {{ range $topics }}
-        <tr class="status-{{ .mastery_status }}">
+        <tr id="{{ .id }}" class="status-{{ .mastery_status }}">
           <td><span class="topic-id">{{ .id | upper }}</span></td>
           <td>
             <strong>{{ .title_zh }}</strong><br>

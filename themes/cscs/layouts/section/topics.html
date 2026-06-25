@@ -26,7 +26,7 @@
           <p><strong>下次複習：</strong>{{ .next_review }}</p>
           {{ with .notes }}<p class="topic-notes">{{ . }}</p>{{ end }}
           {{ with .source_file }}
-            <p class="topic-source"><a href="/{{ . | safeURL }}">→ NSCA 書原始章節 .md</a></p>
+            <p class="topic-source"><small>本地參考：{{ . }}（book/ 路徑不上 GitHub，請本地開啟）</small></p>
           {{ end }}
         </div>
       </article>

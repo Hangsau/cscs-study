@@ -19,10 +19,12 @@ secrets.env
 /tmp/
 /cscs-study/screenshots/
 
-# 不要 track 整個 archive（除非 user 明確要）
-# archive/legacy-hermes-notes/hermes_notes/cscs_study/EXTRACT_FAIL.json 等
-# 但 archive 還是會跟蹤，方便將來回查
-# archive/
+# 書本原文（NSCA Essentials 4th 24 章）— 不 push 到 public GitHub
+# 本地保留作 reference（路徑在 data/topics.yaml 的 source_file 引用）
+by_book/
+
+# 個人私人反思（與 CSCS 無關）— 不 push
+archive/non-cscs-readings/
 
 # Node / npm（備用）
 node_modules/
