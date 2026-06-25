@@ -1,0 +1,267 @@
+/* Character Playground — 2D arcade style */
+
+.character-playground {
+  --sky-top: #1a2a3a;
+  --sky-bottom: #4a5d6e;
+  --ground: #2a2520;
+  --ground-line: #5a4a3a;
+  --accent: #a8c474;
+  --hud-bg: rgba(20, 25, 30, 0.85);
+  --hud-border: rgba(168, 196, 116, 0.4);
+  --text: #e8e8e0;
+  --text-dim: #a0a0a0;
+
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  font-family: system-ui, -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+
+.character-playground * {
+  box-sizing: border-box;
+}
+
+/* Stage / scene */
+.character-playground .stage {
+  position: relative;
+  width: 100%;
+  height: 460px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(180deg, var(--sky-top) 0%, var(--sky-bottom) 65%, #6a5a4a 100%);
+  border: 1px solid var(--hud-border);
+  cursor: crosshair;
+  touch-action: none;
+}
+
+/* Parallax hills (decorative, for 2D arcade feel) */
+.character-playground .hills {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  height: 120px;
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.character-playground .hill {
+  position: absolute;
+  bottom: 0;
+  background: rgba(40, 50, 60, 0.6);
+  border-radius: 50% 50% 0 0;
+}
+
+.character-playground .hill-1 { left: -5%; width: 35%; height: 70px; }
+.character-playground .hill-2 { left: 25%; width: 50%; height: 100px; }
+.character-playground .hill-3 { left: 60%; width: 40%; height: 80px; }
+.character-playground .hill-4 { left: 85%; width: 30%; height: 60px; }
+
+/* Ground */
+.character-playground .ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(180deg, #4a3a2a 0%, var(--ground) 30%, #1a1510 100%);
+  border-top: 2px solid var(--ground-line);
+}
+
+.character-playground .ground::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Character */
+.character-playground .character {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  width: 160px;
+  height: 160px;
+  transform: translateX(-50%);
+  transition: filter 0.15s ease;
+  will-change: left, bottom, transform;
+}
+
+.character-playground .character.flip {
+  transform: translateX(-50%) scaleX(-1);
+}
+
+/* Sprite image inside the character container */
+.character-playground .character .sprite {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.4));
+}
+
+/* Shadow under character */
+.character-playground .character .shadow {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110px;
+  height: 18px;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.5) 0%, transparent 70%);
+  pointer-events: none;
+  transition: transform 0.1s ease, opacity 0.1s ease;
+}
+
+.character-playground .character.jumping .shadow {
+  transform: translateX(-50%) scaleX(0.5);
+  opacity: 0.3;
+}
+
+/* Idle bob animation (when standing still) */
+@keyframes idle-bob {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -3px; }
+}
+
+.character-playground .character.idle .sprite {
+  animation: idle-bob 1.8s ease-in-out infinite;
+}
+
+/* Walk wiggle (when moving) */
+@keyframes walk-wiggle {
+  0%, 100% { rotate: -3deg; }
+  50% { rotate: 3deg; }
+}
+
+.character-playground .character.walking .sprite {
+  animation: walk-wiggle 0.22s linear infinite;
+}
+
+/* Jump squash on landing */
+@keyframes land-squash {
+  0% { scale: 1 0.7; }
+  50% { scale: 1.15 0.85; }
+  100% { scale: 1 1; }
+}
+
+.character-playground .character.landed .sprite {
+  animation: land-squash 0.18s ease-out;
+}
+
+/* Dust particles on land */
+.character-playground .dust {
+  position: absolute;
+  bottom: 80px;
+  width: 8px;
+  height: 8px;
+  background: rgba(180, 160, 130, 0.7);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+@keyframes dust-puff {
+  0% { opacity: 0.8; transform: translate(0, 0) scale(1); }
+  100% { opacity: 0; transform: translate(var(--dx, 30px), -20px) scale(2); }
+}
+
+/* HUD overlay */
+.character-playground .hud {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 8px 12px;
+  background: var(--hud-bg);
+  border: 1px solid var(--hud-border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.5;
+  pointer-events: none;
+}
+
+.character-playground .hud .kbd {
+  display: inline-block;
+  padding: 1px 6px;
+  margin: 0 2px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  font-family: ui-monospace, "SF Mono", Consolas, monospace;
+  font-size: 11px;
+}
+
+/* Expression picker */
+.character-playground .picker {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 8px;
+}
+
+@media (max-width: 720px) {
+  .character-playground .picker {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.character-playground .picker button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 4px;
+  background: rgba(30, 35, 40, 0.6);
+  border: 1px solid rgba(168, 196, 116, 0.2);
+  border-radius: 6px;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 11px;
+  transition: all 0.15s ease;
+}
+
+.character-playground .picker button:hover {
+  background: rgba(50, 60, 70, 0.8);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.character-playground .picker button.active {
+  background: rgba(168, 196, 116, 0.2);
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.character-playground .picker button img {
+  width: 100%;
+  max-width: 56px;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+
+/* Status row */
+.character-playground .status {
+  margin-top: 12px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.character-playground .status span {
+  padding: 4px 8px;
+  background: rgba(30, 35, 40, 0.6);
+  border-radius: 4px;
+}
+
+.character-playground .status span strong {
+  color: var(--accent);
+  font-weight: 600;
+}

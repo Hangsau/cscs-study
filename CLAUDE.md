@@ -61,6 +61,18 @@
 └── reading-reflections/         # （保留為空，舊檔已移走）
 ```
 
+### Playground（互動小遊戲區，2026-06-25 加）
+
+`content/playground/character/_index.md` 是 2D 街機風格互動頁：書裡的綠色毛怪角色（`/home/hangsau/books/art/GPT_V1_expressions.png` 切出的 9 個表情 sprite 放在 `static/img/character/`）變成可在螢幕上跑跳換表情的互動角色。
+
+- 鍵盤：方向鍵 / WASD 移動、空白鍵跳
+- 滑鼠：點角色 = 換下一個表情；9 個表情按鈕可直選
+- 物理：重力 + 落地揚塵 + 翻面 + idle bob / walk wiggle / land squash 動畫
+- 程式：JS 在 `static/js/character.js`、CSS 在 `static/css/character.css`
+- 加 menu：hugo.yaml `menu.main` weight=8「Playground」→ `/playground/character/`
+
+讀書讀到無聊時的小出口。不是嚴肅內容，圖片都是書的素材二次利用。
+
 ## 4. 維護機制
 
 ### 開發（隨時更新網站）

@@ -34,6 +34,9 @@ menu:
     - name: TG SOP
       pageRef: "/tg-sop/"
       weight: 7
+    - name: Playground
+      pageRef: "/playground/character/"
+      weight: 8
 
 markup:
   goldmark:
