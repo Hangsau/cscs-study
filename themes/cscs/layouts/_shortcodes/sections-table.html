@@ -1,0 +1,23 @@
+{{ $index := index .Site.Data.sections "_index" }}
+<table class="topic-table">
+  <thead>
+    <tr>
+      <th>章節</th>
+      <th>Sections</th>
+      <th>標籤</th>
+      <th>Key Points</th>
+      <th>Recall Prompts</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range $cid, $info := $index }}
+    <tr>
+      <td><span class="topic-id">{{ $cid | upper }}</span><br><strong>{{ $info.title_zh }}</strong></td>
+      <td>{{ $info.sections_count }}</td>
+      <td>{{ if $info.has_tags }}✓{{ else }}—{{ end }}</td>
+      <td>{{ if $info.has_key_points }}✓{{ else }}—{{ end }}</td>
+      <td>{{ if $info.has_recall_prompts }}✓{{ else }}—{{ end }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
