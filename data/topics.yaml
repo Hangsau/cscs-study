@@ -47,10 +47,10 @@
   domain_zh: "基礎科學"
   section: F
   priority: 1
-  mastery_status: learning
-  last_review: 2026-06-25
+  mastery_status: todo
+  last_review: null
   next_review: 2026-06-26
-  review_count: 1
+  review_count: 0
   source_file: "by_book/doc_61bb054caf00_ch03_bioenergetics_of_exercise_and_training.md"
   notes: "ATP-PC / 糖酵解 / 有氧三大能量系統時間表必背"
 
