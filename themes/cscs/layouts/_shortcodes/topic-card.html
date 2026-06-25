@@ -1,0 +1,19 @@
+{{ $id := .Get "id" }}
+{{ $topics := where hugo.Data.topics "id" $id }}
+{{ with index $topics 0 }}
+<article class="topic-card status-{{ .mastery_status }}">
+  <header>
+    <span class="topic-id">{{ .id | upper }}</span>
+    <h3>{{ .title_zh }}</h3>
+  </header>
+  <div class="topic-body">
+    <p><strong>Domain：</strong>{{ .domain_zh }}（{{ .section }}） · <strong>優先級：</strong>{{ .priority }}</p>
+    <p><strong>狀態：</strong><span class="status-badge status-{{ .mastery_status }}">{{ .mastery_status }}</span></p>
+    <p><strong>下次複習：</strong>{{ .next_review }} · <strong>已複習：</strong>{{ .review_count }} 次</p>
+    {{ with .notes }}<p class="topic-notes">{{ . }}</p>{{ end }}
+    {{ with .source_file }}
+      <p><a href="/{{ . | safeURL }}">NSCA 書章節原始 .md</a></p>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

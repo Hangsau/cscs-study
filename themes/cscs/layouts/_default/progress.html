@@ -1,0 +1,58 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-meta">{{ . }}</p>{{ end }}
+  </header>
+  <div class="page-content">
+    {{ .Content }}
+
+    {{ $topics := where hugo.Data.topics "id" "ne" nil }}
+    {{ $total := len $topics }}
+    {{ $mastered := len (where $topics "mastery_status" "==" "mastered") }}
+    {{ $learning := len (where $topics "mastery_status" "==" "learning") }}
+    {{ $todo := len (where $topics "mastery_status" "==" "todo") }}
+
+    <h2 id="24-topic-table">24 Topic 狀態表</h2>
+    <div class="table-wrap">
+    <table class="topic-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>章節（中／英）</th>
+          <th>Domain</th>
+          <th>優先級</th>
+          <th>狀態</th>
+          <th>下次複習</th>
+          <th>已複習</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $topics }}
+        <tr class="status-{{ .mastery_status }}">
+          <td><span class="topic-id">{{ .id | upper }}</span></td>
+          <td>
+            <strong>{{ .title_zh }}</strong><br>
+            <small>{{ .title }}</small>
+          </td>
+          <td>{{ .domain_zh }}</td>
+          <td>{{ .priority }}</td>
+          <td><span class="status-badge status-{{ .mastery_status }}">{{ .mastery_status }}</span></td>
+          <td>{{ .next_review }}</td>
+          <td>{{ .review_count }} 次</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    </div>
+
+    <h2 id="status-summary">狀態彙總</h2>
+    <p>
+      總計 {{ $total }} 個 topic，
+      已精通 {{ $mastered }}（{{ if gt $total 0 }}{{ div (mul $mastered 100) $total }}%{{ else }}0%{{ end }}），
+      學習中 {{ $learning }}，
+      待學 {{ $todo }}。
+    </p>
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,56 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-meta">{{ . }}</p>{{ end }}
+  </header>
+  <div class="page-content">
+    {{ .Content }}
+
+    {{ $topics := where hugo.Data.topics "id" "ne" nil }}
+    <h2 id="all-topics">全部 24 個 Topic（卡片視圖）</h2>
+    <p class="muted">每張卡片顯示狀態、domain、優先級、下次複習日。點 ID 連到對應 NSCA 書原始章節。</p>
+
+    <div class="topic-cards-grid">
+      {{ range $topics }}
+      <article class="topic-card status-{{ .mastery_status }}">
+        <header>
+          <span class="topic-id">{{ .id | upper }}</span>
+          <h3>{{ .title_zh }}</h3>
+        </header>
+        <div class="topic-body">
+          <p class="topic-title-en">{{ .title }}</p>
+          <p><strong>Domain：</strong>{{ .domain_zh }}（{{ .section }}）</p>
+          <p><strong>優先級：</strong>{{ .priority }}</p>
+          <p><span class="status-badge status-{{ .mastery_status }}">{{ .mastery_status }}</span> · 複習 {{ .review_count }} 次</p>
+          <p><strong>下次複習：</strong>{{ .next_review }}</p>
+          {{ with .notes }}<p class="topic-notes">{{ . }}</p>{{ end }}
+          {{ with .source_file }}
+            <p class="topic-source"><a href="/{{ . | safeURL }}">→ NSCA 書原始章節 .md</a></p>
+          {{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+
+    <h2 id="by-domain">依 Domain 分組</h2>
+    {{ $domains := slice "foundational" "nutrition" "testing" "technique" "program" "risk" "admin" }}
+    {{ range $domains }}
+      {{ $d := . }}
+      {{ $domain_topics := where hugo.Data.topics "domain" "==" $d }}
+      {{ if gt (len $domain_topics) 0 }}
+        {{ $zh := index (index $domain_topics 0) "domain_zh" }}
+        <h3 class="domain-heading">{{ $zh }}（{{ $d }}） — {{ len $domain_topics }} 章節</h3>
+        <ul class="topic-list">
+          {{ range $domain_topics }}
+          <li>
+            <a href="/progress/#{{ .id }}"><span class="topic-id">{{ .id | upper }}</span> {{ .title_zh }}</a>
+            <span class="status-badge status-{{ .mastery_status }}">{{ .mastery_status }}</span>
+          </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    {{ end }}
+  </div>
+</article>
+{{ end }}

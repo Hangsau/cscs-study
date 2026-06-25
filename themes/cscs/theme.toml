@@ -1,0 +1,11 @@
+name = "cscs"
+license = "MIT"
+description = "Minimal Hugo theme for CSCS Study Hub"
+homepage = ""
+tags = ["study", "personal", "minimal"]
+features = []
+min_version = "0.120.0"
+
+[author]
+  name = "Hang"
+  homepage = ""

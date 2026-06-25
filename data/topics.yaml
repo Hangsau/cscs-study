@@ -1,0 +1,349 @@
+# CSCS 24 Topic 狀態（NSCA Essentials 4th Edition 章節對應）
+# mastery_status: todo / learning / mastered
+# priority: 1=最高（先學）, 2=中, 3=最低（最後）
+# next_review: YYYY-MM-DD，spaced repetition 節奏
+# notes: 個人簡短註記
+#
+# NSCA CSCS 考試兩大 section + 7 domain 對應：
+#   F = Foundational Knowledge (~31%)
+#   A = Apply Science to Training (~30%)
+#   N = Nutrition (~10%)
+#   T = Testing & Evaluation (~10%)
+#   O = Organization & Administration (~10%)
+#   R = Risk Management / Rehab (~5%)
+
+- id: ch01
+  title: "Structure and Function of Body Systems"
+  title_zh: "身體系統結構與功能"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-26
+  review_count: 0
+  source_file: "by_book/doc_18d77155b166_ch01_structure_and_function_of_body_systems.md"
+  notes: "解剖起點：骨骼、肌肉、心肺、神經肌肉接合"
+
+- id: ch02
+  title: "Biomechanics of Resistance Exercise"
+  title_zh: "阻力訓練生物力學"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-26
+  review_count: 0
+  source_file: "by_book/doc_0030f4a9706a_ch02_biomechanics_of_resistance_exercise.md"
+  notes: "槓桿、力矩、向量分析"
+
+- id: ch03
+  title: "Bioenergetics of Exercise and Training"
+  title_zh: "運動與訓練生物能量學"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-26
+  review_count: 0
+  source_file: "by_book/doc_61bb054caf00_ch03_bioenergetics_of_exercise_and_training.md"
+  notes: "ATP-PC / 糖酵解 / 有氧三大能量系統時間表必背"
+
+- id: ch04
+  title: "Endocrine Responses to Resistance Exercise"
+  title_zh: "阻力訓練內分泌反應"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-27
+  review_count: 0
+  source_file: "by_book/doc_8e1a2a7e41d1_ch04_endocrine_responses_to_resistance_exercise.md"
+  notes: "睪固酮、生長激素、皮質醇"
+
+- id: ch05
+  title: "Adaptations to Anaerobic Training Programs"
+  title_zh: "無氧訓練適應"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-27
+  review_count: 0
+  source_file: "by_book/doc_5c219cebd3ec_ch05_adaptations_to_anaerobic_training_programs.md"
+  notes: "肌纖維類型、神經肌肉適應"
+
+- id: ch06
+  title: "Adaptations to Aerobic Endurance Training Programs"
+  title_zh: "有氧耐力訓練適應"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-28
+  review_count: 0
+  source_file: "by_book/doc_f00abd1162d0_ch06_adaptations_to_aerobic_endurance_training_programs.md"
+  notes: "VO2 max、心輸出量、動靜脈氧差"
+
+- id: ch07
+  title: "Age- and Sex-Related Differences and Implications for Resistance Exercise"
+  title_zh: "年齡性別差異與阻力訓練意涵"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-28
+  review_count: 0
+  source_file: "by_book/doc_df238de65892_ch07_age_and_sex-related_differences_and_their_implications_for.md"
+  notes: "青少年、女性、老年人訓練調整"
+
+- id: ch08
+  title: "Psychology of Athletic Preparation and Performance"
+  title_zh: "運動準備與表現心理學"
+  domain: foundational
+  domain_zh: "基礎科學"
+  section: F
+  priority: 3
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-29
+  review_count: 0
+  source_file: "by_book/doc_a7dd07e28e9f_ch08_psychology_of_athletic_preparation_and_performance.md"
+  notes: "動機、目標設定、心理技能"
+
+- id: ch09
+  title: "Basic Nutrition Factors in Health"
+  title_zh: "健康基本營養因素"
+  domain: nutrition
+  domain_zh: "營養"
+  section: N
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-30
+  review_count: 0
+  source_file: "by_book/doc_fbee2852e7fc_ch09_basic_nutrition_factors_in_health.md"
+  notes: "巨量營養素、微量營養素、水分"
+
+- id: ch10
+  title: "Nutrition Strategies for Maximizing Performance"
+  title_zh: "運動表現最大化營養策略"
+  domain: nutrition
+  domain_zh: "營養"
+  section: N
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-06-30
+  review_count: 0
+  source_file: "by_book/doc_3c3154b6e36f_ch10_nutrition_strategies_for_maximizing_performance.md"
+  notes: "賽前/賽中/賽後補給、肌糖原補回"
+
+- id: ch11
+  title: "Performance-Enhancing Substances and Methods"
+  title_zh: "運動表現增強物質與方法"
+  domain: nutrition
+  domain_zh: "營養"
+  section: N
+  priority: 3
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-01
+  review_count: 0
+  source_file: "by_book/doc_db299b03f79a_ch11_performance-enhancing_substances_and_methods.md"
+  notes: "禁藥、WADA 清單、咖啡因、肌酸"
+
+- id: ch12
+  title: "Principles of Test Selection and Administration"
+  title_zh: "測驗選擇與施測原則"
+  domain: testing
+  domain_zh: "測試與評估"
+  section: T
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-01
+  review_count: 0
+  source_file: "by_book/doc_176782fb7f1f_ch12_principles_of_test_selection_and_administration.md"
+  notes: "信度、效度、客觀性"
+
+- id: ch13
+  title: "Administration, Scoring, and Interpretation of Selected Tests"
+  title_zh: "選擇測驗的施測計分與解釋"
+  domain: testing
+  domain_zh: "測試與評估"
+  section: T
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-02
+  review_count: 0
+  source_file: "by_book/doc_3b615d108b5d_ch13_administration_scoring_and_interpretation_of_selected_tests.md"
+  notes: "1RM 測試、垂直跳、YO-YO IR2"
+
+- id: ch14
+  title: "Warm-Up and Flexibility Training"
+  title_zh: "熱身與柔軟度訓練"
+  domain: risk
+  domain_zh: "風險管理"
+  section: R
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-02
+  review_count: 0
+  source_file: "by_book/doc_a239cb516e39_ch14_warm-up_and_flexibility_training.md"
+  notes: "動態熱身、靜態伸展時機"
+
+- id: ch15
+  title: "Exercise Technique for Free Weight and Machine Training"
+  title_zh: "自由重量與機械訓練技術"
+  domain: technique
+  domain_zh: "運動技術"
+  section: A
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-03
+  review_count: 0
+  source_file: "by_book/doc_6bfa7db922c6_ch15_exercise_technique_for_free_weight_and_machine_training.md"
+  notes: "深蹲、硬舉、臥推、划船 — 主項目"
+
+- id: ch16
+  title: "Exercise Technique for Alternative Modes and Nontraditional Implement Training"
+  title_zh: "另類與非傳統器材訓練技術"
+  domain: technique
+  domain_zh: "運動技術"
+  section: A
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-03
+  review_count: 0
+  source_file: "by_book/doc_fddd348a6dd3_ch16_exercise_technique_for_alternative_modes_and_nontraditional.md"
+  notes: "壺鈴、藥球、阻力帶、奧林匹克舉重"
+
+- id: ch17
+  title: "Program Design for Resistance Training"
+  title_zh: "阻力訓練計畫設計"
+  domain: program
+  domain_zh: "計畫設計"
+  section: A
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-04
+  review_count: 0
+  source_file: "by_book/doc_a1a59213f50e_ch17_program_design_for_resistance_training.md"
+  notes: "SET 原則、1RM 百分比、訓練量"
+
+- id: ch18
+  title: "Program Design and Technique for Plyometric Training"
+  title_zh: "增強式訓練計畫設計與技術"
+  domain: program
+  domain_zh: "計畫設計"
+  section: A
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-04
+  review_count: 0
+  source_file: "by_book/doc_9fa3fbe20050_ch18_program_design_and_technique_for_plyometric_training.md"
+  notes: "SSC、落地力學、接觸時間"
+
+- id: ch19
+  title: "Program Design and Technique for Speed and Agility Training"
+  title_zh: "速度與敏捷訓練計畫設計與技術"
+  domain: program
+  domain_zh: "計畫設計"
+  section: A
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-05
+  review_count: 0
+  source_file: "by_book/doc_1b674165be10_ch19_program_design_and_technique_for_speed_and_agility_training.md"
+  notes: "直線衝刺、變向、COD 計畫"
+
+- id: ch20
+  title: "Program Design and Technique for Aerobic Endurance Training"
+  title_zh: "有氧耐力訓練計畫設計與技術"
+  domain: program
+  domain_zh: "計畫設計"
+  section: A
+  priority: 2
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-05
+  review_count: 0
+  source_file: "by_book/doc_12ecedb5c99e_ch20_program_design_and_technique_for_aerobic_endurance_training.md"
+  notes: "Zone 2、間歇、HIIT"
+
+- id: ch21
+  title: "Periodization"
+  title_zh: "週期化訓練"
+  domain: program
+  domain_zh: "計畫設計"
+  section: A
+  priority: 1
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-06
+  review_count: 0
+  source_file: "by_book/doc_95779d1cf448_ch21_periodization.md"
+  notes: "線性/波動/塊狀週期化"
+
+- id: ch22
+  title: "Rehabilitation and Reconditioning"
+  title_zh: "復健與再訓練"
+  domain: risk
+  domain_zh: "風險管理"
+  section: R
+  priority: 3
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-06
+  review_count: 0
+  source_file: "by_book/doc_1dee4f8f830b_ch22_rehabilitation_and_reconditioning.md"
+  notes: "受傷分期、復健階段"
+
+- id: ch23
+  title: "Facility Design, Layout, and Organization"
+  title_zh: "設施設計、布局與組織"
+  domain: admin
+  domain_zh: "組織與行政"
+  section: O
+  priority: 3
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-07
+  review_count: 0
+  source_file: "by_book/doc_2e75ba0c1b90_ch23_facility_design_layout_and_organization.md"
+  notes: "空間規劃、安全動線"
+
+- id: ch24
+  title: "Facility Policies, Procedures, and Legal Issues"
+  title_zh: "設施政策、程序與法律議題"
+  domain: admin
+  domain_zh: "組織與行政"
+  section: O
+  priority: 3
+  mastery_status: todo
+  last_review: null
+  next_review: 2026-07-07
+  review_count: 0
+  source_file: "by_book/doc_90465240ebc0_ch24_facility_policies_procedures_and_legal_issues.md"
+  notes: "免責同意書、緊急程序、保險"

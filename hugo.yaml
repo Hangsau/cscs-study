@@ -1,0 +1,47 @@
+baseURL: "http://localhost:1313/"
+title: "CSCS Study Hub"
+theme: "cscs"
+enableGitInfo: false
+enableRobotsTXT: false
+disableKinds: ["RSS", "sitemap", "taxonomy", "term"]
+
+params:
+  description: "NSCA CSCS 認證備考追蹤 + 學習筆記"
+  author: "Hang"
+  started: "2026-06-25"
+  showReadingTime: true
+
+menu:
+  main:
+    - name: 首頁
+      pageRef: "/"
+      weight: 1
+    - name: 進度儀表板
+      pageRef: "/progress/"
+      weight: 2
+    - name: Topic 清單
+      pageRef: "/topics/"
+      weight: 3
+    - name: 學習筆記
+      pageRef: "/notes/"
+      weight: 4
+    - name: 複習計畫
+      pageRef: "/plan/"
+      weight: 5
+    - name: TG SOP
+      pageRef: "/tg-sop/"
+      weight: 6
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true  # 允許 Hugo shortcode 內 HTML
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+
+outputs:
+  home: ["html"]
+  section: ["html"]
+  taxonomy: ["html"]
+  term: ["html"]

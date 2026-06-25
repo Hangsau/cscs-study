@@ -1,0 +1,31 @@
+# CSCS 整體進度彙總（自動生成用佔位）
+# user 改完 topics.yaml 後跑 hugo server -D 自動重算
+# 此檔保留給未來 hand-rolled 儀表板使用（如不想依賴 build-time）
+
+total_topics: 24
+mastered: 0
+learning: 0
+todo: 24
+percent_complete: 0
+
+last_updated: 2026-06-25
+
+# Domain 進度（由 topics.yaml 自動彙總）
+domain_summary:
+  foundational: {total: 8, mastered: 0, learning: 0, todo: 8}
+  nutrition:    {total: 3, mastered: 0, learning: 0, todo: 3}
+  testing:      {total: 2, mastered: 0, learning: 0, todo: 2}
+  risk:         {total: 2, mastered: 0, learning: 0, todo: 2}
+  technique:    {total: 2, mastered: 0, learning: 0, todo: 2}
+  program:      {total: 5, mastered: 0, learning: 0, todo: 5}
+  admin:        {total: 2, mastered: 0, learning: 0, todo: 2}
+
+# Section 進度（CSCS 兩大 section）
+section_summary:
+  F_foundation: {total: 8, weight_percent: 31}
+  A_apply:      {total: 12, weight_percent: 30}
+  N_nutrition:  {total: 3, weight_percent: 10}
+  T_testing:    {total: 2, weight_percent: 10}
+  O_admin:      {total: 2, weight_percent: 10}
+  R_risk:       {total: 2, weight_percent: 5}
+  total_questions: 200

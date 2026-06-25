@@ -1,0 +1,28 @@
+# Hugo 編譯輸出
+public/
+resources/
+.hugo_build.lock
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Claude / secrets
+.env
+secrets.env
+*.local
+/tmp/
+/cscs-study/screenshots/
+
+# 不要 track 整個 archive（除非 user 明確要）
+# archive/legacy-hermes-notes/hermes_notes/cscs_study/EXTRACT_FAIL.json 等
+# 但 archive 還是會跟蹤，方便將來回查
+# archive/
+
+# Node / npm（備用）
+node_modules/

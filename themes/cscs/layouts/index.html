@@ -1,0 +1,93 @@
+{{ define "main" }}
+{{ $topics := where hugo.Data.topics "id" "ne" nil }}
+{{ $total := len $topics }}
+{{ $mastered := len (where $topics "mastery_status" "==" "mastered") }}
+{{ $learning := len (where $topics "mastery_status" "==" "learning") }}
+{{ $todo := len (where $topics "mastery_status" "==" "todo") }}
+{{ $pct := div (mul $mastered 100) $total }}
+
+<section class="hero">
+  <h1>CSCS 備考進度儀表板</h1>
+  <p class="lead">NSCA Certified Strength and Conditioning Specialist 認證</p>
+</section>
+
+<section class="stats-grid">
+  <div class="stat-card stat-mastered">
+    <div class="stat-number">{{ $mastered }}</div>
+    <div class="stat-label">已精通</div>
+  </div>
+  <div class="stat-card stat-learning">
+    <div class="stat-number">{{ $learning }}</div>
+    <div class="stat-label">學習中</div>
+  </div>
+  <div class="stat-card stat-todo">
+    <div class="stat-number">{{ $todo }}</div>
+    <div class="stat-label">待學</div>
+  </div>
+  <div class="stat-card stat-total">
+    <div class="stat-number">{{ $pct }}%</div>
+    <div class="stat-label">完成率</div>
+  </div>
+</section>
+
+<section class="progress-bar">
+  <div class="progress-segment seg-mastered" style="width: {{ div (mul $mastered 100) $total }}%"></div>
+  <div class="progress-segment seg-learning" style="width: {{ div (mul $learning 100) $total }}%"></div>
+  <div class="progress-segment seg-todo" style="width: {{ div (mul $todo 100) $total }}%"></div>
+</section>
+
+<section>
+  <h2>Domain 進度</h2>
+  {{ $domains := slice "foundational" "nutrition" "testing" "technique" "program" "risk" "admin" }}
+  <div class="domain-grid">
+    {{ range $domains }}
+      {{ $d := . }}
+      {{ $domain_topics := where $topics "domain" "==" $d }}
+      {{ $d_total := len $domain_topics }}
+      {{ $d_mastered := len (where $domain_topics "mastery_status" "==" "mastered") }}
+      {{ $d_learning := len (where $domain_topics "mastery_status" "==" "learning") }}
+      {{ $d_pct := cond (eq $d_total 0) 0 (div (mul $d_mastered 100) $d_total) }}
+      <div class="domain-card">
+        <div class="domain-name">{{ index (index $domain_topics 0) "domain_zh" }}</div>
+        <div class="domain-count">{{ $d_mastered }} / {{ $d_total }}</div>
+        <div class="domain-bar">
+          <div class="domain-fill" style="width: {{ $d_pct }}%"></div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+<section>
+  <h2>今天該複習的 Topic</h2>
+  {{ $today := now.Format "2006-01-02" }}
+  {{ $due := where $topics "next_review" "!=" nil }}
+  {{ $count_due := 0 }}
+  {{ range $due }}
+    {{ if le (string .next_review) $today }}{{ $count_due = add $count_due 1 }}{{ end }}
+  {{ end }}
+  {{ if eq $count_due 0 }}
+    <p class="muted">今天沒有 topic 到期。下次複習請看 <a href="/topics/">topic 清單</a>。</p>
+  {{ else }}
+    <p>{{ $count_due }} 個 topic 到期複習。</p>
+  {{ end }}
+  <ul class="topic-quick">
+    {{ range first 10 (where $topics "mastery_status" "!=" "mastered") }}
+      <li>
+        <a href="/topics/{{ .id }}/">{{ .id | upper }} · {{ .title_zh }}</a>
+        <span class="status-badge status-{{ .mastery_status }}">{{ .mastery_status }}</span>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+
+<section class="cta">
+  <h2>下一步</h2>
+  <ul>
+    <li><a href="/progress/">看完整進度表</a></li>
+    <li><a href="/plan/study-methodology/">複習方法論（基於 A Mind for Numbers）</a></li>
+    <li><a href="/plan/8-week-sprint/">8 週衝刺計畫</a></li>
+    <li><a href="/tg-sop/">用 TG 跟 Talos 對話複習</a></li>
+  </ul>
+</section>
+{{ end }}
