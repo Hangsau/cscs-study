@@ -1,0 +1,218 @@
+# CSCS 章節 sections 清單（追蹤拆解進度）
+# 格式：chapter_id: {title_zh, source_file, sections_count, has_yaml, has_tags, has_key_points, has_recall_prompts}
+
+ch01:
+  title_zh: "身體系統結構與功能"
+  source_file: "doc_18d77155b166_ch01_structure_and_function_of_body_systems.md"
+  sections_count: 8
+  yaml_file: "ch01.yaml"
+  has_tags: true
+  has_key_points: true
+  has_recall_prompts: true
+
+ch02:
+  title_zh: "阻力訓練生物力學"
+  source_file: "doc_0030f4a9706a_ch02_biomechanics_of_resistance_exercise.md"
+  sections_count: 13
+  yaml_file: "ch02.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch03:
+  title_zh: "運動與訓練生物能量學"
+  source_file: "doc_61bb054caf00_ch03_bioenergetics_of_exercise_and_training.md"
+  sections_count: 12
+  yaml_file: "ch03.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch04:
+  title_zh: "阻力訓練內分泌反應"
+  source_file: "doc_8e1a2a7e41d1_ch04_endocrine_responses_to_resistance_exercise.md"
+  sections_count: 14
+  yaml_file: "ch04.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch05:
+  title_zh: "無氧訓練適應"
+  source_file: "doc_5c219cebd3ec_ch05_adaptations_to_anaerobic_training_programs.md"
+  sections_count: 24
+  yaml_file: "ch05.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch06:
+  title_zh: "有氧耐力訓練適應"
+  source_file: "doc_f00abd1162d0_ch06_adaptations_to_aerobic_endurance_training_programs.md"
+  sections_count: 17
+  yaml_file: "ch06.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch07:
+  title_zh: "年齡性別差異與阻力訓練意涵"
+  source_file: "doc_df238de65892_ch07_age_and_sex_related_differences_and_their_implications_for.md"
+  sections_count: 10
+  yaml_file: "ch07.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch08:
+  title_zh: "運動準備與表現心理學"
+  source_file: "doc_a7dd07e28e9f_ch08_psychology_of_athletic_preparation_and_performance.md"
+  sections_count: 16
+  yaml_file: "ch08.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch09:
+  title_zh: "健康基本營養因素"
+  source_file: "doc_fbee2852e7fc_ch09_basic_nutrition_factors_in_health.md"
+  sections_count: 12
+  yaml_file: "ch09.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch10:
+  title_zh: "運動表現最大化營養策略"
+  source_file: "doc_3c3154b6e36f_ch10_nutrition_strategies_for_maximizing_performance.md"
+  sections_count: 6
+  yaml_file: "ch10.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch11:
+  title_zh: "運動表現增強物質與方法"
+  source_file: "doc_db299b03f79a_ch11_performance-enhancing_substances_and_methods.md"
+  sections_count: 17
+  yaml_file: "ch11.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch12:
+  title_zh: "測驗選擇與施測原則"
+  source_file: "doc_176782fb7f1f_ch12_principles_of_test_selection_and_administration.md"
+  sections_count: 12
+  yaml_file: "ch12.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch13:
+  title_zh: "選擇測驗的施測計分與解釋"
+  source_file: "doc_3b615d108b5d_ch13_administration_scoring_and_interpretation_of_selected_tests.md"
+  sections_count: 12
+  yaml_file: "ch13.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch14:
+  title_zh: "熱身與柔軟度訓練"
+  source_file: "doc_a239cb516e39_ch14_warm-up_and_flexibility_training.md"
+  sections_count: 43
+  yaml_file: "ch14.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch15:
+  title_zh: "自由重量與機械訓練技術"
+  source_file: "doc_6bfa7db922c6_ch15_exercise_technique_for_free_weight_and_machine_training.md"
+  sections_count: 42
+  yaml_file: "ch15.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch16:
+  title_zh: "另類與非傳統器材訓練技術"
+  source_file: "doc_fddd348a6dd3_ch16_exercise_technique_for_alternative_modes_and_nontraditional.md"
+  sections_count: 18
+  yaml_file: "ch16.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch17:
+  title_zh: "阻力訓練計畫設計"
+  source_file: "doc_a1a59213f50e_ch17_program_design_for_resistance_training.md"
+  sections_count: 14
+  yaml_file: "ch17.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch18:
+  title_zh: "增強式訓練計畫設計與技術"
+  source_file: "doc_9fa3fbe20050_ch18_program_design_and_technique_for_plyometric_training.md"
+  sections_count: 14
+  yaml_file: "ch18.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch19:
+  title_zh: "速度與敏捷訓練計畫設計與技術"
+  source_file: "doc_1b674165be10_ch19_program_design_and_technique_for_speed_and_agility_training.md"
+  sections_count: 19
+  yaml_file: "ch19.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch20:
+  title_zh: "有氧耐力訓練計畫設計與技術"
+  source_file: "doc_12ecedb5c99e_ch20_program_design_and_technique_for_aerobic_endurance_training.md"
+  sections_count: 11
+  yaml_file: "ch20.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch21:
+  title_zh: "週期化訓練"
+  source_file: "doc_95779d1cf448_ch21_periodization.md"
+  sections_count: 10
+  yaml_file: "ch21.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch22:
+  title_zh: "復健與再訓練"
+  source_file: "doc_1dee4f8f830b_ch22_rehabilitation_and_reconditioning.md"
+  sections_count: 10
+  yaml_file: "ch22.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch23:
+  title_zh: "設施設計、布局與組織"
+  source_file: "doc_2e75ba0c1b90_ch23_facility_design_layout_and_organization.md"
+  sections_count: 7
+  yaml_file: "ch23.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false
+
+ch24:
+  title_zh: "設施政策、程序與法律議題"
+  source_file: "doc_90465240ebc0_ch24_facility_policies_procedures_and_legal_issues.md"
+  sections_count: 15
+  yaml_file: "ch24.yaml"
+  has_tags: false
+  has_key_points: false
+  has_recall_prompts: false

@@ -1,0 +1,581 @@
+# CSCS CH13 sections
+# 從 by_book/ 拆出（split_chapter.py 自動生成）
+# chapter: 選擇測驗的施測計分與解釋
+# source: doc_3b615d108b5d_ch13_administration_scoring_and_interpretation_of_selected_tests.md
+# sections: 12
+
+chapter_id: ch13
+chapter_title_zh: "選擇測驗的施測計分與解釋"
+source_file: "doc_3b615d108b5d_ch13_administration_scoring_and_interpretation_of_selected_tests.md"
+sections:
+  - id: "ch13-maximum-muscular-strength-low-speed-stre"
+    title: "Measuring Parameters of Athletic Performance / Maximum Muscular Strength (Low-Speed Strength)"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      Maximal strength tests usually involve relatively low movement speeds and therefore reflect [low-speed muscular strength](<E6372ch13_d90_split_003.xhtml#iglo19>). In this case, muscular strength is related to the force a muscle or muscle group can exert in one maximal effort while maintaining proper form, and it can be quantified by the maximum weight that can be lifted once (the 1-repetition maximum [1RM]) in exercises such as the bench press or back squat, the maximum force exerted isometrically (against an immovable object) as measured with a transducer, or the maximum force that can be exerted at a particular isokinetic speed ([5](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref5>), [6](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref6>), [31](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref31>), [48](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref48>), [70](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref70>), [71](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref71>), [73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>), [77](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref77>), [90](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref90>)). As 1RM tests do not require expensive equipment and reflect the kind of dynamic ability necessary in sport, they are the maximal strength tests of choice for most strength and conditioning professionals.
+      
+      In general, 1RM tests are administered after the athlete has warmed up by performing a few sets of the test exercise with submaximal loads, beginning with a relatively light load. The first attempt is usually with approximately 50% of the athlete’s estimated 1RM weight. After the athlete has rested enough to feel recovered from the previous attempt (1-5 minutes, depending on the difficulty of the attempt), the strength and conditioning professional increases the weight somewhat, based on the ease with which the previous trial was performed. A skilled strength and conditioning professional should, within three to five attempts following warm-up, be able to find the athlete’s 1RM load to within a few percentage points of the true value.
+
+  - id: "ch13-anaerobic-or-maximum-muscular-power-high"
+    title: "Measuring Parameters of Athletic Performance / Anaerobic or Maximum Muscular Power (High-Speed Strength)"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [High-speed muscular strength](<E6372ch13_d90_split_003.xhtml#iglo16>) or [maximal anaerobic muscular power](<E6372ch13_d90_split_003.xhtml#iglo21>) (or [anaerobic power](<E6372ch13_d90_split_003.xhtml#iglo5>)) is related to the ability of muscle tissue to exert high force while contracting at a high speed. Tests of such strength and power are of very short duration, are performed at maximal movement speeds, and produce very high power outputs. High-speed maximal muscular power tests are often called (maximal) anaerobic power tests. Scores on high-speed muscular strength tests include the 1RM of explosive exercises (e.g., the power clean, snatch, push jerk), the height of a vertical jump, and the time to sprint up a staircase ([45](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref45>), [70](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref70>), [77](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref77>), [90](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref90>), [93](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref93>)). As explosive exercise tests take about 1 second while low-speed maximal strength tests generally require 2 to 4 seconds to complete, phosphocreatine and adenosine triphosphate (ATP) stored in the active muscle(s) are the primary energy sources for both types of tests. Maintaining correct technique or form is also important when measuring anaerobic power for both performance validity and safety reasons.
+      
+      Most maximal muscular strength tests use relatively slow movement speeds and therefore reflect low-speed strength. Assessment of high-speed muscular strength can involve measuring the 1RM of explosive resistance training exercises or the height of a vertical jump.
+      
+      Power output reflects both force and velocity. The height of a jump is a function of the force put into the ground and the velocity at which the athlete leaves the ground. An athlete may not improve in jump height after gaining body weight during a resistance training cycle, making it appear that power output is unchanged. However, because the athlete is heavier and propels the body to the same height, indicating the same takeoff velocity, an increase in power output is evident. This applies to any test in which body weight is manipulated (e.g., running up stairs). Moving a heavier body at the same speed requires a higher power output.
+      
+      An alternative class of anaerobic power tests involves the use of a cycle ergometer. This type of test can be advantageous for the strength and conditioning professional in some injury situations in which running is restricted or when the athlete participates in a non-bodyweight-support sport such as rowing or cycling. The most commonly used test of this type is the Wingate anaerobic test. A field test protocol involves use of a cycle ergometer with mechanical means of adjusting resistance and measuring pedal revolutions and rate (rpm). In a laboratory setting, an electronically instrumented ergometer can simplify parameter measurement and improve accuracy. Typical protocols involve a basic warm-up followed by a 30-second test interval ([27](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref27>)). In this test, resistance is applied quickly after the individual reaches a near-maximal pedaling rate (typically 90 to 110 rpm). The resistance applied is proportional to body weight; the percentage is greater for trained athletes than for individuals with less training. Work performed is determined from the resistance value and number of pedal revolutions. Power is generally calculated as work divided by time for each 5-second time interval during the 30-second test. Parameters typically calculated include peak power, average power, and a fatigue index such as a ratio of maximum to minimum interval power. Norms for cycle ergometer tests are available ([47](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref47>), [73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)).
+
+  - id: "ch13-anaerobic-capacity"
+    title: "Measuring Parameters of Athletic Performance / Anaerobic Capacity"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Anaerobic capacity](<E6372ch13_d90_split_003.xhtml#iglo4>) is the maximal rate of energy production by the combined phosphagen and anaerobic glycolytic energy systems for moderate-duration activities. It is typically quantified as the maximal power output during muscular activity between 30 and 90 seconds using a variety of tests for the upper and lower body ([27](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref27>), [73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>), [90](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref90>), [115](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref115>)), as opposed to maximal anaerobic power tests, which last no longer than a few seconds.
+
+  - id: "ch13-local-muscular-endurance"
+    title: "Measuring Parameters of Athletic Performance / Local Muscular Endurance"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Local muscular endurance](<E6372ch13_d90_split_003.xhtml#iglo18>) is the ability of certain muscles or muscle groups to perform repeated contractions against a submaximal resistance ([11](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref11>), [73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)). A test of local muscular endurance should be performed in a continuous manner for several seconds to several minutes without the advantage of rest periods and without extraneous body movements. Examples include performing a maximal number of repetitions in the chin-up, parallel bar dip, or push-up exercises or a resistance training exercise using a fixed load (e.g., a percentage of an athlete’s 1RM or body weight) ([26](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref26>), [64](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref64>), [70](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref70>), [73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)).
+
+  - id: "ch13-aerobic-capacity"
+    title: "Measuring Parameters of Athletic Performance / Aerobic Capacity"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Aerobic capacity](<E6372ch13_d90_split_003.xhtml#iglo1>), also called [aerobic power](<E6372ch13_d90_split_003.xhtml#iglo2>), is the maximum rate at which an athlete can produce energy through oxidation of energy sources (carbohydrates, fats, and proteins) and is usually expressed as a volume of oxygen consumed per kilogram of body weight per minute (i.e., ml·kg−1·min−1) ([65](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref65>)). Few strength and conditioning professionals have the equipment to measure oxygen consumption directly, so aerobic capacity is generally estimated by performance in aerobic endurance activities such as running 1 mile (1.6 km) or more ([45](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref45>), [79](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref79>), [88](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref88>)). It can also be estimated using other field tests such as the maximal aerobic speed (MAS) test ([60](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref60>)) and the Yo-Yo intermittent recovery test ([9](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref9>), [13](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref13>), [58](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref58>), [59](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref59>)).
+
+  - id: "ch13-agility"
+    title: "Measuring Parameters of Athletic Performance / Agility"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Agility](<E6372ch13_d90_split_003.xhtml#iglo3>) has traditionally been considered the ability to stop, start, and change the direction of the whole body rapidly ([101](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref101>), [108](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref108>)). Agility consists of two main components: speed in changing direction and cognitive factors ([101](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref101>)). More recently the definition of agility has been revised to take into account the perceptual qualities, and it is now considered “a rapid, whole-body, change of direction or speed in response to a sports-specific stimulus” ([101](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref101>), [108](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref108>)). Agility testing is generally confined to physical capacity tests such as change-of-direction speed or cognitive components such as anticipation. Tests such as the T-test, 505 agility, and pro agility test are used to assess change of direction.
+
+  - id: "ch13-speed"
+    title: "Measuring Parameters of Athletic Performance / Speed"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Speed](<E6372ch13_d90_split_003.xhtml#iglo29>) is movement distance per unit time and is typically quantified as the time taken to cover a fixed distance. The time taken to sprint from a stationary start over a short distance such as 10 yards (9.3 m) reflects acceleration, whereas longer sprints such as 40 yards (37.1 m) would measure maximum speed ([126](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref126>)). Tests of speed are not usually conducted over distances greater than 100 m (109.4 yards) because longer distances reflect anaerobic or aerobic capacity more than absolute ability to move the body at maximal speed ([73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>), [90](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref90>), [126](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref126>)).
+      
+      Electronic timing devices are becoming more accessible to strength and conditioning professionals due to increased ease of use and lower prices. However, many tests of speed and agility are administered using hand timing with a stopwatch, which can be a major source of measurement error, especially if the tester is not sufficiently trained. Even under ideal conditions, stopwatch-measured sprint times are up to 0.24 seconds faster than electronically measured times because of the tester’s reaction-time delay in pressing the stopwatch button at the gun and the tendency to anticipate and press the button early as the athlete approaches the finish line ([31](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref31>), [44](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref44>), [91](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref91>)). Therefore strength and conditioning professionals are encouraged to use electronic timing devices for tests of speed and agility when they are available. It is also more informative to measure split times, as this can provide the strength and conditioning professional with insight into the speed and acceleration capacities of the athletes. For example, times for 10 yards (9.1 m), 20 yards (18.3 m), and 40 yards (36.6 m) can be recorded and used to calculate split times and maximal velocity. Finally, tests of speed and agility require proper footwear and a nonslip surface.
+
+  - id: "ch13-flexibility"
+    title: "Measuring Parameters of Athletic Performance / Flexibility"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Flexibility](<E6372ch13_d90_split_003.xhtml#iglo15>) can be defined as the range of motion about a body joint ([11](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref11>)). Typical devices for measuring flexibility include manual and electric goniometers, which measure joint angle, and the sit-and-reach box, which is used to evaluate the combined flexibility of the lower back and hips. Flexibility measurements are more reliable when standardized warm-up and static stretching precede the flexibility assessment. During a flexibility test, the athlete should move slowly into the fully stretched position and hold this position. Ballistic stretching, characterized by bouncing to increase range of motion, cannot be allowed during any flexibility testing ([45](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref45>), [79](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref79>)).
+      
+      A number of physical competency screens are available for strength and conditioning professionals and can be used to assess overall flexibility, mobility, and general movement competency of athletes. However there is no current consensus on which screen to use or a clearly established link between results of screening and injury ([68](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref68>), [84](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref84>)). Good strength and conditioning professionals perform postural and performance screening routinely by viewing the athletes’ performance in training. For example, the overhead squat is a common exercise that is used as a part of movement screens as it is able to assess bilateral mobility of hips, knees, and ankles along with shoulder and thoracic spine ([3](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref3>), [16](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref16>), [93](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref93>)).
+
+  - id: "ch13-balance-and-stability"
+    title: "Measuring Parameters of Athletic Performance / Balance and Stability"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Balance](<E6372ch13_d90_split_003.xhtml#iglo9>) is the ability to maintain static and dynamic equilibrium or the ability to maintain the body’s center of gravity over its base of support ([73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>), [90](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref90>)). [Stability](<E6372ch13_d90_split_003.xhtml#iglo30>) is a measure of the ability to return to a desired position following a disturbance to the system ([73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)). Athletes with poor balance are at a greater risk of lower limb injuries ([52](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref52>), [53](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref53>)). Athletes have also been shown to have greater balance compared to nonathletes ([23](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref23>)). Balance testing can be used to assess stability increases with training and in a number of different ways ([73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)). Commonly used tests include timed static standing tests (eyes closed and standing on one or both legs) ([14](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref14>), [66](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref66>)), balance tests using unstable surfaces ([66](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref66>)), and tests using specialized balance testing equipment (NeuroCom, Biodex Balance System) ([90](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref90>)). These include a large number of tests that can evaluate different aspects of balance and stability ([73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)). The balance error scoring system (BESS) and star excursion balance test (SEBT) have very good reliability and a substantial body of literature supporting their use ([14](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref14>), [41](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref41>), [43](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref43>), [73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>), [83](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref83>), [111](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref111>)).
+
+  - id: "ch13-body-composition"
+    title: "Measuring Parameters of Athletic Performance / Body Composition"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Body composition](<E6372ch13_d90_split_003.xhtml#iglo10>) usually refers to the relative proportions by weight of fat and lean tissue. Although there are sophisticated and expensive devices capable of partitioning the lean component into bone and nonbone lean tissue, the body composition procedures typically performed by strength and conditioning professionals use the basic two-compartment (fat and lean) model. With a trained and competent tester, the skinfold measurement technique is the most valid and reliable (_r_ = 0.99) means for assessing body fatness that is generally available to the strength and conditioning professional and is preferable to body circumference methods ([65](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref65>)), although dual x-ray absorptiometry (DEXA) and underwater (hydrostatic) weighing are often labeled as the “gold standards.” The skinfold method uses calipers that measure the thickness of a double layer of finger-pinched skin and subcutaneous fat. A good skinfold measurement device should squeeze the fold of skin and fat with constant pressure regardless of the amount of tissue being measured ([28](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref28>), [45](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref45>), [88](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref88>)). Circumference methods may be added, as they are relatively quick and simple and can yield important chronic disease risk information. For example, waist circumference can assess abdominal fat, and a high waist circumference is associated with an increased risk for type 2 diabetes, high cholesterol, high blood pressure, and certain types of cardiac disease ([45](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref45>)).
+
+  - id: "ch13-anthropometry"
+    title: "Measuring Parameters of Athletic Performance / Anthropometry"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      [Anthropometry](<E6372ch13_d90_split_003.xhtml#iglo6>), which is the science of measurement applied to the human body, generally includes measurements of height, weight, and selected body girths ([45](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref45>)). Ideally, height should be measured with a stadiometer. If a stadiometer is not available, measurement of height requires a flat wall against which the athlete stands, with a measuring tape attached or unattached to the wall. Height is usually measured without shoes to the nearest quarter-inch or half-centimeter ([73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)).
+      
+      The most accurate body mass or body weight measurement is performed with a certified balance scale, which is generally more reliable than a spring scale and should be calibrated on a regular basis ([73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)). A calibrated electronic scale is an acceptable alternative. Athletes should be weighed while wearing minimal dry clothing (e.g., gym shorts and T-shirt, no shoes). For comparison measurements at a later date, they should dress similarly and be weighed at the same time of day. The most reliable body mass measurements are made in the morning upon rising, after elimination and before ingestion of food or fluids. Level of hydration can result in variability of body mass (weight). Thus, athletes should be encouraged to avoid eating salty food (which increases water retention) the day before weighing and to go to bed normally hydrated.
+      
+      The most reliable girth measurements are usually obtained with the aid of a flexible measuring tape equipped with a spring-loaded attachment at the end that, when pulled out to a specified mark, exerts a fixed amount of tension on the tape. Girth measurements should be made at the beginning of a training period for comparison with subsequent measurements ([45](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref45>), [73](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref73>)).
+
+  - id: "ch13-testing-conditions"
+    title: "Measuring Parameters of Athletic Performance / Testing Conditions"
+    level: 3
+    tags: []
+    key_points:
+    recall_prompts:
+    content: |
+      
+      
+      As discussed in detail in [chapter 12](<E6372ch12_d89.xhtml>), in order to maximize the reliability of tests, it is essential that testing conditions be as similar as possible for all the athletes tested and from test to retest of the same athlete. The environmental conditions should not differ from test to test. For any particular test conducted on the ground, the surface should always be the same and should not be wet for one test and dry for another. Maximum strength tests should use the same type of racks with the supports set at the same height for a given athlete. For jumping tests, the type of equipment used should be consistent.
+      
+      Athletes should never be tested after fatiguing sport activities or workouts. They should arrive for testing normally hydrated and with standard nutrition before commencing the testing. Standardization of testing also includes not taking supplements before performing the test (e.g., creatine monohydrate can enhance performance on some tests) ([119](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref119>)). It is best to perform tests and retests at approximately the same time of day ([92](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref92>)). Warm-up for the tests should be standardized and should include both a general dynamic warm-up such as jogging or light calisthenics and a specific warm-up that involves movements like those required by the test, such as practice of the test at submaximal intensity. Familiarization and practice of the tests to be performed by the athletes are also critical aspects. Stretching is appropriate for any test requiring flexibility.
+      
+      Selected Test Protocols and Scoring Data
+      
+      Maximum Muscular Strength (Low-Speed Strength)
+      
+        * [13.1 1RM Bench Press](<E6372ch13_d90_split_000.xhtml#d0>)
+        * [13.2 1RM Bench Pull](<E6372ch13_d90_split_000.xhtml#d1>)
+        * [13.3 1RM Back Squat](<E6372ch13_d90_split_000.xhtml#d2>)
+      
+      Maximum Muscular Power (High-Speed Strength)
+      
+        * [13.4 1RM Power Clean](<E6372ch13_d90_split_000.xhtml#d3>)
+        * [13.5 Standing Long Jump](<E6372ch13_d90_split_000.xhtml#d4>)
+        * [13.6 Vertical Jump](<E6372ch13_d90_split_000.xhtml#d5>)
+        * [13.7 Static Vertical Jump](<E6372ch13_d90_split_000.xhtml#d6>)
+        * [13.8 Reactive Strength Index](<E6372ch13_d90_split_000.xhtml#d7>)
+        * [13.9 Margaria-Kalamen Test](<E6372ch13_d90_split_000.xhtml#d8>)
+      
+      Anaerobic Capacity
+      
+        * [13.10 300-Yard (274 m) Shuttle](<E6372ch13_d90_split_000.xhtml#d9>)
+      
+      Local Muscular Endurance
+      
+        * [13.11 Partial Curl-Up](<E6372ch13_d90_split_000.xhtml#d10>)
+        * [13.12 Push-Up](<E6372ch13_d90_split_000.xhtml#d11>)
+        * 13.13 [YMCA Bench Press Test](<E6372ch13_d90_split_001.xhtml#d12>)
+      
+      Aerobic Capacity
+      
+        * [13.14 1.5-Mile (2.4 km) Run](<E6372ch13_d90_split_001.xhtml#d13>)
+        * [13.15 12-Minute Run](<E6372ch13_d90_split_001.xhtml#d14>)
+        * [13.16 Yo-Yo Intermittent Recovery Test](<E6372ch13_d90_split_001.xhtml#d15>)
+        * [13.17 Maximal Aerobic Speed Test](<E6372ch13_d90_split_001.xhtml#d16>)
+      
+      Agility
+      
+        * [13.18 T-Test](<E6372ch13_d90_split_001.xhtml#d17>)
+        * [13.19 Hexagon Test](<E6372ch13_d90_split_001.xhtml#d18>)
+        * [13.20 Pro Agility Test](<E6372ch13_d90_split_001.xhtml#d19>)
+        * [13.21 505 Agility Test](<E6372ch13_d90_split_001.xhtml#d20>)
+      
+      Speed
+      
+        * [13.22 Straight-Line Sprint Tests](<E6372ch13_d90_split_001.xhtml#d21>)
+      
+      Balance and Stability
+      
+        * [13.23 Balance Error Scoring System (BESS)](<E6372ch13_d90_split_001.xhtml#d22>)
+        * [13.24 Star Excursion Balance Test (SEBT)](<E6372ch13_d90_split_001.xhtml#d23>)
+      
+      Flexibility
+      
+        * [13.25 Sit-and-Reach Test](<E6372ch13_d90_split_001.xhtml#d24>)
+        * [13.26 Overhead Squat](<E6372ch13_d90_split_001.xhtml#d25>)
+      
+      Body Composition
+      
+        * [13.27 Skinfold Measurements](<E6372ch13_d90_split_002.xhtml#d26>)
+      
+      Anthropometry
+      
+        * [13.28 Girth Measurements](<E6372ch13_d90_split_002.xhtml#d27>)
+      
+      Maximum Muscular Strength (Low-Speed Strength)
+      
+      13.1
+      
+      #### 1RM Bench Press
+      
+      Equipment
+      
+        * A barbell, weight plates, and two safety locks; enough total weight to accommodate the maximum load of the strongest athlete; and a variety of plate sizes to allow for 5-pound (2.5 kg) gradations in weight
+        * A sturdy bench press bench with integral bar rack (preferably of adjustable height)
+      
+      Personnel
+      
+        * One spotter, one recorder
+      
+      Procedure
+      
+        1. Instruct the athlete in proper technique for the flat barbell bench press as described in [chapter 15](<E6372ch15_d92.xhtml>).
+        2. The spotter stands at the head end of the bench throughout the test to help in raising the bar on a failed attempt and to help the athlete place the bar back on the rack.
+        3. As with any maximal strength test, the athlete first does a specific warm-up of 5 to 10 repetitions with a light to moderate load.
+        4. Usually, at least two heavier warm-up sets of two to five repetitions each are completed before the first actual 1RM attempt.
+        5. Generally, it is desirable to measure the 1RM within three to five attempts after the warm-up; otherwise fatigue may detract from the final result.
+        6. A more detailed step-by-step method for the 1RM protocol is shown in [figure 17.1](<E6372ch17_d94.xhtml#f17.1>).
+      
+      _Note_ : Normative and descriptive data for the 1RM bench press are presented in [tables 13.1](<E6372ch13_d90_split_003.xhtml#t13.1>) and [13.4](<E6372ch13_d90_split_003.xhtml#t13.4>) near the end of the chapter.
+      
+      13.2
+      
+      #### 1RM Bench Pull
+      
+      Equipment
+      
+        * A barbell, weight plates, and two safety locks; enough total weight to accommodate the maximum load of the strongest athlete; and a variety of plate sizes to allow for 5-pound (2.5 kg) gradations in weight
+        * A sturdy bench
+      
+      Personnel
+      
+        * One spotter, one recorder
+      
+      Procedure
+      
+        1. Instruct the athlete in proper technique for the bench pull ([figure 13.1](<E6372ch13_d90_split_000.xhtml#f13.1>)).
+        2. The athlete grasps the bar with a closed pronated grip, wider than shoulder-width.
+        3. Bench height is set so the athlete can use a comfortable grip while the weight is off the ground in the hang position.
+        4. The athlete starts the lift from the hang position, and the grip should be consistent from test to test.
+        5. The bar is pulled up toward the lower chest or upper abdomen with the elbows pointed up.
+        6. The head position can remain either down or to the side but must remain in contact with the bench throughout the test.
+        7. A valid repetition is one in which the bar touches the underside of the bench and the bar is lowered in a controlled manner to the hang position with full elbow extension without touching the ground.
+        8. The feet should remain off the ground throughout the test and in the same position throughout.
+        9. A more detailed step-by-step method for the 1RM protocol is shown in [figure 17.1](<E6372ch17_d94.xhtml#f17.1>).
+      
+      _Note_ : Descriptive data for the 1RM bench pull are presented in [table 13.4](<E6372ch13_d90_split_003.xhtml#t13.4>) near the end of the chapter.
+      
+      **Figure 13.1**  _(a)_ Starting position and _(b)_ top position of the bench pull.
+      
+      ![A person lies on their stomach on a bench and lifts a barbell towards their chest with bent elbows.](images/E6372_0757P_3945_ebook.jpg)
+      
+      ![A person lies on their stomach on a bench and holds a barbell with their arms stretched downward.](images/E6372_0757P_3942_ebook.jpg)
+      
+      13.3
+      
+      #### 1RM Back Squat
+      
+      Equipment
+      
+        * A barbell, weight plates, and two safety locks; enough total weight to accommodate the maximum load of the strongest athlete; and a variety of plate sizes to allow for 5-pound (2.5 kg) gradations in weight
+        * A sturdy squat rack with adjustable spotting bars to support the weight of the bar if the athlete is unable to rise (as an alternative, one spotter can be used at each end of the bar)
+        * A flat and solid surface to stand on
+      
+      Personnel
+      
+        * Two spotters, one recorder
+      
+      Procedure
+      
+        1. Instruct the athlete in proper technique for the back squat as described in [chapter 15](<E6372ch15_d92.xhtml>).
+        2. Warm-up sets are performed as for the 1RM bench press test. However, the loads lifted are typically heavier than in the 1RM bench press test, so the load increments will be greater than those of the 1RM bench press.
+        3. Refer to [figure 17.1](<E6372ch17_d94.xhtml#f17.1>) for a 1RM testing protocol.
+      
+      _Note_ : Normative and descriptive data for the 1RM back squat are presented in [tables 13.1](<E6372ch13_d90_split_003.xhtml#t13.1>) through [13.4](<E6372ch13_d90_split_003.xhtml#t13.4>) near the end of the chapter.
+      
+      Maximum Muscular Power (High-Speed Strength)
+      
+      13.4
+      
+      #### 1RM Power Clean
+      
+      _Note_ : Because the power clean exercise has high technical demands, two athletes with the same muscular power capacity can differ greatly in their tested 1RM, lessening the value of the test for predicting athletic performance.
+      
+      Equipment
+      
+        * An Olympic-style barbell with a revolving sleeve, weight plates, and two safety locks; enough total weight to accommodate the maximum load of the strongest athlete; and a variety of plate sizes to allow for 5-pound (2.5 kg) gradations in weight
+        * A lifting platform or designated area set apart from the rest of the facility for safety
+      
+      Personnel
+      
+        * One tester/recorder
+      
+      Procedure
+      
+        1. Instruct the athlete in proper technique for the power clean as described in [chapter 15](<E6372ch15_d92.xhtml>).
+        2. Warm-up sets are performed and load increments are selected as for the 1RM bench press test.
+        3. Refer to [figure 17.1](<E6372ch17_d94.xhtml#f17.1>) for a 1RM testing protocol.
+      
+      _Note_ : Normative and descriptive data for the 1RM power clean are presented in [tables 13.1](<E6372ch13_d90_split_003.xhtml#t13.1>) through [13.4](<E6372ch13_d90_split_003.xhtml#t13.4>) near the end of the chapter.
+      
+      13.5
+      
+      #### Standing Long Jump
+      
+      Equipment
+      
+        * A flat jumping area at least 20 feet (6 m) in length, which can be a gym floor, artificial turf, grass field, or a track
+        * A tape measure at least 10 feet (3 m) long
+        * Duct tape or masking tape
+        * Permissible alternative: a commercial jumping mat premarked in half-inch (1 cm) increments
+      
+      Personnel
+      
+        * One distance judge, one recorder
+      
+      Procedure
+      
+        1. Place a 2- to 3-foot (0.6-0.9 m) length of tape on the floor to serve as a starting line.
+        2. The athlete stands with the toes just behind the starting line.
+        3. The athlete performs a countermovement and jumps forward as far as possible.
+        4. The athlete must land on the feet for the jump to be scored. Otherwise the trial is repeated.
+        5. A marker is placed at the back edge of the athlete’s rearmost heel, and the tape measure determines the distance between the starting line and the mark.
+        6. The best of three trials is recorded to the nearest 0.5 inches or 1 cm.
+      
+      _Note_ : Normative and descriptive data for the standing long jump are presented in [tables 13.5](<E6372ch13_d90_split_003.xhtml#t13.5>) to [13.7](<E6372ch13_d90_split_003.xhtml#t13.7>) near the end of the chapter.
+      
+      13.6
+      
+      #### Vertical Jump
+      
+      Equipment
+      
+        * A smooth wall with a ceiling higher than the highest jumper’s jump height
+        * A flat floor with good traction
+        * Chalk of a different color than the wall
+        * Measuring tape or stick
+        * Permissible alternative: a commercial device for vertical jump testing (e.g., Vertec)
+      
+      Personnel
+      
+        * One tester/recorder
+      
+      Procedure (Using a Wall and Chalk)
+      
+        1. The tester rubs chalk on the fingertips of the athlete’s dominant hand.
+        2. The athlete stands with the dominant shoulder about 6 inches (15 cm) from the wall and, with both feet flat on the floor, reaches as high as possible with the dominant hand and makes a chalk mark on the wall.
+        3. The athlete then lowers the dominant hand and, without a preparatory or stutter step, performs a countermovement by quickly flexing the knees and hips, moving the trunk forward and downward, and swinging the arms backward ([figure 13.2 _a_](<E6372ch13_d90_split_000.xhtml#f13.2>)). During the jump, the dominant arm reaches upward while the nondominant arm moves downward relative to the body.
+        4. At the highest point in the jump, the athlete places a second chalk mark on the wall with the fingers of the dominant hand, using a swiping motion of the fingers. The score is the vertical distance between the two chalk marks.
+        5. The best of three trials is recorded to the nearest 0.5 inches or 1.0 cm.
+      
+      Procedure (Using a Commercial Vertec Device)
+      
+        1. The tester adjusts the height of the stack of movable color-coded horizontal plastic vanes to be within the athlete’s standing reach height. The highest vane that can be reached and pushed forward with the dominant hand while the athlete stands flat-footed determines the standing touch height.
+        2. The vane stack is then raised by a measured distance (marked on the shaft holding the vanes) so that the athlete will not jump higher or lower than the set of vanes. This requires a rough estimate of how high the particular athlete will jump, but a correction can be made on the second attempt if necessary.
+        3. Without a preparatory or stutter step, the athlete performs a countermovement by quickly flexing the knees and hips, moving the trunk forward and downward, and swinging the arms backward ([figure 13.2 _a_](<E6372ch13_d90_split_000.xhtml#f13.2>)). During the jump, the dominant arm reaches upward while the nondominant arm moves downward relative to the body.
+        4. At the highest point in the jump, the athlete taps the highest possible vane with the fingers of the dominant hand ([figure 13.2 _b_](<E6372ch13_d90_split_000.xhtml#f13.2>)). The score is the vertical distance between the height of the highest vane tapped during the standing vertical reach and the vane tapped at the highest point of the jump.
+        5. The best of three trials is recorded to the nearest 0.5 inches or 1 cm (the distance between adjacent vanes).
+      
+      _Note_ : Descriptive data for the vertical jump are presented in [table 13.7](<E6372ch13_d90_split_003.xhtml#t13.7>) near the end of the chapter.
+      
+      **Figure 13.2**  _(a)_ Starting position and _(b)_ maximum height of the vertical jump.
+      
+      ![A tester holds a commercial vertec device in place with their foot, while an athlete bends their knees and prepares to jump.](images/E6372_0069P_2HK3406_ebook.jpg)
+      
+      ![A tester holds a commercial vertec device in place with their foot, while an athlete leaps and touches a marking on the device.](images/E6372_0069P_2HK3407_ebook.jpg)
+      
+      13.7
+      
+      #### Static Vertical Jump
+      
+      Procedure (Using a Contact Mat System)
+      
+        1. The test procedures are essentially the same as for the vertical jump, except that the countermovement is removed. Begin with the athlete standing on the mat (or force plate). _(Note:_ The vertical jump with countermovement can also be tested using a contact mat system.)
+        2. The athlete descends into a squat position (knee angle approximately 110°) and holds this position for 2 to 3 seconds before jumping vertically ([figure 13.3](<E6372ch13_d90_split_000.xhtml#f13.3>)).
+        3. From the measuring device, obtain the jump height.
+        4. The takeoff and landing positions, as well as jumping strategy, should be the same for each trial.
+        5. The best of three trials is recorded. The ratio of the vertical jump height with countermovement to squat jump height can be calculated as the eccentric utilization ratio ([69](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref69>)).
+      
+      _Note_ : Descriptive data for the static vertical jump are presented in [table 13.7](<E6372ch13_d90_split_003.xhtml#t13.7>) near the end of the chapter.
+      
+      **Figure 13.3**  _(a)_ Starting position and _(b)_ maximum height of the static vertical jump.
+      
+      ![A tester holds a measuring device and watches an athlete squatting on a mat with their hands on their hips.](images/E6372_0757P_5147_ebook.jpg)
+      
+      ![A tester holds a measuring device and watches an athlete leap in the air.](images/E6372_0757P_5145_ebook.jpg)
+      
+      13.8
+      
+      #### Reactive Strength Index
+      
+      Equipment
+      
+        * Boxes of varying heights—for example, 20 cm (7.9 inches), 30 cm (11.8 inches), and 40 cm (15.7 inches)
+        * A commercial device able to measure contact time—for example, a jump or contact mat (contact mat systems calculate jump height using flight time ([37](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref37>), [62](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref62>), [122](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref122>))
+      
+      Personnel
+      
+        * One tester/recorder
+      
+      Procedure
+      
+        1. Begin with the athlete standing on top of the drop box with the contact mat placed at least 0.2 m in front of the box.
+        2. Instruct the athlete to place hands on hips, to step forward off the box without stepping down or jumping up, and, upon contact with the ground, to jump as high as possible while minimizing contact time as much as possible ([figure 13.4](<E6372ch13_d90_split_000.xhtml#f13.4>)).
+        3. The takeoff and landing positions, as well as jumping strategy, should be the same for each trial.
+        4. From the measuring device, obtain the jump height and contact times.
+        5. The best of three trials is recorded.
+        6. Calculate the reactive strength index as jump height divided by contact time.
+        7. The procedure can be repeated from boxes of varying heights to obtain a stretch tolerance profile for the athlete.
+      
+      **Figure 13.4**  _(a)_ Starting position, _(b)_ contact on mat, and _(c)_ maximum height of the drop jump test to measure reactive strength index.
+      
+      ![A tester holds a measuring device and watches an athlete stepping from a jump box with their hand on their hips.](images/E6372_0757P_5126_ebook.jpg)
+      
+      ![A tester holds a measuring device and watches an athlete squatting on a mat with their hands on their hips.](images/E6372_0757P_5129_ebook.jpg)
+      
+      ![A tester holds a measuring device and watches an athlete leap in the air.](images/E6372_0757P_5125_ebook.jpg)
+      
+      13.9
+      
+      #### Margaria-Kalamen Test
+      
+      Equipment
+      
+        * Staircase with nine or more steps, each approximately 7 inches (18 cm) high, and a straight and flat lead-up area 20 feet (6 m) or more in length ([figure 13.5](<E6372ch13_d90_split_000.xhtml#f13.5>))
+        * Measuring tape or stick
+        * An electronic timing system with both a start and a stop switch mechanism
+        * Scale
+      
+      Personnel
+      
+        * One tester/recorder
+      
+      Procedure
+      
+        1. The height of each step is measured with a ruler or tape measure, and the elevation from the third step to the ninth step is calculated (6 × step height).
+        2. The timer start switch mechanism is placed on the third step, and the stop switch mechanism is placed on the ninth step.
+        3. The athlete to be tested is weighed on a scale, warms up, and practices running up the stairs three steps at a time.
+        4. When ready, the athlete sprints toward the stairs from a standing start 20 feet (6 m) from the base of the stairs and then up the staircase three steps at a time (third step to sixth step to ninth step) as fast as possible.
+        5. The time from third- to ninth-step contact is determined to the nearest 0.01 seconds using the timing system.
+        6. Power in watts is calculated as the athlete’s weight _(w)_ in newtons (pounds × 4.45 or kg × 9.807) times height _(h)_ in meters (inches × 0.0254) from the third step to the ninth step divided by the measured time interval _(t)_ in seconds; _P_ (watts) = _(w_ × _h)_ / _t._
+        7. Repeat the test two more times with a 2- to 3-minute recovery period between each trial.
+      
+      _Note_ : Normative data for the Margaria-Kalamen test are presented in [table 13.8](<E6372ch13_d90_split_003.xhtml#t13.8>) near the end of the chapter.
+      
+      **Figure 13.5** Margaria-Kalamen stair sprint test.
+      
+      ![An illustration of Margaria-Kalamen stair sprint test.](images/E6372_508159_ebook.jpg)
+      
+      [Follow for extended description](<Ext_desc_E6372_508159_ebook.xhtml#l_E6372_508159_ebook>)
+      
+      From E. Fox, R. Bowers, and M. Foss, 1993, _The physiological basis for exercise and sport,_ 5th ed. (Dubuque, IA: Wm. C. Brown), 675. Reprinted with permission of McGraw-Hill companies.
+      
+      Anaerobic Capacity
+      
+      13.10
+      
+      #### 300-Yard (274 m) Shuttle
+      
+      Equipment
+      
+        * A stopwatch with at least 0.1-second resolution
+        * Two parallel lines 25 yards (22.86 m) apart on a flat surface ([figure 13.6](<E6372ch13_d90_split_000.xhtml#f13.6>))
+      
+      Personnel
+      
+        * One timer, two line judges
+      
+      Procedure
+      
+        1. Pair off athletes of similar ability.
+        2. Position two athletes immediately behind one line, facing the other line.
+        3. On an auditory signal, the athletes sprint to the line 25 yards (22.86 m) away, making foot contact with it, then immediately sprint back to the first line. Six such round trips are made as fast as possible without stopping (6 × 50 yards = 300 yards, or 274 m).
+        4. On completion of the first trial, record both athletes’ times to the nearest 0.1 seconds and start a clock to time a 5-minute rest interval. As each pair of athletes completes the first trial, they may walk and stretch but must stay alert for the starting time on the second trial.
+        5. After the rest period, the pair of athletes does another trial.
+        6. The average of two trials is recorded to the nearest 0.1 second.
+      
+      _Note_ : Descriptive data for the 300-yard (274 m) shuttle are presented in [table 13.9](<E6372ch13_d90_split_003.xhtml#t13.9>) near the end of the chapter.
+      
+      **Figure 13.6** Ground layout for the 300-yard (274 m) shuttle.
+      
+      ![An illustration of the ground layout for the 300-yard shuttle.](images/E6372_508160_ebook.jpg)
+      
+      [Follow for extended description](<Ext_desc_E6372_508160_ebook.xhtml#l_E6372_508160_ebook>)
+      
+      Adapted, by permission, from Gilliam, 1983 ([38](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref38>)).
+      
+      Local Muscular Endurance
+      
+      13.11
+      
+      #### Partial Curl-Up
+      
+      The partial curl-up test measures the muscular endurance of the abdominal muscles. It is favored over the sit-up test because it eliminates the use of the hip flexor muscles.
+      
+      Equipment
+      
+        * Metronome
+        * Ruler
+        * Masking tape
+        * Mat
+      
+      Personnel
+      
+        * One recorder/technique judge
+      
+      Procedure
+      
+        1. The athlete assumes a supine position on a mat with a 90° knee angle ([figure 13.7 _a_](<E6372ch13_d90_split_000.xhtml#f13.7>)). The arms are at the sides, resting on the floor, with the fingers touching a 4-inch-long (10 cm) piece of masking tape positioned perpendicular to the fingers. A second piece of masking tape is situated parallel to the first tape at a distance determined by the age of the athlete (4.7 inches [12 cm] for those younger than 45 and 3.1 inches [8 cm] for those 45 or older).
+        2. Set a metronome to 40 beats per minute and have the individual do slow, controlled curl-ups to lift the shoulder blades off the mat (trunk makes a 30° angle with the mat; [figure 13.7 _b_](<E6372ch13_d90_split_000.xhtml#f13.7>)) in time with the metronome (20 curl-ups per minute). The upper back must touch the floor before each curl-up. The athlete should avoid flexing the neck to bring the chin close to the chest.
+        3. The athlete performs as many curl-ups as possible without pausing, to a maximum of 75.
+      
+      _Note_ : Normative data for the partial curl-up are presented in [table 13.10](<E6372ch13_d90_split_003.xhtml#t13.10>) near the end of the chapter.
+      
+      **Figure 13.7** Curl-up: _(a)_ beginning position and _(b)_ end position.
+      
+      ![An athlete lies on their back on a mat with their knees bent and their arms stretched along their sides.](images/E6372_0757P_3979_ebook.jpg)
+      
+      ![An athlete lies on their back on a mat with their knees bent and their arms stretched along their sides. They raise their head and upper back.](images/E6372_0757P_3980_ebook.jpg)
+      
+      13.12
+      
+      #### Push-Up
+      
+      Equipment
+      
+        * A 4-inch (10 cm)-diameter foam roller (for female athletes)
+      
+      Personnel
+      
+        * One recorder/technique judge
+      
+      Procedure
+      
+        1. For both the Army and American College of Sports Medicine (ACSM) standards, men assume the standard push-up starting position with hands shoulder-width apart and elbows and body straight ([figure 13.8 _a_](<E6372ch13_d90_split_000.xhtml#f13.8>)). For the Army standards, women assume the same position as the men. For the ACSM standards, women start similarly except that the knees rather than the feet contact the ground, with the knees flexed at 90° and the ankles crossed ([figure 13.9 _a_](<E6372ch13_d90_split_000.xhtml#f13.9>)).
+        2. For the Army standards, the push-up low position is when the upper arms are parallel to the ground ([figure 13.8 _b_](<E6372ch13_d90_split_000.xhtml#f13.8>)). For the ACSM standards, the low position for males is when the chest makes contact with the recorder’s fist held vertically against the ground. There is no standard criterion for the female low position ([30](<E6372RM_Refs_d104_split_013.xhtml#chapter13-ref30>)), but it has been suggested that females make torso contact with a foam roller on the ground rather than a fist ([figure 13.9 _b_](<E6372ch13_d90_split_000.xhtml#f13.9>)). For either standard, repetitions that do not achieve the required low position are not counted.
+        3. For the Army standard, as many repetitions as possible are done within a timed 2-minute period. The athlete may pause only in the up position. For the ACSM standard, as many repetitions as possible are done continuously until failure.
+      
+      _Note_ : ACSM normative data for the push-up are presented in [table 13.11](<E6372ch13_d90_split_003.xhtml#t13.11>) near the end of the chapter. Army push-up point scores are shown in [table 13.12](<E6372ch13_d90_split_003.xhtml#t13.12>).
+      
+      **Figure 13.8** Push-up according to Army standard: _(a)_ beginning position and _(b)_ end position.
+      
+      ![A male athlete is on an exercise mat and supports themselves on their toes and hands that are shoulder-width apart. Their arms are stretched.](images/E6372_0757P_4011_ebook.jpg)
+      
+      ![A male athlete is on an exercise mat and supports themselves on their toes and hands that are shoulder-width apart. Their arms are bent at the elbows.](images/E6372_0757P_4013_ebook.jpg)
+      
+      **Figure 13.9** Push-up according to ACSM standard for females: _(a)_ beginning position and _(b)_ end position.
+      
+      ![A female athlete is on their knees on an exercise mat. Their ankles are crossed, their hands are shoulder-width apart, and their arms are stretched.](images/E6372_0757P_3987_ebook.jpg)
+      
+      ![A female athlete is on their knees on an exercise mat. Their ankles are crossed, their hands are shoulder-width apart, and their arms are bent at the elbows.](images/E6372_0757P_3988_ebook.jpg)
+      
+      13.13
