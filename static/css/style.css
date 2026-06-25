@@ -164,6 +164,43 @@ a:hover { border-bottom-color: var(--color-accent); }
   font-style: italic;
   margin: 0 0 calc(var(--baseline) * 1) 0;
 }
+
+/* Notes Grid */
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: calc(var(--baseline) * 2);
+  margin: calc(var(--baseline) * 3) 0;
+}
+.note-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  padding: calc(var(--baseline) * 2.5);
+}
+.note-card header {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--baseline) * 1);
+  margin-bottom: calc(var(--baseline) * 1.5);
+  flex-wrap: wrap;
+}
+.note-date {
+  font-family: var(--font-mono);
+  background: var(--color-border);
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.85rem;
+}
+.note-takeaway {
+  background: #fdf9e8;
+  border-left: 3px solid var(--color-learning);
+  padding: calc(var(--baseline) * 1) calc(var(--baseline) * 1.5);
+  margin: calc(var(--baseline) * 1) 0;
+  font-size: 0.95rem;
+}
+.note-card h3 { margin: 0 0 calc(var(--baseline) * 1) 0; font-size: 1.2rem; }
+.note-card h3 a { color: var(--color-text); border: none; }
+.note-card h3 a:hover { color: var(--color-accent); border-bottom: 1px solid var(--color-accent); }
 .topic-list { list-style: none; padding: 0; }
 .topic-list li { padding: calc(var(--baseline) * 1) 0; border-bottom: 1px solid var(--color-border); display: flex; align-items: center; gap: calc(var(--baseline) * 1.5); justify-content: space-between; }
 .domain-heading { margin-top: calc(var(--baseline) * 5); font-size: 1.3rem; border-left: 4px solid var(--color-accent); padding-left: calc(var(--baseline) * 1.5); }

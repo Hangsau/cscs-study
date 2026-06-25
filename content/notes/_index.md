@@ -8,9 +8,5 @@ description: 時間序列個人學習筆記
 ## 寫筆記的 SOP
 
 1. **檔名**：`YYYY-MM-DD-一句話標題.md`（例：`2026-06-25-anatomy-basics-start.md`）
-2. **frontmatter**：date / topic / status / takeaway 三段
-3. **內容**：自己的話講一遍剛學的、卡在哪、不熟什麼
-
-## 最近筆記
-
-（依日期排序）
+2. **frontmatter**：`date / topic / status / takeaway`
+3. **內容**：用自己的話講剛學的、卡在哪、不熟什麼

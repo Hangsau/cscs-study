@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{ $topics := where hugo.Data.topics "id" "ne" nil }}
+{{ $status := .Section }}
+{{ $filtered := where $topics "mastery_status" "==" $status }}
+{{ $total := len $topics }}
+{{ $count := len $filtered }}
+{{ $pct := cond (eq $total 0) 0 (div (mul $count 100) $total) }}
+
+<article class="page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-meta">{{ . }}</p>{{ end }}
+  </header>
+  <div class="page-content">
+    {{ .Content }}
+
+    {{ if eq $count 0 }}
+    <div class="empty-state">
+      <p>📋 還沒有 {{ $status }} 的章節。</p>
+      {{ if eq $status "mastered" }}
+        <p>當你跟 Talos 對話複習一個章節並通過 quiz（≥80% 答對率），Talos 會自動跑 <code>cscs-mark.py chXX mastered</code> 把 status 改成 mastered。</p>
+      {{ else if eq $status "learning" }}
+        <p>當你開始讀一個章節（status 改為 learning），就會列在這。</p>
+      {{ else }}
+        <p>24 章全部從 todo 開始。當你跟 Talos 說「我要開始 chXX」，就會移出這。</p>
+      {{ end }}
+      <p>可以從 <a href="/progress/">進度儀表板</a> 或 <a href="/topics/">Topic 清單</a> 看全部 24 章。</p>
+    </div>
+    {{ else }}
+
+    <h2 id="summary">{{ $status }} 的章節（{{ $count }} / {{ $total }} = {{ $pct }}%）</h2>
+
+    <div class="topic-cards-grid">
+      {{ range $filtered }}
+      <article class="topic-card status-{{ .mastery_status }}">
+        <header>
+          <span class="topic-id">{{ .id | upper }}</span>
+          <h3><a href="/topics/{{ .id }}/" style="color: inherit; border: none;">{{ .title_zh }}</a></h3>
+        </header>
+        <div class="topic-body">
+          <p class="topic-title-en">{{ .title }}</p>
+          <p><strong>Domain：</strong>{{ .domain_zh }}（{{ .section }}）· <strong>優先級：</strong>{{ .priority }}</p>
+          <p><strong>複習：</strong>{{ .review_count }} 次 · <strong>下次：</strong>{{ .next_review }}</p>
+          {{ with .notes }}<p class="topic-notes">{{ . }}</p>{{ end }}
+          {{ with .source_file }}<p class="topic-source"><small>本地參考：<code>{{ . }}</code></small></p>{{ end }}
+        </div>
+      </article>
+      {{ end }}
+    </div>
+
+    {{ end }}
+  </div>
+</article>
+{{ end }}

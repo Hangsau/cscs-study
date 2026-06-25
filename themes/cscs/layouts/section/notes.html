@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ $notes := where .Pages "Kind" "page" }}
+
+<article class="page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-meta">{{ . }}</p>{{ end }}
+  </header>
+  <div class="page-content">
+    {{ .Content }}
+
+    {{ if eq (len $notes) 0 }}
+    <div class="empty-state">
+      <p>📝 還沒有學習筆記。</p>
+      <p>跟 Talos 對話說「我要開始 chXX」→ Talos 寫摘要到 <code>content/notes/YYYY-MM-DD-chXX-summary.md</code>。</p>
+      <p>或手動寫：<code>content/notes/YYYY-MM-DD-一句話.md</code></p>
+    </div>
+    {{ else }}
+
+    <h2 id="all-notes">所有筆記（依日期排序）</h2>
+    <p class="muted">{{ len $notes }} 篇筆記。</p>
+
+    <div class="notes-grid">
+      {{ range $notes.ByDate.Reverse }}
+      <article class="note-card">
+        <header>
+          <span class="note-date">{{ .Date.Format "2006-01-02" }}</span>
+          {{ with .Params.topic }}<span class="topic-id">{{ . | upper }}</span>{{ end }}
+          {{ with .Params.status }}
+            <span class="status-badge status-{{ . }}">{{ . }}</span>
+          {{ end }}
+        </header>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ with .Params.takeaway }}<p class="note-takeaway">💡 {{ . }}</p>{{ end }}
+        <p><a href="{{ .RelPermalink }}">閱讀全文 →</a></p>
+      </article>
+      {{ end }}
+    </div>
+
+    {{ end }}
+  </div>
+</article>
+{{ end }}
