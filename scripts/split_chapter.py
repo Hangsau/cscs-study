@@ -135,7 +135,15 @@ def _split_h3(body: str, parent_title: str, exclude_titles: list[str]) -> list[d
 
 
 def write_chapter_yaml(chapter_id: str, source_file: str, title_zh: str, sections: list[dict]) -> Path:
-    """寫 chXX.yaml"""
+    """寫 chXX.yaml
+
+    Block scalar writer 修正：
+    - 計算 content 內所有非空行的最大 leading whitespace (max_lead)
+    - base indent = max_lead + 2
+    - 每個非空行加 base indent 前綴（保留原 leading → 保留 list 結構）
+    - 空行不縮排
+    - 這樣所有行 indent ≥ base，yaml parser 不會因淺縮排提早結束 block
+    """
     fp = SECTIONS_DIR / f"{chapter_id}.yaml"
     SECTIONS_DIR.mkdir(parents=True, exist_ok=True)
     lines = [
@@ -161,11 +169,11 @@ def write_chapter_yaml(chapter_id: str, source_file: str, title_zh: str, section
         lines.append(f"    recall_prompts:")
         for rp in s["recall_prompts"]:
             lines.append(f"      - \"{rp}\"")
-        # content 用 | block scalar 保留原始格式
-        lines.append(f"    content: |")
-        for line in s["content"].split("\n"):
-            lines.append(f"      {line}" if line.strip() else "      ")
-        lines.append("")
+
+        # content 用 JSON quoted scalar（避免 yaml block scalar 對 ": " + 換行 的 key 誤判）
+        import json
+        content_json = json.dumps(s["content"], ensure_ascii=False)
+        lines.append(f"    content: {content_json}")
     fp.write_text("\n".join(lines), encoding="utf-8")
     return fp
 
