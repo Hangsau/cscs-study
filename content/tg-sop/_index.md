@@ -18,11 +18,16 @@ last_updated: 2026-06-25
 每次跟 Talos 對話複習一個章節，建議走這個流程 — **Talos 會自己判斷「會 / 不會」並更新狀態**：
 
 ```
+步驟 0（user 讀書前）⭐ 新增
+  先讀 ~/cscs-study/by_book/doc_*_chXX_*.md 一個 section
+  → **讀完立刻 free recall**（不用 TG，自己 30 秒用自己的話講）
+  → 卡住的地方記下來 → 之後跟 Talos 重點問
+
 步驟 1（user 開頭）
-  你：「我要開始讀 ch07」
+  你：「我要開始練 ch07，剛才讀完一個 section 但 X 跟 Y 我卡住」
 
 步驟 2（Talos 出選擇題）
-  Talos：「好，給你 5 題選擇題考 ch07 重點...」
+  Talos：「好，給你 5 題選擇題考 ch07 重點（重點放在你卡的 X 跟 Y）...」
 
 步驟 3（user 答題）
   你：「1A 2C 3B 4D 5A」
@@ -45,7 +50,17 @@ last_updated: 2026-06-25
 
 步驟 6（你下一個對話週期）
   1 天後 user 再回來跟 Talos 說「我要 review ch07」（spaced repetition 1/3/7/14/30 天節奏）
+  → 這次建議用 **teach back**（講 3 分鐘給 Talos 聽）確認真會
 ```
+
+**為什麼 SOP 開頭加 free recall？**
+
+書原文（A Mind for Numbers P4 第 12 章）強調**先 Recite 再 Test**：
+
+> Recite 是「讀完後立刻用自己的話講一遍」— 卡住的地方 = 真正沒懂
+> 書裡說這是**最關鍵**的學習活動（比 practice test 更基礎）
+
+我之前 SOP 只放 practice test 是**簡化**（TG 對話好自動化）。補回 free recall 是**回到書原文推薦順序**。
 
 **Talos 自己判斷「會 / 不會」的依據**：
 - 4-5 題對 → 建議標 `mastered`（user 確認）
