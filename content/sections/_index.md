@@ -13,7 +13,7 @@ description: 24 章 NSCA 書 sections 拆解追蹤 + 驗證狀態
 
 | 章節 | Sections | H2 | H3 | 對齊？ | 標籤 | 人工驗證 |
 |------|----------|----|----|--------|------|---------|
-{{ range $cid, $info := (index .Site.Data.sections_index) }}| {{ $cid | upper }} | {{ $info.sections_count }} | — | — | ✓ | {{ if $info.has_tags }}✓{{ else }}—{{ end }} | ⚠ 待驗 |
+{{ range $cid, $info := (index .Site.Data.sections "_index") }}| {{ $cid | upper }} | {{ $info.sections_count }} | — | — | ✓ | {{ if $info.has_tags }}✓{{ else }}—{{ end }} | ⚠ 待驗 |
 {{ end }}
 
 ## 怎麼驗證
