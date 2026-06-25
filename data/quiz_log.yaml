@@ -1,0 +1,43 @@
+# CSCS quiz 對錯歷史
+# Talos 每次分段問答後跑 cscs-quiz.py 記錄
+# 結構：date / topic / section / q_index / user_answer / correct_answer / is_correct
+
+- date: 2026-06-25
+  topic: ch03
+  section: "Energy Systems Overview"
+  q_index: 1
+  user_answer: "A"
+  correct_answer: "A"
+  is_correct: true
+
+- date: 2026-06-25
+  topic: ch03
+  section: "Energy Systems Overview"
+  q_index: 2
+  user_answer: "B"
+  correct_answer: "B"
+  is_correct: true
+
+- date: 2026-06-25
+  topic: ch03
+  section: "Energy Systems Overview"
+  q_index: 3
+  user_answer: "A"
+  correct_answer: "D"
+  is_correct: false
+
+- date: 2026-06-25
+  topic: ch03
+  section: "Energy Systems Overview"
+  q_index: 4
+  user_answer: "D"
+  correct_answer: "A"
+  is_correct: false
+
+- date: 2026-06-25
+  topic: ch03
+  section: "Energy Systems Overview"
+  q_index: 5
+  user_answer: "C"
+  correct_answer: "C"
+  is_correct: true

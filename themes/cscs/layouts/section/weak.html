@@ -1,0 +1,163 @@
+{{ define "main" }}
+{{ $topics := where hugo.Data.topics "id" "ne" nil }}
+{{ $quiz_log := hugo.Data.quiz_log }}
+
+<article class="page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="page-meta">{{ . }}</p>{{ end }}
+  </header>
+  <div class="page-content">
+
+    {{ .Content }}
+
+    {{ if not $quiz_log }}
+    <div class="empty-state">
+      <p>📊 目前還沒有 quiz 紀錄。</p>
+      <p>跟 Talos 說「我要開始 chXX」開始第一個分段問答，結束後 Talos 會自動跑 <code>cscs-quiz.py</code> 記錄。</p>
+    </div>
+    {{ else }}
+
+    {{/* 聚合每個 topic 答對率 */}}
+    {{ $topic_stats := dict }}
+    {{ range $quiz_log }}
+      {{ $topic := .topic }}
+      {{ $correct := cond (eq (.is_correct | default false) true) 1 0 }}
+      {{ $cur := index $topic_stats $topic | default (dict "correct" 0 "total" 0 "sections" (dict)) }}
+      {{ $new_correct := add (index $cur "correct") $correct }}
+      {{ $new_total := add (index $cur "total") 1 }}
+      {{ $sections := index $cur "sections" }}
+      {{ $sec := .section | default "(no section)" }}
+      {{ $sec_cur := index $sections $sec | default (dict "correct" 0 "total" 0) }}
+      {{ $sections = merge $sections (dict $sec (dict "correct" (add (index $sec_cur "correct") $correct) "total" (add (index $sec_cur "total") 1))) }}
+      {{ $topic_stats = merge $topic_stats (dict $topic (dict "correct" $new_correct "total" $new_total "sections" $sections)) }}
+    {{ end }}
+
+    {{/* 找弱點 topic（答對率 < 80%） */}}
+    {{ $weak_topics := slice }}
+    {{ range $topic_id, $stats := $topic_stats }}
+      {{ $pct := div (mul (index $stats "correct") 100) (index $stats "total") }}
+      {{ $weak_topics = $weak_topics | append (dict "id" $topic_id "pct" $pct "correct" (index $stats "correct") "total" (index $stats "total") "sections" (index $stats "sections")) }}
+    {{ end }}
+    {{ $weak_topics = sort $weak_topics "pct" "asc" }}
+
+    <h2 id="weak-topics">弱點 topic（按答對率排序）</h2>
+    {{ if eq (len $weak_topics) 0 }}
+      <p class="muted">沒有 quiz 資料。</p>
+    {{ else }}
+      <p class="muted">{{ len $weak_topics }} 個 topic 有 quiz 紀錄。優先複習答對率最低的。</p>
+      <div class="table-wrap">
+      <table class="topic-table">
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>答對率</th>
+            <th>對 / 總</th>
+            <th>狀態</th>
+            <th>最弱 sections</th>
+            <th>建議</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $t := $weak_topics }}
+            {{ $topic_obj := index (where $topics "id" "==" $t.id) 0 }}
+            <tr id="{{ $t.id }}" class="{{ if lt $t.pct 50 }}status-todo{{ else if lt $t.pct 80 }}status-learning{{ else }}status-mastered{{ end }}">
+              <td>
+                <span class="topic-id">{{ $t.id | upper }}</span><br>
+                <strong>{{ if $topic_obj }}{{ index $topic_obj "title_zh" }}{{ end }}</strong>
+              </td>
+              <td><strong style="color: {{ if lt $t.pct 50 }}#b13a2a{{ else if lt $t.pct 80 }}#d4a017{{ else }}#2d8659{{ end }}">{{ $t.pct }}%</strong></td>
+              <td>{{ $t.correct }} / {{ $t.total }}</td>
+              <td>
+                {{ if $topic_obj }}
+                  <span class="status-badge status-{{ index $topic_obj "mastery_status" }}">{{ index $topic_obj "mastery_status" }}</span>
+                {{ end }}
+              </td>
+              <td>
+                {{ $secs := slice }}
+                {{ range $sec, $sstats := $t.sections }}
+                  {{ $swrong := sub (index $sstats "total") (index $sstats "correct") }}
+                  {{ if gt $swrong 0 }}
+                    {{ $secs = $secs | append (printf "%s (%d/%d)" $sec $swrong (index $sstats "total")) }}
+                  {{ end }}
+                {{ end }}
+                {{ if eq (len $secs) 0 }}—{{ else }}
+                  <small>{{ delimit $secs ", " }}</small>
+                {{ end }}
+              </td>
+              <td>
+                {{ if lt $t.pct 50 }}🔴 重讀 + 重做 quiz
+                {{ else if lt $t.pct 80 }}🟡 加強弱點 sections
+                {{ else }}🟢 鞏固 + spaced repetition
+                {{ end }}
+              </td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+      </div>
+    {{ end }}
+
+    {{/* 假會警告：mastered 但 quiz 次數 < 2 */}}
+    <h2 id="fake-mastery">「假會」警告</h2>
+    {{ $fake := slice }}
+    {{ range $topic_id, $stats := $topic_stats }}
+      {{ $topic_obj := index (where $topics "id" "==" $topic_id) 0 }}
+      {{ if and $topic_obj (eq (index $topic_obj "mastery_status") "mastered") (lt (index $stats "total") 2) }}
+        {{ $fake = $fake | append $topic_id }}
+      {{ end }}
+    {{ end }}
+    {{ if eq (len $fake) 0 }}
+      <p class="muted">沒有假會警告（mastered 都至少有 2 次 quiz 確認）。</p>
+    {{ else }}
+      <ul>
+        {{ range $fake }}
+          <li><span class="topic-id">{{ . | upper }}</span> — 標 mastered 但 quiz 次數 &lt; 2，建議再做一次確認。</li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
+    {{/* 全部 quiz 紀錄 */}}
+    <h2 id="all-quizzes">全部 quiz 紀錄</h2>
+    <div class="table-wrap">
+    <table class="topic-table">
+      <thead>
+        <tr>
+          <th>日期</th>
+          <th>Topic</th>
+          <th>Section</th>
+          <th>題號</th>
+          <th>你的答案</th>
+          <th>正確</th>
+          <th>對錯</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $quiz_log }}
+        <tr class="{{ if .is_correct }}correct{{ else }}wrong{{ end }}">
+          <td>{{ .date }}</td>
+          <td><span class="topic-id">{{ .topic | upper }}</span></td>
+          <td><small>{{ .section | default "—" }}</small></td>
+          <td>Q{{ .q_index }}</td>
+          <td>{{ .user_answer }}</td>
+          <td>{{ .correct_answer }}</td>
+          <td>{{ if .is_correct }}✓{{ else }}✗{{ end }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    </div>
+
+    {{ end }}
+
+    <h2 id="how">怎麼運作的</h2>
+    <ul>
+      <li>每個 quiz 紀錄是 1 題的對錯（`data/quiz_log.yaml`）</li>
+      <li>「答對率」= 該 topic 全部 quiz 紀錄對的 / 全部</li>
+      <li>Talos 跑 <code>scripts/cscs-quiz.py chXX --result A,B,A,D,C --correct A,B,D,A,C</code> 自動記錄</li>
+      <li>依答對率自動標記：≥80% mastered / 50-79% learning / &lt;50% todo</li>
+    </ul>
+
+  </div>
+</article>
+{{ end }}

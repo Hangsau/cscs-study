@@ -209,6 +209,12 @@ a:hover { border-bottom-color: var(--color-accent); }
 .topic-table th { background: #f7f5f0; font-weight: 600; text-align: left; }
 .topic-table tr.status-mastered { background: #f0faf4; }
 .topic-table tr.status-learning { background: #fdf9e8; }
+.topic-table tr.correct { background: #f0faf4; }
+.topic-table tr.wrong { background: #fdf0ed; }
+
+/* Empty state */
+.empty-state { background: #f7f5f0; border: 1px dashed var(--color-border); padding: calc(var(--baseline) * 4); text-align: center; border-radius: 4px; margin: calc(var(--baseline) * 3) 0; }
+.empty-state code { background: #fff; padding: 2px 8px; border-radius: 3px; }
 
 /* Reading content */
 .page-content h2 { margin-top: calc(var(--baseline) * 5); font-size: 1.5rem; }
